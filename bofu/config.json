@@ -1,0 +1,53 @@
+{
+  "title": "Bottom-of-funnel content tracker",
+  "niche": "AI-powered automated investing and personal wealth management apps",
+  "you": "Clera",
+  "competitors": [
+    "Wealthfront",
+    "Betterment",
+    "M1 Finance",
+    "Public.com",
+    "Titan",
+    "SoFi Invest"
+  ],
+  "vendors": {
+    "Wealthfront": "wealthfront",
+    "Betterment": "betterment",
+    "M1 Finance": "\\bm1 ?finance\\b|\\bm1\\.com\\b",
+    "Public.com": "public\\.com|\\bpublic app\\b",
+    "Titan": "\\btitan\\b(?! ?submarine)",
+    "SoFi Invest": "sofi invest|\\bsofi\\b",
+    "Clera": "\\bclera\\b|askclera",
+    "Robinhood": "robinhood",
+    "Acorns": "acorns",
+    "Fidelity Go": "fidelity go",
+    "Schwab Intelligent Portfolios": "schwab intelligent portfolios",
+    "Vanguard Digital Advisor": "vanguard digital advisor",
+    "Ellevest": "ellevest",
+    "Stash": "\\bstash\\b(?! ?house)",
+    "Webull": "webull",
+    "E*TRADE": "e.?trade"
+  },
+  "audiences": [
+    ["AI-powered investing", "ai.?powered invest|ai investment"],
+    ["Robo-advisor", "robo.?advisor"],
+    ["Automated portfolio management", "automated portfolio|auto.?invest"],
+    ["Tax-loss harvesting", "tax.?loss harvest"],
+    ["Retirement accounts", "\\bira\\b|retirement account|401\\(k\\)"],
+    ["Fractional shares", "fractional share"],
+    ["Investment fees and pricing", "advisory fee|management fee|pricing"],
+    ["Portfolio diversification", "diversif"],
+    ["Beginner investing", "beginner invest|getting started invest"],
+    ["Financial advice and planning", "financial plan|financial advice|financial advisor"],
+    ["ETFs and index funds", "\\betf\\b|index fund"],
+    ["Cash management and savings", "cash management|high.?yield savings"],
+    ["Crypto investing", "crypto(currency)? invest"],
+    ["Market commentary and research", "market commentary|market research|market outlook"],
+    ["Security and regulation", "\\bsipc\\b|\\bsec\\b|regulat"],
+    ["Mobile investing app", "mobile (investing|trading) app"],
+    ["Comparisons and alternatives", "alternative|vs\\.|comparison"],
+    ["Account minimums and onboarding", "account minimum|open an account|sign up"],
+    ["Customer stories and reviews", "customer review|testimonial|case study"],
+    ["Product updates and releases", "product update|new feature|launch"]
+  ]
+}
