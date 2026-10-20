@@ -1,0 +1,148 @@
+{
+ "meta": {
+  "title": "Bottom-of-funnel content tracker",
+  "niche": "AI-powered automated investing and personal wealth management apps",
+  "you": "Clera",
+  "generated": "2026-10-20T02:30:48+00:00",
+  "state_updated": "2026-10-20T02:24:25+00:00",
+  "repo": "nico497/Clera"
+ },
+ "types": [
+  [
+   "vs_you",
+   "Us vs. them"
+  ],
+  [
+   "alt",
+   "Alternatives"
+  ],
+  [
+   "switch",
+   "Switching and migration"
+  ],
+  [
+   "pricing",
+   "Rival pricing breakdowns"
+  ],
+  [
+   "vs_rivals",
+   "Rival vs. rival"
+  ],
+  [
+   "best",
+   "Best-of and roundups"
+  ],
+  [
+   "case",
+   "Case and customer stories"
+  ]
+ ],
+ "sites": [
+  {
+   "name": "Clera",
+   "tracked": 1,
+   "considered": 1,
+   "own_pricing": "https://askclera.com/pricing",
+   "hubs": []
+  },
+  {
+   "name": "Wealthfront",
+   "tracked": 908,
+   "considered": 679,
+   "own_pricing": "https://wealthfront.com/pricing",
+   "hubs": [
+    "https://wealthfront.com/reviews"
+   ]
+  },
+  {
+   "name": "Betterment",
+   "tracked": 1525,
+   "considered": 295,
+   "own_pricing": "https://www.betterment.com/pricing",
+   "hubs": [
+    "https://www.betterment.com/reviews"
+   ]
+  },
+  {
+   "name": "M1 Finance",
+   "tracked": 458,
+   "considered": 308,
+   "own_pricing": null,
+   "hubs": []
+  },
+  {
+   "name": "Public.com",
+   "tracked": 519,
+   "considered": 515,
+   "own_pricing": null,
+   "hubs": []
+  },
+  {
+   "name": "Titan",
+   "tracked": 0,
+   "considered": 0,
+   "own_pricing": null,
+   "hubs": []
+  },
+  {
+   "name": "SoFi Invest",
+   "tracked": 0,
+   "considered": 0,
+   "own_pricing": null,
+   "hubs": []
+  }
+ ],
+ "vendors": [
+  "Wealthfront",
+  "Betterment",
+  "M1 Finance",
+  "Public.com",
+  "Titan",
+  "SoFi Invest",
+  "Clera",
+  "Robinhood",
+  "Acorns",
+  "Fidelity Go",
+  "Schwab Intelligent Portfolios",
+  "Vanguard Digital Advisor",
+  "Ellevest",
+  "Stash",
+  "Webull",
+  "E*TRADE"
+ ],
+ "excluded": {
+  "templated pages": 1608,
+  "webinars, glossary, events and category pages": 5
+ },
+ "pages": [
+  {
+   "site": "Wealthfront",
+   "url": "https://www.wealthfront.com/blog/tax-loss-harvesting-comparison/",
+   "path": "/blog/tax-loss-harvesting-comparison",
+   "type": "best",
+   "targets": [],
+   "audience": "Comparisons and alternatives"
+  },
+  {
+   "site": "Wealthfront",
+   "url": "https://www.wealthfront.com/blog/case-study-isabel-king/",
+   "path": "/blog/case-study-isabel-king",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Wealthfront",
+   "url": "https://www.wealthfront.com/blog/case-study-kristen-isaacs/",
+   "path": "/blog/case-study-kristen-isaacs",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Wealthfront",
+   "url": "https://www.wealthfront.com/blog/case-study-kyle-kate/",
+   "path": "/blog/case-study-kyle-kate",
+   "type": "case",
+   "targets": []
+  }
+ ]
+}
