@@ -2,12 +2,12 @@
  "meta": {
   "title": "Competitor Radar",
   "niche": "Conversational AI financial advisor apps — chat-based stock picks and AI-assisted trade execution",
-  "updated": "2026-10-21T02:47:43+00:00",
+  "updated": "2026-10-21T02:57:12+00:00",
   "window_days": 30,
   "repo": "nico497/Clera",
   "first_run": true,
   "errors": [],
-  "pending": 640,
+  "pending": 549,
   "analysis_stale": false,
   "per_run": 200,
   "tracking_since": "2026-10-20T02:24:25+00:00",
@@ -48,58 +48,63 @@
   ]
  ],
  "analysis": {
-  "summary": "Only Public.com published anything new in the last 30 days, with 4 pages. Walnut and Composer rely on huge templated page sets, and Clera and Titan show no pages in this data.",
+  "summary": "Walnut and Composer lead with comparison pages aimed at people choosing a tool. Clera, Titan and Magnifi show no recent content, so the \"conversational AI\" topic is open.",
   "points": [
    {
-    "text": "Public.com is the only active publisher: 4 new pages, with no updates to older pages. Four pages is a weak signal, not a strategy.",
+    "text": "Walnut refreshed 19 older pages and added none, mostly AI investing comparisons, including one on conversational AI assistants. That is a search push on Clera's exact topic.",
     "names": [
-     "Public.com"
+     "Walnut"
     ]
    },
    {
-    "text": "Walnut and Composer own big templated page sets (stocks, ETFs, comparisons, strategies), but neither published new pages in 30 days.",
+    "text": "Composer published 7 new head-to-head pages against rival platforms, plus 2 new help pages. It targets shoppers who already know its rivals.",
+    "names": [
+     "Composer"
+    ]
+   },
+   {
+    "text": "Public published 4 new pages on trading hours, margin rates and cash yields. Little of it is about chat-based AI picks.",
+    "names": []
+   }
+  ],
+  "plays": {
+   "Clera": {
+    "play": "No pages found in the data, so no content play to read yet",
+    "aimed": "n/a"
+   },
+   "Public.com": {
+    "play": "Four new pages on trading hours, margin rates, cash yields and its Meta Muse feature",
+    "aimed": "Active traders comparing brokers"
+   },
+   "Titan": {
+    "play": "No pages found in the data, so no play to read",
+    "aimed": "n/a"
+   },
+   "Walnut": {
+    "play": "Refreshes AI investing comparison pages and runs huge templated stock and ETF sections",
+    "aimed": "People choosing an AI investing tool"
+   },
+   "Magnifi": {
+    "play": "269 pages on the site, but nothing new or updated in 30 days",
+    "aimed": "n/a"
+   },
+   "Composer": {
+    "play": "Many 'X vs Composer' pages and bot-platform lists, plus new help pages",
+    "aimed": "Algo-trading shoppers comparing platforms"
+   }
+  },
+  "shared": [
+   {
+    "title": "Comparison pages",
+    "text": "Walnut has 18 comparison pages and Composer has 9. Both aim at people deciding what to use. Clera needs its own pages here or rivals frame the choice.",
     "names": [
      "Walnut",
      "Composer"
     ]
    },
    {
-    "text": "Clera has no pages in this data, so every rival's content is ground Clera has not yet covered.",
-    "names": [
-     "Clera"
-    ]
-   }
-  ],
-  "plays": {
-   "Public.com": {
-    "play": "Mixes broker explainers, a calculator and a comparison, plus one page on its AI tool Meta Muse.",
-    "aimed": "Retail investors comparing or buying"
-   },
-   "Walnut": {
-    "play": "Runs a huge template library: 10122 stock pages, 2210 ETF pages and 677 comparison pages.",
-    "aimed": "Search visitors looking up stocks and ETFs"
-   },
-   "Composer": {
-    "play": "Builds scale from 3230 ETF pages and 1386 trading-strategy pages, plus 145 ETF comparisons.",
-    "aimed": "Self-directed, strategy-minded traders"
-   },
-   "Magnifi": {
-    "play": "269 pages on the site, but no recent publishing in the data.",
-    "aimed": "Unclear from data"
-   },
-   "Titan": {
-    "play": "No pages found in the data.",
-    "aimed": "Unclear from data"
-   },
-   "Clera": {
-    "play": "No pages found in the data and no activity in 30 days.",
-    "aimed": "Unclear from data"
-   }
-  },
-  "shared": [
-   {
-    "title": "Templated page libraries",
-    "text": "Walnut and Composer both mass-produce pages for ETFs and comparisons (Walnut 2210 ETF pages, Composer 3230). Clera would struggle to match that volume, so it should pick narrower topics.",
+    "title": "Mass-made pages",
+    "text": "Both run large templated sections: Walnut has 2210 /etf/ pages, Composer has 3230. This builds wide search reach, but it is not about chat advice.",
     "names": [
      "Walnut",
      "Composer"
@@ -108,19 +113,25 @@
   ],
   "gaps": [
    {
-    "title": "Chat-based stock picks explainers",
-    "text": "Only Public.com has one AI-tool page (Meta Muse). No one shows guides on how to use chat for picks, so Clera could own the topic."
+    "title": "Chat picks explained simply",
+    "text": "Only Public has a how-to, and it covers one feature. Nobody explains how chat-based stock picks work for beginners."
    },
    {
-    "title": "AI trade execution safety",
-    "text": "No rival page covers how AI-assisted trades are placed, checked or limited. Retail investors likely want trust and control answers."
+    "title": "Trust and control for AI trades",
+    "text": "Only Walnut touches AI that acts (agentic trading). Nobody covers approvals, limits and risks in plain English for retail investors."
    },
    {
-    "title": "Fresh, updated content",
-    "text": "No rival updated any older pages in 30 days. Regularly refreshed guides and comparisons could stand out."
+    "title": "Clera head-to-head pages",
+    "text": "Composer owns 'vs' pages for its brand. Nobody in this set has them for a chat-based advisor, so Clera could claim them."
    }
   ],
-  "versus": {}
+  "versus": {
+   "Public.com": "Public publishes broker-style explainers and tools, while Clera shows no pages. Public has little on conversational AI picks in this data.",
+   "Titan": "Titan shows 0 pages in the data, so there is nothing to compare with Clera.",
+   "Walnut": "Walnut has 14233 pages and is refreshing AI investing comparisons, while Clera has no pages in the data. Walnut already covers Clera's topic.",
+   "Magnifi": "Magnifi has 269 pages but no recent activity, so it is not pushing new content. Clera has no pages in the data either.",
+   "Composer": "Composer publishes new comparison and help pages, while Clera has none. It targets algorithmic trading rather than chat-based advice."
+  }
  },
  "sites": [
   {
@@ -162,8 +173,8 @@
    "pages": 1,
    "undated": 0,
    "new_urls": 0,
-   "play": "No pages found in the data and no activity in 30 days.",
-   "aimed": "Unclear from data"
+   "play": "No pages found in the data, so no content play to read yet",
+   "aimed": "n/a"
   },
   {
    "name": "Public.com",
@@ -195,7 +206,7 @@
     "trade stocks options crypto meta muse",
     "treasuries vs high-yield cash comparison"
    ],
-   "unclassified": 1,
+   "unclassified": 0,
    "removed": 0,
    "removed_titles": [],
    "new": 4,
@@ -208,9 +219,9 @@
    "url": "https://public.com/sitemap_index.xml",
    "pages": 520,
    "undated": 0,
-   "new_urls": 1,
-   "play": "Mixes broker explainers, a calculator and a comparison, plus one page on its AI tool Meta Muse.",
-   "aimed": "Retail investors comparing or buying"
+   "new_urls": 0,
+   "play": "Four new pages on trading hours, margin rates, cash yields and its Meta Muse feature",
+   "aimed": "Active traders comparing brokers"
   },
   {
    "name": "Titan",
@@ -251,20 +262,20 @@
    "pages": 0,
    "undated": 0,
    "new_urls": 0,
-   "play": "No pages found in the data.",
-   "aimed": "Unclear from data"
+   "play": "No pages found in the data, so no play to read",
+   "aimed": "n/a"
   },
   {
    "name": "Walnut",
    "site": "https://walnutinvest.com",
    "you": false,
-   "n": 0,
+   "n": 19,
    "site_pages": 14233,
    "n_prev": 2,
-   "refreshed": 0,
+   "refreshed": 19,
    "mix": {
-    "compare": 0,
-    "howto": 0,
+    "compare": 18,
+    "howto": 1,
     "list": 0,
     "research": 0,
     "case": 0,
@@ -273,27 +284,33 @@
     "landing": 0
    },
    "stages": {
-    "learning": 0,
-    "comparing": 0,
-    "buying": 0,
+    "learning": 2,
+    "comparing": 13,
+    "buying": 4,
     "customers": 0
    },
-   "topics": [],
-   "unclassified": 456,
+   "topics": [
+    "ai investing tools automatic trading comparison",
+    "brokerage ai integration providers compared",
+    "agentic trading apps and brokers",
+    "chatgpt vs dedicated ai investing app",
+    "mcp connectors investing brokers"
+   ],
+   "unclassified": 416,
    "removed": 0,
    "removed_titles": [],
    "new": 0,
-   "updated": 0,
+   "updated": 19,
    "bulk": [
     {
      "type": "launch",
      "day": "2026-10-16",
-     "pages": 39
+     "pages": 48
     },
     {
      "type": "edit",
      "day": "2026-10-16",
-     "pages": 39
+     "pages": 54
     }
    ],
    "programmatic": [
@@ -330,8 +347,8 @@
    "pages": 14233,
    "undated": 0,
    "new_urls": 0,
-   "play": "Runs a huge template library: 10122 stock pages, 2210 ETF pages and 677 comparison pages.",
-   "aimed": "Search visitors looking up stocks and ETFs"
+   "play": "Refreshes AI investing comparison pages and runs huge templated stock and ETF sections",
+   "aimed": "People choosing an AI investing tool"
   },
   {
    "name": "Magnifi",
@@ -358,7 +375,7 @@
     "customers": 0
    },
    "topics": [],
-   "unclassified": 11,
+   "unclassified": 0,
    "removed": 0,
    "removed_titles": [],
    "new": 0,
@@ -372,21 +389,21 @@
    "pages": 269,
    "undated": 0,
    "new_urls": 0,
-   "play": "269 pages on the site, but no recent publishing in the data.",
-   "aimed": "Unclear from data"
+   "play": "269 pages on the site, but nothing new or updated in 30 days",
+   "aimed": "n/a"
   },
   {
    "name": "Composer",
    "site": "https://composer.trade",
    "you": false,
-   "n": 0,
+   "n": 15,
    "site_pages": 4972,
    "n_prev": 0,
-   "refreshed": 0,
+   "refreshed": 6,
    "mix": {
-    "compare": 0,
-    "howto": 0,
-    "list": 0,
+    "compare": 9,
+    "howto": 4,
+    "list": 2,
     "research": 0,
     "case": 0,
     "opinion": 0,
@@ -394,17 +411,23 @@
     "landing": 0
    },
    "stages": {
-    "learning": 0,
-    "comparing": 0,
-    "buying": 0,
+    "learning": 3,
+    "comparing": 8,
+    "buying": 4,
     "customers": 0
    },
-   "topics": [],
-   "unclassified": 171,
+   "topics": [
+    "stock trading bots and ai systems",
+    "ai trading bot platforms",
+    "top algorithmic trading platforms",
+    "automated trading strategies overview",
+    "automated trading platforms comparison"
+   ],
+   "unclassified": 131,
    "removed": 0,
    "removed_titles": [],
-   "new": 0,
-   "updated": 0,
+   "new": 9,
+   "updated": 6,
    "bulk": [],
    "programmatic": [
     {
@@ -430,8 +453,8 @@
    "pages": 4972,
    "undated": 4758,
    "new_urls": 0,
-   "play": "Builds scale from 3230 ETF pages and 1386 trading-strategy pages, plus 145 ETF comparisons.",
-   "aimed": "Self-directed, strategy-minded traders"
+   "play": "Many 'X vs Composer' pages and bot-platform lists, plus new help pages",
+   "aimed": "Algo-trading shoppers comparing platforms"
   }
  ],
  "pages": [
@@ -490,6 +513,48 @@
    "topic": "AI stock discovery and investment search",
    "search": "AI investing platform stock discovery",
    "why": "Shows core product capability to attract investors exploring AI-powered stock picking tools."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/guide",
+   "title": "Investing Guide: Stocks, ETFs, and Themes - Walnut AI Investing App",
+   "date": "2026-10-20T19:48:26+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "stock ETF theme investing guide",
+   "search": "stocks ETFs investment themes guide",
+   "why": "Educates investors on themes and stocks, supporting thesis-driven portfolio building in Walnut."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources",
+   "title": "AI Investing Resources: In-Depth Guides & Comparisons - Walnut AI Investing App",
+   "date": "2026-10-20T19:48:26+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "list",
+   "stage": "learning",
+   "topic": "AI investing tools and guides",
+   "search": "best AI investing apps tools 2026",
+   "why": "Hub page attracts early-stage researchers exploring AI investing landscape and alternatives to traditional tools."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/themes",
+   "title": "Investment Theme Guides, Stocks, ETFs - Walnut AI Investing App",
+   "date": "2026-10-20T19:48:26+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "thematic investing guide",
+   "search": "thematic investing stocks themes",
+   "why": "Educates users on thematic investing concept to build conviction before trading with Walnut."
   },
   {
    "site": "Composer",
@@ -574,6 +639,104 @@
    "topic": "Backtested trading strategies database",
    "search": "backtested trading strategies database",
    "why": "Showcases strategy performance metrics to attract traders evaluating automated trading tools."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/algorithmic-trading",
+   "title": "Algorithmic Trading – Composer",
+   "date": "2026-10-20T07:38:15+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "list",
+   "stage": "learning",
+   "topic": "Algorithmic trading strategies and basics",
+   "search": "algorithmic trading strategies beginners",
+   "why": "Builds authority in algo trading space, captures early-stage traders researching trading approaches."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/starter-guide-101",
+   "title": "Starter Guide 101 – Composer",
+   "date": "2026-10-20T07:38:15+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Getting started with Composer trading",
+   "search": "how to get started with Composer trading",
+   "why": "Guides new users through onboarding and platform fundamentals to reduce friction."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/trading-as-a-business",
+   "title": "Trading As A Business – Composer",
+   "date": "2026-10-20T07:38:15+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Trading as a business setup",
+   "search": "how to start trading business",
+   "why": "Educates beginners on formalizing trading activity, establishes Composer as resource for serious traders."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/all-about-investing",
+   "title": "All About Investing – Composer",
+   "date": "2026-10-20T07:38:15+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "list",
+   "stage": "learning",
+   "topic": "investing basics and fundamentals",
+   "search": "investing basics for beginners",
+   "why": "Builds authority and captures early-stage investors seeking foundational knowledge."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/artificial-intelligence",
+   "title": "Artificial Intelligence (AI) – Composer",
+   "date": "2026-10-20T07:38:15+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "list",
+   "stage": "learning",
+   "topic": "AI trading bots and stock strategies",
+   "search": "best AI trading bots 2025",
+   "why": "Establishes thought leadership in AI trading space and educates buyers about algorithmic trading alternatives."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/comparison",
+   "title": "Comparison – Composer",
+   "date": "2026-10-20T07:38:15+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "Composer vs competing trading platforms",
+   "search": "Composer vs Autopilot Trade Ideas Interactive Brokers",
+   "why": "Captures traders evaluating Composer against direct competitors at decision stage."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/stock-market-and-etfs",
+   "title": "Stock Market & ETFs – Composer",
+   "date": "2026-10-20T07:38:15+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "list",
+   "stage": "learning",
+   "topic": "Stock market and ETF basics",
+   "search": "ETFs vs stocks what's the difference",
+   "why": "Builds brand authority and captures early-stage investors researching fundamentals."
   },
   {
    "site": "Public.com",
@@ -1234,6 +1397,272 @@
    "why": "Attracts early-stage investors researching AI-assisted trading and investment strategies."
   },
   {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/ai-investing-without-automatic-trading",
+   "title": "AI Investing Without Automatic Trading (2026 Compared)",
+   "date": "2026-10-18T00:00:00+00:00",
+   "kind": "updated",
+   "published": "2026-08-15T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "learning",
+   "topic": "AI investing tools automatic trading comparison",
+   "search": "AI investing without automatic trading tools",
+   "why": "Educates prospects on key decision factor, positions Walnut as transparent non-discretionary option."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/brokerage-ai-integration-providers-compared",
+   "title": "Brokerage to AI Assistant Integration: Providers Compared (2026)",
+   "date": "2026-10-18T00:00:00+00:00",
+   "kind": "updated",
+   "published": "2026-08-01T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "Brokerage AI integration providers compared",
+   "search": "brokerage AI assistant integration providers compared",
+   "why": "Positions Walnut against direct competitors and broker-native solutions in detailed comparison."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/best-agentic-trading-apps",
+   "title": "Best Agentic Trading Apps in 2026 (AI That Can Act)",
+   "date": "2026-10-18T00:00:00+00:00",
+   "kind": "updated",
+   "published": "2026-07-13T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "Agentic trading apps and brokers",
+   "search": "best agentic trading apps 2026",
+   "why": "Positions Walnut as the only cross-broker agentic solution versus broker-specific AI tools."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/chatgpt-vs-dedicated-ai-investing-app",
+   "title": "ChatGPT vs a Dedicated AI Investing App (2026 Compared)",
+   "date": "2026-10-18T00:00:00+00:00",
+   "kind": "updated",
+   "published": "2026-07-13T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "ChatGPT vs dedicated AI investing app",
+   "search": "ChatGPT vs dedicated AI investing app",
+   "why": "Captures buyers weighing general AI against dedicated tools, positions Walnut as best hybrid option."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/mcp-connectors-for-investing",
+   "title": "MCP Connectors for Investing (2026): The Complete Guide",
+   "date": "2026-10-18T00:00:00+00:00",
+   "kind": "updated",
+   "published": "2026-06-30T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "MCP connectors investing brokers",
+   "search": "MCP connectors investing 2026 guide",
+   "why": "Educates buyers on technical foundation for AI-assisted trading before they evaluate Walnut."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/ai-financial-advisor",
+   "title": "Financial Advisors and AI (2026): Costs, Choosing, Alternatives",
+   "date": "2026-10-18T00:00:00+00:00",
+   "kind": "updated",
+   "published": "2026-06-30T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "AI financial advisor tools ranked",
+   "search": "best AI financial advisor 2026",
+   "why": "Positions Walnut as top choice against robo-advisors and human advisors for portfolio review."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/chatgpt-vs-dedicated-ai-stock-tool",
+   "title": "ChatGPT vs a Dedicated AI Stock Tool (2026)",
+   "date": "2026-10-18T00:00:00+00:00",
+   "kind": "updated",
+   "published": "2026-06-30T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "ChatGPT vs dedicated AI stock tools",
+   "search": "ChatGPT vs dedicated AI stock tool",
+   "why": "Catches buyers evaluating ChatGPT as alternative, positions Walnut as superior for portfolio-connected trading."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/why-chatgpt-cant-see-your-portfolio",
+   "title": "Can ChatGPT See Your Portfolio? ChatGPT Finances (2026)",
+   "date": "2026-10-18T00:00:00+00:00",
+   "kind": "updated",
+   "published": "2026-06-30T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "ChatGPT portfolio access capabilities",
+   "search": "can ChatGPT see your portfolio",
+   "why": "Positions Walnut as solving limitations ChatGPT Finances has in trade execution and global availability."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/perplexity-finance-for-investing",
+   "title": "Perplexity Finance for Investing (2026)",
+   "date": "2026-10-18T00:00:00+00:00",
+   "kind": "updated",
+   "published": "2026-06-30T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "Perplexity Finance vs Walnut",
+   "search": "Perplexity Finance for investing review",
+   "why": "Positions Walnut as the connected alternative for trading, not just research."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/best-finance-mcp-servers-2026",
+   "title": "Best Finance MCP Servers (2026): Compared by Use-Case",
+   "date": "2026-10-18T00:00:00+00:00",
+   "kind": "updated",
+   "published": "2026-06-30T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "Finance MCP servers comparison guide",
+   "search": "best finance MCP servers 2026",
+   "why": "Positions Walnut's connector as lead option for investors comparing MCP server solutions."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/financial-advisor-vs-robo-advisor",
+   "title": "Financial Advisor vs Robo-Advisor (2026)",
+   "date": "2026-10-18T00:00:00+00:00",
+   "kind": "updated",
+   "published": "2026-06-30T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "financial advisor vs robo-advisor options",
+   "search": "financial advisor vs robo-advisor comparison",
+   "why": "Positions Walnut as a third alternative between traditional advisors and robo-advisors."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/financial-advisor-alternatives",
+   "title": "Financial Advisor Alternatives (2026): Lower-Cost Options",
+   "date": "2026-10-18T00:00:00+00:00",
+   "kind": "updated",
+   "published": "2026-06-30T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "financial advisor alternatives",
+   "search": "best financial advisor alternatives 2026",
+   "why": "Positions Walnut as #1 choice when buyers compare advisor alternatives."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/ai-investing-apps-scorecard",
+   "title": "AI Investing Apps Scorecard (2026): How They Compare",
+   "date": "2026-10-18T00:00:00+00:00",
+   "kind": "updated",
+   "published": "2026-06-30T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "AI investing apps comparison scorecard",
+   "search": "best AI investing apps 2026",
+   "why": "Catches buyers evaluating AI investing tools by ranking Walnut highest against direct competitors."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/best-ai-wealth-management-tools",
+   "title": "Best AI Wealth Management Tools: What They Are, Compared",
+   "date": "2026-10-18T00:00:00+00:00",
+   "kind": "updated",
+   "published": "2026-06-29T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "AI wealth management tools comparison",
+   "search": "best AI wealth management tools compared",
+   "why": "Catches investors comparing AI advisory platforms and positions Walnut as best for independent brokers."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/conversational-ai-investing-assistants",
+   "title": "Best Conversational AI Investing Assistants (2026)",
+   "date": "2026-10-18T00:00:00+00:00",
+   "kind": "updated",
+   "published": "2026-06-29T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "Conversational AI investing assistants",
+   "search": "best conversational AI investing assistants",
+   "why": "Positions Walnut as top choice while ranking nine competitors for investors comparing AI-driven trading options."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/top-ai-investment-assistants",
+   "title": "Top AI Investment Assistants (2026): Compared",
+   "date": "2026-10-18T00:00:00+00:00",
+   "kind": "updated",
+   "published": "2026-06-29T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "AI investment assistants compared",
+   "search": "best AI investment assistants 2026",
+   "why": "Positions Walnut as the leading alternative to robo-advisors among competitors."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/m1-finance-alternatives",
+   "title": "M1 Finance Alternatives: Compared (2026)",
+   "date": "2026-10-18T00:00:00+00:00",
+   "kind": "updated",
+   "published": "2026-06-29T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "M1 Finance alternatives stock investing",
+   "search": "M1 Finance alternatives",
+   "why": "Captures users researching M1 competitors; positions Walnut as keeper-of-broker alternative."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/ai-robo-advisor-alternatives-for-wealth-management",
+   "title": "AI Robo-Advisor Alternatives for Wealth Management (2026)",
+   "date": "2026-10-18T00:00:00+00:00",
+   "kind": "updated",
+   "published": "2026-06-29T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "AI robo-advisor alternatives wealth management",
+   "search": "best AI robo-advisor alternatives 2026",
+   "why": "Positions Walnut against established wealth management competitors to capture evaluating buyers."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/ai-robo-advisor-alternatives-for-long-term-investing",
+   "title": "AI Robo-Advisor Alternatives for Long-Term Investing",
+   "date": "2026-10-18T00:00:00+00:00",
+   "kind": "updated",
+   "published": "2026-06-29T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "AI robo-advisor alternatives long-term",
+   "search": "best robo advisors long term investing",
+   "why": "Captures buyers comparing Walnut against established competitors like Betterment and Wealthfront."
+  },
+  {
    "site": "M1 Finance",
    "url": "https://m1.com/invest/joint-brokerage-account/",
    "title": "M1 Joint Brokerage Account: Invest together",
@@ -1806,6 +2235,216 @@
    "topic": "AI financial guidance assistant features",
    "search": "AI financial advisor chat portfolio analysis",
    "why": "Shows how their AI assistant differentiates from competitors' chatbots and robo-advisors."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/features/claude-chatgpt-connector",
+   "title": "Claude and ChatGPT connector in Walnut: your portfolio, in chat",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "landing",
+   "stage": "comparing",
+   "topic": "Claude ChatGPT portfolio connector",
+   "search": "Claude ChatGPT integration portfolio access",
+   "why": "Positions Walnut's read-only connector as safer than direct AI broker integrations."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/features/baskets-and-ideas",
+   "title": "Thematic baskets in Walnut: invest in an idea, not one stock",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Thematic baskets investing ideas",
+   "search": "how to build thematic investment basket",
+   "why": "Educates users on core feature while showcasing 20 ready-made ideas to drive engagement."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/features/trading",
+   "title": "Trading in Walnut: orders placed only after you approve them",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Human-approved AI trading execution",
+   "search": "how does AI trading approval work",
+   "why": "Demonstrates Walnut's safety-first execution model to reassure buyers considering AI trading."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/features/recurring-investments",
+   "title": "Recurring investments in Walnut: weekly or monthly basket buys",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "buying",
+   "topic": "Recurring investment automation feature",
+   "search": "recurring weekly monthly investment automation",
+   "why": "Explains a core product feature to help buyers understand implementation and differentiate Walnut's approach."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/features/rebalancing",
+   "title": "Rebalancing in Walnut: the trades back to your target weights",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Portfolio rebalancing with AI assistance",
+   "search": "how to rebalance portfolio",
+   "why": "Educates users on rebalancing and demonstrates Walnut's unique approach to drafting trades."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/features/orders",
+   "title": "Orders and history in Walnut: every order and its status",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "customers",
+   "topic": "Order management and status tracking",
+   "search": "how to track stock orders",
+   "why": "Helps existing users understand order lifecycle and broker status updates."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/features/moves",
+   "title": "Moves in Walnut: suggestions built from what you already own",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "landing",
+   "stage": "learning",
+   "topic": "AI portfolio suggestions feature",
+   "search": "AI stock picking suggestions for portfolios",
+   "why": "Educates early-stage users about a core product feature and how it works."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/features/watches-and-alerts",
+   "title": "Watches and alerts in Walnut: price, earnings and recap alerts",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Stock price and earnings alerts",
+   "search": "how to set stock price alerts",
+   "why": "Educates prospects on core feature before they commit to trying the app."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/features/daily-update",
+   "title": "Daily Update in Walnut: one email after the close, only what's new",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "landing",
+   "stage": "customers",
+   "topic": "Daily email digest of portfolio updates",
+   "search": "daily stock update email app",
+   "why": "Educates existing users on organizing their portfolio activity with minimal email clutter."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/walnut-review",
+   "title": "Walnut Review (2026): Honest Look at the AI Investing App",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-08-05T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "case",
+   "stage": "buying",
+   "topic": "AI investing app review and comparison",
+   "search": "best AI investing app 2026 comparison",
+   "why": "Self-review that positions Walnut against seven competitors to capture buyers actively evaluating AI investing tools."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/best-ai-stock-advisors",
+   "title": "Best AI Stock Advisors & Recommendation Tools (2026): Tested and Compared",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-06-30T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "AI stock advisor tools comparison",
+   "search": "best AI stock advisor apps 2026",
+   "why": "Positions Walnut as market leader while comparing eleven competing AI investing platforms."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/how-to-rebalance-your-portfolio-with-ai",
+   "title": "How to Rebalance Your Portfolio With AI (2026)",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-06-30T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Portfolio rebalancing with AI",
+   "search": "how to rebalance portfolio with AI",
+   "why": "Educates early researchers on rebalancing while positioning Walnut as the AI solution."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/ai-financial-planning-assistants",
+   "title": "Best AI Financial Planning Assistants (2026)",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-06-29T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "AI financial planning assistants",
+   "search": "best AI financial planning assistants 2026",
+   "why": "Captures buyers comparing Walnut with competing AI financial planning and investing tools."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/ai-robo-advisor-alternatives-for-small-accounts",
+   "title": "AI Robo-Advisor Alternatives for Small Accounts",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-06-29T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "AI robo-advisors for small accounts",
+   "search": "best AI robo-advisor for small accounts",
+   "why": "Positions Walnut as best free alternative while comprehensively comparing 7 competitors on fees and minimums."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/low-cost-ai-robo-advisor-alternatives",
+   "title": "Low-Cost AI Robo-Advisor Alternatives (2026)",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-06-29T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "Low-cost AI robo-advisor alternatives",
+   "search": "best low-cost AI robo-advisor apps 2026",
+   "why": "Positions Walnut as cheapest option while comparing all major fee-based competitors."
   },
   {
    "site": "Wealthfront",
@@ -2410,6 +3049,202 @@
    "why": "Positions Public's competitive margin rates against major rivals to win borrowing-focused traders."
   },
   {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/best-stock-trading-bots",
+   "title": "Stock Trading Bots to Consider in 2026",
+   "date": "2026-09-22T20:56:26+00:00",
+   "kind": "updated",
+   "published": "2026-01-15T09:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "Stock trading bots and AI systems",
+   "search": "best stock trading bots 2026",
+   "why": "Captures traders comparing trading bot options before committing to a platform."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/best-ai-trading-bot-platforms",
+   "title": "AI Trading Bot Platforms to Consider for 2025",
+   "date": "2026-09-22T20:53:31+00:00",
+   "kind": "updated",
+   "published": "2025-09-11T10:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "AI trading bot platforms",
+   "search": "best AI trading bot platforms 2025",
+   "why": "Position Composer among competitors to capture buyers evaluating trading solutions."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/best-platforms-for-algo-trading",
+   "title": "8 of the Top Algorithmic Trading Platforms",
+   "date": "2026-09-22T20:51:34+00:00",
+   "kind": "updated",
+   "published": "2023-10-26T09:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "list",
+   "stage": "comparing",
+   "topic": "Top algorithmic trading platforms",
+   "search": "best algorithmic trading platforms",
+   "why": "Ranks competing algo trading tools to position Composer as a featured alternative."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/best-automated-trading-strategies",
+   "title": "Noteworthy Automated Trading Strategies",
+   "date": "2026-09-22T20:50:13+00:00",
+   "kind": "updated",
+   "published": "2023-01-10T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Automated trading strategies overview",
+   "search": "best automated trading strategies",
+   "why": "Attracts traders researching strategy types before choosing a platform like Composer."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/best-platforms-for-automated-trading",
+   "title": "Popular Platforms for Automated Trading",
+   "date": "2026-09-22T20:42:23+00:00",
+   "kind": "updated",
+   "published": "2024-01-18T09:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "list",
+   "stage": "comparing",
+   "topic": "Automated trading platforms comparison",
+   "search": "best automated trading platforms",
+   "why": "Ranks competing platforms to capture traders evaluating options before choosing."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/what-is-a-fund-of-funds",
+   "title": "What Is a Fund of Funds (FoF)?",
+   "date": "2026-09-22T20:36:40+00:00",
+   "kind": "updated",
+   "published": "2023-11-09T09:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "fund of funds investing",
+   "search": "what is a fund of funds",
+   "why": "Attracts investors researching investment structures to build with Composer's platform."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/how-do-backtests-work-in-composer",
+   "title": "7. How do Backtests Work in Composer?",
+   "date": "2026-09-22T12:01:00+00:00",
+   "kind": "new",
+   "published": "2026-09-22T12:01:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "how backtests work composer",
+   "search": "how do backtests work",
+   "why": "Educates new users on core feature before they start building strategies."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/how-to-create-an-account",
+   "title": "1. How to Create an Account",
+   "date": "2026-09-22T12:01:00+00:00",
+   "kind": "new",
+   "published": "2026-09-22T12:01:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "buying",
+   "topic": "how to create account",
+   "search": "how to create composer trading account",
+   "why": "Guides customers through signup and onboarding to convert buying-stage prospects."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/trade-ideas-vs-composer",
+   "title": "Trade Ideas vs. Composer: How Do They Compare in 2026?",
+   "date": "2026-09-22T12:00:00+00:00",
+   "kind": "new",
+   "published": "2026-09-22T12:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "Trade Ideas vs Composer comparison",
+   "search": "Trade Ideas vs Composer comparison",
+   "why": "Captures traders evaluating Composer against a direct competitor for strategy automation."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/autopilot-investment-app-vs-composer-which-is-the-better-platform-to-create-a-stock-trading-bot",
+   "title": "Autopilot vs. Composer: How Do They Compare in 2026?",
+   "date": "2026-09-22T09:00:00+00:00",
+   "kind": "new",
+   "published": "2026-09-22T09:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "Autopilot vs Composer trading comparison",
+   "search": "Autopilot vs Composer trading platform",
+   "why": "Captures buyers evaluating Composer against a direct competitor with specific feature and pricing comparisons."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/composer-vs-trendspider",
+   "title": "TrendSpider vs Composer: What are the differences?",
+   "date": "2026-09-22T09:00:00+00:00",
+   "kind": "new",
+   "published": "2026-09-22T09:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "TrendSpider vs Composer",
+   "search": "TrendSpider vs Composer differences",
+   "why": "Captures buyers comparing Composer with TrendSpider, a direct technical analysis competitor."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/composer-vs-stockhero-how-are-we-different",
+   "title": "Composer vs. StockHero: Which is the Better Platform?",
+   "date": "2026-09-22T09:00:00+00:00",
+   "kind": "new",
+   "published": "2026-09-22T09:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "Composer vs StockHero trading platforms",
+   "search": "composer vs stockhero comparison",
+   "why": "Targets traders evaluating Composer against a direct competitor during purchase decision phase."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/quantconnect-vs-composer-which-is-the-better-platform-to-create-a-stock-trading-bot",
+   "title": "QuantConnect vs. Composer: How do they compare in 2026?",
+   "date": "2026-09-22T09:00:00+00:00",
+   "kind": "new",
+   "published": "2026-09-22T09:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "QuantConnect vs Composer trading platforms",
+   "search": "QuantConnect vs Composer comparison 2026",
+   "why": "Captures traders comparing Composer against established competitor QuantConnect."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/composer-vs-interactive-brokers-how-are-we-different",
+   "title": "Interactive Brokers vs Composer: What are the differences?",
+   "date": "2026-09-22T09:00:00+00:00",
+   "kind": "new",
+   "published": "2026-09-22T09:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "Interactive Brokers vs Composer",
+   "search": "Interactive Brokers vs Composer differences",
+   "why": "Positions Composer against established rival to convert price-sensitive buyers considering Interactive Brokers."
+  },
+  {
    "site": "Public.com",
    "url": "https://public.com/learn/24-5-trading-how-pre-market-after-hours-overnight-trading-work",
    "title": "24/5 Trading: How Pre-Market, After-Hours & Overnight Trading Work",
@@ -2422,6 +3257,20 @@
    "topic": "24/5 trading hours extended-hours",
    "search": "what is 24/5 trading how does it work",
    "why": "Educates newcomers on Public's key feature before they trade stocks."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/composer-vs-m1-finance-vs-robinhood",
+   "title": "How Do Composer Vs M1 Finance Vs Robinhood Compare? a Comprehensive Review",
+   "date": "2026-09-22T00:00:00+00:00",
+   "kind": "new",
+   "published": "2026-09-22T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "Composer vs M1 Finance vs Robinhood",
+   "search": "Composer vs M1 Finance vs Robinhood comparison",
+   "why": "Captures traders comparing Composer against established competitors during their platform evaluation."
   },
   {
    "site": "Public.com",
@@ -2620,6 +3469,20 @@
    "why": "Educates prospects on tax optimization while showcasing Wealthfront's automated investing features."
   },
   {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/ai-for-finding-investment-opportunities-step-by-step",
+   "title": "How to Use AI for Finding Investment Opportunities - Magnifi Insights",
+   "date": "2026-08-25T20:02:00+00:00",
+   "kind": "unknown",
+   "published": "2026-08-25T20:02:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "AI for finding investment opportunities",
+   "search": "how to use AI finding investment opportunities",
+   "why": "Attracts early-stage investors researching AI-powered stock discovery methods."
+  },
+  {
    "site": "M1 Finance",
    "url": "https://m1.com/blog/socially-responsible-investing/",
    "title": "Socially responsible investing: How to build a portfolio that matches your values",
@@ -2662,6 +3525,20 @@
    "why": "Captures prospects evaluating AI investing tools against Magnifi's alternatives."
   },
   {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/ai-for-finding-investment-opportunities-comparison",
+   "title": "Comparative Analysis of AI Tools for Finding Investment Opportunities: Uncovering Growth Stocks - Magnifi Insights",
+   "date": "2026-08-11T19:11:00+00:00",
+   "kind": "unknown",
+   "published": "2026-08-11T19:11:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "AI tools for finding investment opportunities",
+   "search": "AI tools finding investment opportunities growth stocks",
+   "why": "Positions Magnifi as the solution when investors compare AI stock-picking tools."
+  },
+  {
    "site": "Betterment",
    "url": "https://www.betterment.com/retail-report",
    "title": "Retail Investor Survey",
@@ -2688,6 +3565,118 @@
    "topic": "How Walnut AI reads your portfolio",
    "search": "how does Walnut AI financial advisor work",
    "why": "Explains core product mechanics to prospects exploring conversational AI investing tools."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/ai-stock-research-tools-revolutionize-investment-strategy",
+   "title": "Harnessing AI Stock Research Tools: Revolutionizing Your Investment Strategy - Magnifi Insights",
+   "date": "2026-08-04T18:39:00+00:00",
+   "kind": "unknown",
+   "published": "2026-08-04T18:39:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "AI stock research tools for investing",
+   "search": "best AI stock research tools",
+   "why": "Educates early-stage investors on AI research capabilities to build product awareness."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/ai-stock-market-sentiment-analysis-trading-strategies",
+   "title": "A Deep Dive into AI Stock Market Sentiment Analysis - Magnifi Insights",
+   "date": "2026-07-28T18:54:00+00:00",
+   "kind": "unknown",
+   "published": "2026-07-28T18:54:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "AI stock market sentiment analysis",
+   "search": "AI stock market sentiment analysis trading",
+   "why": "Educates early researchers on sentiment analysis to establish thought leadership and drive organic discovery."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/ai-stock-market-sentiment-analysis-importance",
+   "title": "Understanding AI Stock Market Sentiment Analysis - Magnifi Insights",
+   "date": "2026-07-21T19:22:00+00:00",
+   "kind": "unknown",
+   "published": "2026-07-21T19:22:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "AI stock market sentiment analysis",
+   "search": "AI stock market sentiment analysis",
+   "why": "Establishes thought leadership on AI sentiment analysis for early-stage investors exploring the technology."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/real-time-stock-market-data-ai-boost-portfolio-forecasting",
+   "title": "How Real-Time Stock Market Data AI Can Enhance Your Portfolio Forecasting and Risk Mitigation - Magnifi Insights",
+   "date": "2026-07-14T18:50:00+00:00",
+   "kind": "unknown",
+   "published": "2026-07-14T18:50:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "real-time stock data AI portfolio forecasting",
+   "search": "real-time stock market data AI portfolio forecasting",
+   "why": "Educates early-stage investors on AI's role in improving investment decisions and risk management."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/ai-stock-market-sentiment-analysis-trading-insights",
+   "title": "How AI Stock Market Sentiment Analysis Can Reveal Market Trends - Magnifi Insights",
+   "date": "2026-07-07T19:36:00+00:00",
+   "kind": "unknown",
+   "published": "2026-07-07T19:36:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "AI stock market sentiment analysis",
+   "search": "AI stock market sentiment analysis trading",
+   "why": "Educates early-stage traders on sentiment analysis concepts to build authority."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/mcp",
+   "title": "Walnut MCP Connector: Connect Your Portfolio to Claude, ChatGPT, or Codex",
+   "date": "2026-07-04T00:00:00+00:00",
+   "kind": "unknown",
+   "published": "2026-07-04T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "landing",
+   "stage": "learning",
+   "topic": "MCP connector for portfolio analysis",
+   "search": "MCP connector Claude ChatGPT portfolio",
+   "why": "Educates potential users on Walnut's MCP connector technology and integration benefits."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/real-time-stock-ai-investing",
+   "title": "How Real-Time Stock Market Data AI Can Boost Retail Returns - Magnifi Insights",
+   "date": "2026-06-30T17:40:00+00:00",
+   "kind": "unknown",
+   "published": "2026-06-30T17:40:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "real-time AI stock market data",
+   "search": "real-time stock market data AI investing",
+   "why": "Educates retail investors on AI's role in boosting returns to drive awareness."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/fundamental-analysis-finding-the-value-of-stocks",
+   "title": "Fundamental Analysis: Finding the “Value” of Stocks - Magnifi Insights",
+   "date": "2026-06-23T21:25:00+00:00",
+   "kind": "unknown",
+   "published": "2026-06-23T21:25:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "fundamental analysis stock valuation",
+   "search": "fundamental analysis finding value stocks",
+   "why": "Educates beginners on investment concepts to build trust and establish authority."
   },
   {
    "site": "Composer",
@@ -2775,6 +3764,20 @@
   },
   {
    "site": "Magnifi",
+   "url": "https://magnifi.com/learn/beginners-guide-to-investing-your-first-1000",
+   "title": "Beginner's Guide to Investing Your First $1,000 - Magnifi Insights",
+   "date": "2026-06-02T20:02:00+00:00",
+   "kind": "unknown",
+   "published": "2026-06-02T20:02:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "investing first thousand dollars",
+   "search": "how to invest your first 1000",
+   "why": "Builds authority with beginners researching entry-level investment strategies and positions Magnifi as a helpful guide."
+  },
+  {
+   "site": "Magnifi",
    "url": "https://magnifi.com/learn/grid-modernization-investment",
    "title": "The Great Grid Bottleneck - Magnifi Insights",
    "date": "2026-06-01T18:18:00+00:00",
@@ -2814,6 +3817,34 @@
    "topic": "How to build a stock portfolio",
    "search": "how to build a stock portfolio",
    "why": "Attracts beginners researching portfolio basics to their platform."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/ray-dalio-holy-grail-of-investing",
+   "title": "Ray Dalio’s “Holy Grail” of Investing, and How Enders Capital Puts It to Work",
+   "date": "2026-05-14T09:00:00+00:00",
+   "kind": "unknown",
+   "published": "2026-05-14T09:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "case",
+   "stage": "learning",
+   "topic": "Ray Dalio Holy Grail investing principle",
+   "search": "Ray Dalio holy grail investing",
+   "why": "Builds authority by connecting famous investing theory to real Composer customer implementation."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/enders-capital-composer-year-one",
+   "title": "Hedge Funds on Composer: Year One Review with Enders Capital",
+   "date": "2026-05-14T00:00:00+00:00",
+   "kind": "unknown",
+   "published": "2026-05-14T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "case",
+   "stage": "buying",
+   "topic": "Quant fund performance algorithmic trading",
+   "search": "hedge fund AI algorithmic trading results",
+   "why": "Demonstrates platform capability through a hedge fund's strong first-year returns using Composer."
   },
   {
    "site": "Magnifi",
@@ -2956,6 +3987,20 @@
    "why": "Attracts early-stage learners researching personal finance and cost of living trends."
   },
   {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/what-is-the-discover-page",
+   "title": "5. What is the Discover Page?",
+   "date": "2026-04-14T13:31:09+00:00",
+   "kind": "updated",
+   "published": "2026-03-13T23:01:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Discover page automated trading feature",
+   "search": "what is discover page automated trading",
+   "why": "Guides new users through core product features in onboarding flow."
+  },
+  {
    "site": "Magnifi",
    "url": "https://magnifi.com/learn/mcdonalds-shake-shack-investment-analysis",
    "title": "The Death of the Drive-Through: Fast Food’s Unintended Pivot to Luxury - Magnifi Insights",
@@ -3052,6 +4097,76 @@
    "topic": "AI portfolio visualization for investing",
    "search": "using AI to visualize portfolio",
    "why": "Educates early-stage investors on AI capabilities to drive product awareness."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/creating-and-editing-algorithmic-trading-strategies-with-composer",
+   "title": "8. Creating and Editing Algorithmic Trading Strategies With Composer",
+   "date": "2026-03-24T12:01:00+00:00",
+   "kind": "unknown",
+   "published": "2026-03-24T12:01:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Creating algorithmic trading strategies",
+   "search": "how to create algorithmic trading strategies",
+   "why": "Educates new users on core product feature during onboarding."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/keeping-your-account-secure",
+   "title": "4. Keeping Your Account Secure",
+   "date": "2026-03-15T04:34:57+00:00",
+   "kind": "updated",
+   "published": "2026-03-06T12:01:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "keeping account secure",
+   "search": "how to secure trading account",
+   "why": "Educates new users on platform security features during onboarding process."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/tax-considerations",
+   "title": "3. Tax Considerations",
+   "date": "2026-03-15T04:34:36+00:00",
+   "kind": "updated",
+   "published": "2026-03-05T12:01:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "tax considerations automated trading",
+   "search": "how are automated trades taxed",
+   "why": "Educates new users on tax implications before they start automating trades with Composer."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/types-of-accounts-available",
+   "title": "2. Types of Accounts Available",
+   "date": "2026-03-15T04:34:18+00:00",
+   "kind": "updated",
+   "published": "2026-03-04T12:01:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Types of accounts on Composer",
+   "search": "how to set up brokerage account types",
+   "why": "Educates new users on account setup and tax implications before trading."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/how-composer-symphonies-work",
+   "title": "6. How Composer Symphonies Work",
+   "date": "2026-03-13T12:01:00+00:00",
+   "kind": "unknown",
+   "published": "2026-03-13T12:01:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "how automated trading algorithms work",
+   "search": "how do composer symphonies work",
+   "why": "Educates prospective users on core platform concept during initial research phase."
   },
   {
    "site": "Magnifi",
@@ -3152,6 +4267,48 @@
    "why": "Educates early-stage investors on risk concepts to build trust and credibility."
   },
   {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/roth-vs-traditional-ira",
+   "title": "Roth vs. Traditional IRA: Which Is Right for You?",
+   "date": "2026-02-10T02:57:02+00:00",
+   "kind": "updated",
+   "published": "2024-02-08T09:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Roth vs Traditional IRA comparison",
+   "search": "roth vs traditional ira which is better",
+   "why": "Builds trust by educating early-stage investors on core retirement account decisions."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/ira-vs-401-k",
+   "title": "IRA vs. 401(k): Which Is Better?",
+   "date": "2026-02-10T02:51:08+00:00",
+   "kind": "updated",
+   "published": "2024-02-09T09:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "learning",
+   "topic": "IRA vs 401k retirement accounts",
+   "search": "IRA vs 401k which is better",
+   "why": "Establishes Composer as trusted advisor for foundational retirement investing education."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/dow-vs-nasdaq",
+   "title": "The Dow vs. Nasdaq: The Key Differences",
+   "date": "2026-02-10T02:50:20+00:00",
+   "kind": "updated",
+   "published": "2023-12-20T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "learning",
+   "topic": "Dow vs Nasdaq key differences",
+   "search": "dow vs nasdaq differences",
+   "why": "Builds authority with fundamentals content for investors learning stock market basics."
+  },
+  {
    "site": "Magnifi",
    "url": "https://magnifi.com/learn/using-leveraged-etfs-to-grow-your-portfolio",
    "title": "Using Leveraged ETFs to Grow Your Portfolio - Magnifi Insights",
@@ -3164,6 +4321,20 @@
    "topic": "leveraged ETFs portfolio growth",
    "search": "what are leveraged ETFs how to use",
    "why": "Educates prospects on advanced investing tools relevant to active traders."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/trading-strategies-year-in-review",
+   "title": "2025 Symphony Year-in-Review: Insights from 10 Composer Symphonies",
+   "date": "2026-02-03T08:00:00+00:00",
+   "kind": "unknown",
+   "published": "2026-02-03T08:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "research",
+   "stage": "learning",
+   "topic": "trading strategies year-in-review analysis",
+   "search": "best trading strategies 2025 performance",
+   "why": "Demonstrates algorithm performance and strategy outcomes to attract researching traders."
   },
   {
    "site": "Betterment",
@@ -3208,6 +4379,20 @@
    "why": "Attracts investors researching renewable energy plays to discover Magnifi's advice and platform."
   },
   {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/quant-trading-strategies",
+   "title": "6 Quant Trading Strategies to Try in 2026",
+   "date": "2026-01-23T15:38:36+00:00",
+   "kind": "updated",
+   "published": "2026-01-15T11:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "list",
+   "stage": "learning",
+   "topic": "Quant trading strategies for 2026",
+   "search": "quant trading strategies",
+   "why": "Educates early-stage traders on automated strategies to build product interest through no-code tools."
+  },
+  {
    "site": "Magnifi",
    "url": "https://magnifi.com/learn/a-guide-to-investing-in-copper-stocks-and-etfs",
    "title": "A Guide to Investing in Copper Stocks and ETFs - Magnifi Insights",
@@ -3234,6 +4419,20 @@
    "topic": "Automated investing with zero management fees",
    "search": "automated investing app no fees",
    "why": "Converts interested prospects with limited-time offer and proof of long-term returns."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/top-trading-strategies-by-ai",
+   "title": "Trading Strategies to Consider in 2025, Curated by AI",
+   "date": "2026-01-14T02:12:09+00:00",
+   "kind": "updated",
+   "published": "2025-10-17T08:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "list",
+   "stage": "learning",
+   "topic": "AI trading strategies for 2025",
+   "search": "best AI trading strategies 2025",
+   "why": "Attracts early-stage investors learning about algorithmic trading and AI applications."
   },
   {
    "site": "Magnifi",
@@ -3278,6 +4477,48 @@
    "why": "Attracts early-stage investors researching AI investment opportunities and strategy."
   },
   {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/are-commodities-high-risk",
+   "title": "Are Commodities High Risk?",
+   "date": "2025-11-14T18:37:16+00:00",
+   "kind": "updated",
+   "published": "2022-11-01T09:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "commodity trading risk evaluation",
+   "search": "are commodities high risk",
+   "why": "Establishes expertise in commodity investing to attract early-stage traders to platform."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/etf-index-trading",
+   "title": "ETF Index Trading Strategies: A Complete Guide",
+   "date": "2025-11-14T18:36:44+00:00",
+   "kind": "updated",
+   "published": "2023-09-27T09:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "ETF index trading strategies guide",
+   "search": "how to trade ETF index funds",
+   "why": "Attracts beginner investors researching ETF trading before using their platform."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/stock-average-down",
+   "title": "Stock Average Down: What It Is, How It Works, Pros & Cons",
+   "date": "2025-11-14T18:35:57+00:00",
+   "kind": "updated",
+   "published": "2023-10-12T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Stock averaging down strategy",
+   "search": "how to average down stocks",
+   "why": "Attracts early-stage investors researching buying strategies to enter Composer's educational funnel."
+  },
+  {
    "site": "Betterment",
    "url": "https://www.betterment.com/resources/ira",
    "title": "What’s an IRA and how does it work?",
@@ -3318,6 +4559,20 @@
    "topic": "Planning for cost of living in retirement",
    "search": "how to plan retirement cost of living",
    "why": "Helps people understand retirement expenses and establishes Betterment as trusted financial guide."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/investing-consumer-trends-strategy",
+   "title": "Familiarity Bias Turns Your Best Brand Picks Toxic - Magnifi Insights",
+   "date": "2025-08-19T19:31:00+00:00",
+   "kind": "unknown",
+   "published": "2025-08-19T19:31:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "opinion",
+   "stage": "learning",
+   "topic": "Familiarity bias investing strategy",
+   "search": "familiarity bias stock picking Peter Lynch",
+   "why": "Establishes thought leadership on behavioral investing to attract early-stage investors to platform."
   },
   {
    "site": "Composer",
@@ -3712,6 +4967,20 @@
    "why": "Announces new product feature to build brand awareness and attract early adopters."
   },
   {
+   "site": "Composer",
+   "url": "https://www.composer.trade/blog/on-potential",
+   "title": "On Harnessing Your Potential",
+   "date": "2022-10-24T16:46:40+00:00",
+   "kind": "updated",
+   "published": "2022-01-09T19:33:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "opinion",
+   "stage": "learning",
+   "topic": "Harnessing potential for investing success",
+   "search": "how to find investing success",
+   "why": "Positions Composer as thought leader for investors seeking personal growth."
+  },
+  {
    "site": "Betterment",
    "url": "https://www.betterment.com/employees/resources/your-betterment-401k",
    "title": "Getting started with your Betterment 401(k)",
@@ -3757,7 +5026,7 @@
  "history": [
   {
    "week": "2026-W43",
-   "date": "2026-10-21T02:47:43+00:00",
+   "date": "2026-10-21T02:57:12+00:00",
    "sites": {
     "Clera": {
      "new": 0,
@@ -3779,7 +5048,7 @@
     },
     "Walnut": {
      "new": 0,
-     "updated": 0,
+     "updated": 19,
      "removed": 0,
      "pages": 801
     },

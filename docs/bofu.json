@@ -1,9 +1,9 @@
 {
  "meta": {
   "title": "Bottom-of-funnel content tracker",
-  "niche": "AI-powered automated investing and personal wealth management apps",
+  "niche": "Conversational AI financial advisor apps — chat-based stock picks and AI-assisted trade execution",
   "you": "Clera",
-  "generated": "2026-10-21T02:54:52+00:00",
+  "generated": "2026-10-21T03:01:17+00:00",
   "state_updated": "2026-10-20T02:24:25+00:00",
   "repo": "nico497/Clera"
  },
@@ -46,31 +46,6 @@
    "hubs": []
   },
   {
-   "name": "Wealthfront",
-   "tracked": 908,
-   "considered": 679,
-   "own_pricing": "https://wealthfront.com/pricing",
-   "hubs": [
-    "https://wealthfront.com/reviews"
-   ]
-  },
-  {
-   "name": "Betterment",
-   "tracked": 1525,
-   "considered": 295,
-   "own_pricing": "https://www.betterment.com/pricing",
-   "hubs": [
-    "https://www.betterment.com/reviews"
-   ]
-  },
-  {
-   "name": "M1 Finance",
-   "tracked": 458,
-   "considered": 308,
-   "own_pricing": null,
-   "hubs": []
-  },
-  {
    "name": "Public.com",
    "tracked": 520,
    "considered": 516,
@@ -85,20 +60,33 @@
    "hubs": []
   },
   {
-   "name": "SoFi Invest",
-   "tracked": 0,
-   "considered": 0,
+   "name": "Walnut",
+   "tracked": 14233,
+   "considered": 801,
    "own_pricing": null,
+   "hubs": []
+  },
+  {
+   "name": "Magnifi",
+   "tracked": 269,
+   "considered": 269,
+   "own_pricing": null,
+   "hubs": []
+  },
+  {
+   "name": "Composer",
+   "tracked": 4972,
+   "considered": 211,
+   "own_pricing": "https://www.composer.trade/pricing",
    "hubs": []
   }
  ],
  "vendors": [
-  "Wealthfront",
-  "Betterment",
-  "M1 Finance",
   "Public.com",
   "Titan",
-  "SoFi Invest",
+  "Walnut",
+  "Magnifi",
+  "Composer",
   "Clera",
   "Robinhood",
   "Acorns",
@@ -111,38 +99,144 @@
   "E*TRADE"
  ],
  "excluded": {
-  "templated pages": 1608,
-  "webinars, glossary, events and category pages": 5
+  "webinars, glossary, events and category pages": 4,
+  "templated pages": 18193
  },
  "pages": [
   {
-   "site": "Wealthfront",
-   "url": "https://www.wealthfront.com/blog/tax-loss-harvesting-comparison/",
-   "path": "/blog/tax-loss-harvesting-comparison",
-   "type": "best",
-   "targets": [],
-   "audience": "Comparisons and alternatives"
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/acorns-alternatives",
+   "path": "/resources/acorns-alternatives",
+   "type": "alt",
+   "targets": [
+    "Acorns"
+   ]
   },
   {
-   "site": "Wealthfront",
-   "url": "https://www.wealthfront.com/blog/case-study-isabel-king/",
-   "path": "/blog/case-study-isabel-king",
-   "type": "case",
-   "targets": []
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/composer-alternatives",
+   "path": "/resources/composer-alternatives",
+   "type": "alt",
+   "targets": [
+    "Composer"
+   ]
   },
   {
-   "site": "Wealthfront",
-   "url": "https://www.wealthfront.com/blog/case-study-kristen-isaacs/",
-   "path": "/blog/case-study-kristen-isaacs",
-   "type": "case",
-   "targets": []
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/fidelity-go-alternatives",
+   "path": "/resources/fidelity-go-alternatives",
+   "type": "alt",
+   "targets": [
+    "Fidelity Go"
+   ]
   },
   {
-   "site": "Wealthfront",
-   "url": "https://www.wealthfront.com/blog/case-study-kyle-kate/",
-   "path": "/blog/case-study-kyle-kate",
-   "type": "case",
-   "targets": []
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/magnifi-alternatives",
+   "path": "/resources/magnifi-alternatives",
+   "type": "alt",
+   "targets": [
+    "Magnifi"
+   ]
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/schwab-intelligent-portfolios-alternatives",
+   "path": "/resources/schwab-intelligent-portfolios-alternatives",
+   "type": "alt",
+   "targets": [
+    "Schwab Intelligent Portfolios"
+   ]
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/vanguard-digital-advisor-alternatives",
+   "path": "/resources/vanguard-digital-advisor-alternatives",
+   "type": "alt",
+   "targets": [
+    "Vanguard Digital Advisor"
+   ]
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/acorns-pricing",
+   "path": "/resources/acorns-pricing",
+   "type": "pricing",
+   "targets": [
+    "Acorns"
+   ]
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/composer-pricing",
+   "path": "/resources/composer-pricing",
+   "type": "pricing",
+   "targets": [
+    "Composer"
+   ]
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/ellevest-pricing",
+   "path": "/resources/ellevest-pricing",
+   "type": "pricing",
+   "targets": [
+    "Ellevest"
+   ]
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/etrade-core-portfolios-pricing",
+   "path": "/resources/etrade-core-portfolios-pricing",
+   "type": "pricing",
+   "targets": [
+    "E*TRADE"
+   ]
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/fidelity-go-pricing",
+   "path": "/resources/fidelity-go-pricing",
+   "type": "pricing",
+   "targets": [
+    "Fidelity Go"
+   ]
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/magnifi-pricing",
+   "path": "/resources/magnifi-pricing",
+   "type": "pricing",
+   "targets": [
+    "Magnifi"
+   ]
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/schwab-intelligent-portfolios-pricing",
+   "path": "/resources/schwab-intelligent-portfolios-pricing",
+   "type": "pricing",
+   "targets": [
+    "Schwab Intelligent Portfolios"
+   ]
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/resources/vanguard-digital-advisor-pricing",
+   "path": "/resources/vanguard-digital-advisor-pricing",
+   "type": "pricing",
+   "targets": [
+    "Vanguard Digital Advisor"
+   ]
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn/composer-vs-m1-finance-vs-robinhood",
+   "path": "/learn/composer-vs-m1-finance-vs-robinhood",
+   "type": "vs_you",
+   "targets": [
+    "Robinhood"
+   ]
   }
  ]
 }
