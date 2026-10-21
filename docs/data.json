@@ -1,17 +1,17 @@
 {
  "meta": {
   "title": "Competitor Radar",
-  "niche": "AI-powered automated investing and personal wealth management apps",
-  "updated": "2026-10-20T02:24:25+00:00",
+  "niche": "Conversational AI financial advisor apps — chat-based stock picks and AI-assisted trade execution",
+  "updated": "2026-10-21T02:47:43+00:00",
   "window_days": 30,
   "repo": "nico497/Clera",
   "first_run": true,
   "errors": [],
-  "pending": 74,
+  "pending": 640,
   "analysis_stale": false,
   "per_run": 200,
   "tracking_since": "2026-10-20T02:24:25+00:00",
-  "tracking_days": 0
+  "tracking_days": 1
  },
  "types": [
   [
@@ -48,79 +48,76 @@
   ]
  ],
  "analysis": {
-  "summary": "Wealthfront and M1 Finance are the only active publishers. Wealthfront teaches savers, while M1 refreshes product pages and starts an AI wealth push. Clera has no pages in the data.",
+  "summary": "Only Public.com published anything new in the last 30 days, with 4 pages. Walnut and Composer rely on huge templated page sets, and Clera and Titan show no pages in this data.",
   "points": [
    {
-    "text": "Wealthfront added 5 new pages and updated 6, mostly plain-English money guides, so it is building trust with learners before selling.",
+    "text": "Public.com is the only active publisher: 4 new pages, with no updates to older pages. Four pages is a weak signal, not a strategy.",
     "names": [
-     "Wealthfront"
+     "Public.com"
     ]
    },
    {
-    "text": "M1 Finance updated 13 older pages, 11 of them product pages, which looks like a refresh push aimed at people ready to open accounts.",
+    "text": "Walnut and Composer own big templated page sets (stocks, ETFs, comparisons, strategies), but neither published new pages in 30 days.",
     "names": [
-     "M1 Finance"
+     "Walnut",
+     "Composer"
     ]
    },
    {
-    "text": "M1 Finance published 'AI Wealth Management' and 'M1 Advisor' pages, so it is moving first on the AI advisor story Clera would want to own.",
+    "text": "Clera has no pages in this data, so every rival's content is ground Clera has not yet covered.",
     "names": [
-     "M1 Finance"
+     "Clera"
     ]
    }
   ],
   "plays": {
-   "Wealthfront": {
-    "play": "Teaches savings, 529s and mortgage rates, and announces new products like its Brokerage Account and 2026 launches.",
-    "aimed": "Savers and learners comparing accounts"
-   },
-   "Betterment": {
-    "play": "Very large site, but only one new page: a Solo 401(k) vs SEP IRA comparison.",
-    "aimed": "Self-employed retirement savers"
-   },
-   "M1 Finance": {
-    "play": "Refreshes account and borrowing pages, and launches AI wealth management and M1 Advisor content.",
-    "aimed": "Investors ready to open accounts"
-   },
    "Public.com": {
-    "play": "Has 519 pages but published or updated nothing in the last 30 days.",
-    "aimed": "No clear audience this period"
+    "play": "Mixes broker explainers, a calculator and a comparison, plus one page on its AI tool Meta Muse.",
+    "aimed": "Retail investors comparing or buying"
+   },
+   "Walnut": {
+    "play": "Runs a huge template library: 10122 stock pages, 2210 ETF pages and 677 comparison pages.",
+    "aimed": "Search visitors looking up stocks and ETFs"
+   },
+   "Composer": {
+    "play": "Builds scale from 3230 ETF pages and 1386 trading-strategy pages, plus 145 ETF comparisons.",
+    "aimed": "Self-directed, strategy-minded traders"
+   },
+   "Magnifi": {
+    "play": "269 pages on the site, but no recent publishing in the data.",
+    "aimed": "Unclear from data"
    },
    "Titan": {
-    "play": "No pages found in the data, so no content play is visible.",
-    "aimed": "No visible audience"
+    "play": "No pages found in the data.",
+    "aimed": "Unclear from data"
+   },
+   "Clera": {
+    "play": "No pages found in the data and no activity in 30 days.",
+    "aimed": "Unclear from data"
    }
   },
   "shared": [
    {
-    "title": "Rate and account-feature selling",
-    "text": "Wealthfront promotes a 3.55% cash account APY and M1 promotes a 3.35% APY plus 4.24% borrowing. Both lead with numbers, so Clera needs a clear value hook.",
+    "title": "Templated page libraries",
+    "text": "Walnut and Composer both mass-produce pages for ETFs and comparisons (Walnut 2210 ETF pages, Composer 3230). Clera would struggle to match that volume, so it should pick narrower topics.",
     "names": [
-     "Wealthfront",
-     "M1 Finance"
-    ]
-   },
-   {
-    "title": "Account-choice guidance",
-    "text": "Wealthfront's 'Which account should I open?' and M1's many account-type pages both help people pick a product. Clera can do the same for AI investing.",
-    "names": [
-     "Wealthfront",
-     "M1 Finance"
+     "Walnut",
+     "Composer"
     ]
    }
   ],
   "gaps": [
    {
-    "title": "Honest AI explainer",
-    "text": "Only M1 has AI wealth pages, and Wealthfront has one page about what LLMs get wrong. Clera could own plain-English answers on how AI investing works and where it fails."
+    "title": "Chat-based stock picks explainers",
+    "text": "Only Public.com has one AI-tool page (Meta Muse). No one shows guides on how to use chat for picks, so Clera could own the topic."
    },
    {
-    "title": "AI vs human advisor comparisons",
-    "text": "Nobody publishes a direct comparison of AI advice with human advisors or robo-advisors (automated investing services). Comparing shoppers need this, and Clera could write it first."
+    "title": "AI trade execution safety",
+    "text": "No rival page covers how AI-assisted trades are placed, checked or limited. Retail investors likely want trust and control answers."
    },
    {
-    "title": "Regular content engine",
-    "text": "Betterment, Public.com and Titan show little or no recent publishing. A steady stream of guides on AI investing questions faces little competition from them."
+    "title": "Fresh, updated content",
+    "text": "No rival updated any older pages in 30 days. Regularly refreshed guides and comparisons could stand out."
    }
   ],
   "versus": {}
@@ -165,74 +162,20 @@
    "pages": 1,
    "undated": 0,
    "new_urls": 0,
-   "play": "",
-   "aimed": ""
+   "play": "No pages found in the data and no activity in 30 days.",
+   "aimed": "Unclear from data"
   },
   {
-   "name": "Wealthfront",
-   "site": "https://www.wealthfront.com",
+   "name": "Public.com",
+   "site": "https://public.com",
    "you": false,
-   "n": 11,
-   "site_pages": 908,
-   "n_prev": 7,
-   "refreshed": 6,
-   "mix": {
-    "compare": 2,
-    "howto": 4,
-    "list": 0,
-    "research": 0,
-    "case": 0,
-    "opinion": 0,
-    "news": 4,
-    "landing": 1
-   },
-   "stages": {
-    "learning": 5,
-    "comparing": 3,
-    "buying": 0,
-    "customers": 3
-   },
-   "topics": [
-    "cash account apy rate increase",
-    "product updates and new features 2026",
-    "529 education savings accounts",
-    "short-term vs long-term savings strategies",
-    "mortgage rates federal funds rate relationship"
-   ],
-   "unclassified": 0,
-   "removed": 0,
-   "removed_titles": [],
-   "new": 5,
-   "updated": 6,
-   "bulk": [],
-   "programmatic": [
-    {
-     "section": "explore",
-     "pages": 229,
-     "new": 0
-    }
-   ],
-   "ok": true,
-   "error": null,
-   "method": "sitemap",
-   "url": "https://www.wealthfront.com/sitemap.xml",
-   "pages": 914,
-   "undated": 278,
-   "new_urls": 0,
-   "play": "Teaches savings, 529s and mortgage rates, and announces new products like its Brokerage Account and 2026 launches.",
-   "aimed": "Savers and learners comparing accounts"
-  },
-  {
-   "name": "Betterment",
-   "site": "https://www.betterment.com",
-   "you": false,
-   "n": 1,
-   "site_pages": 1525,
-   "n_prev": 41,
+   "n": 4,
+   "site_pages": 520,
+   "n_prev": 4,
    "refreshed": 0,
    "mix": {
     "compare": 1,
-    "howto": 0,
+    "howto": 3,
     "list": 0,
     "research": 0,
     "case": 0,
@@ -242,129 +185,20 @@
    },
    "stages": {
     "learning": 1,
-    "comparing": 0,
-    "buying": 0,
+    "comparing": 1,
+    "buying": 2,
     "customers": 0
    },
    "topics": [
-    "solo 401k vs sep ira retirement accounts"
+    "24/5 trading hours extended-hours",
+    "margin rates broker comparison",
+    "trade stocks options crypto meta muse",
+    "treasuries vs high-yield cash comparison"
    ],
-   "unclassified": 8,
+   "unclassified": 1,
    "removed": 0,
    "removed_titles": [],
-   "new": 1,
-   "updated": 0,
-   "bulk": [],
-   "programmatic": [
-    {
-     "section": "help",
-     "pages": 805,
-     "new": 0
-    },
-    {
-     "section": "work",
-     "pages": 224,
-     "new": 0
-    },
-    {
-     "section": "advisors",
-     "pages": 200,
-     "new": 0
-    }
-   ],
-   "ok": true,
-   "error": null,
-   "method": "sitemap",
-   "url": "https://www.betterment.com/sitemap.xml",
-   "pages": 1525,
-   "undated": 0,
-   "new_urls": 0,
-   "play": "Very large site, but only one new page: a Solo 401(k) vs SEP IRA comparison.",
-   "aimed": "Self-employed retirement savers"
-  },
-  {
-   "name": "M1 Finance",
-   "site": "https://www.m1.com",
-   "you": false,
-   "n": 15,
-   "site_pages": 458,
-   "n_prev": 3,
-   "refreshed": 15,
-   "mix": {
-    "compare": 0,
-    "howto": 2,
-    "list": 0,
-    "research": 0,
-    "case": 0,
-    "opinion": 1,
-    "news": 1,
-    "landing": 11
-   },
-   "stages": {
-    "learning": 2,
-    "comparing": 2,
-    "buying": 11,
-    "customers": 0
-   },
-   "topics": [
-    "margin borrowing discount promotion",
-    "ai financial advisor for wealth management",
-    "ai wealth management explained",
-    "ai wealth management philosophy",
-    "portfolio performance benchmarking tool"
-   ],
-   "unclassified": 0,
-   "removed": 0,
-   "removed_titles": [],
-   "new": 2,
-   "updated": 13,
-   "bulk": [],
-   "programmatic": [
-    {
-     "section": "knowledge-bank",
-     "pages": 150,
-     "new": 0
-    }
-   ],
-   "ok": true,
-   "error": null,
-   "method": "sitemap",
-   "url": "https://m1.com/sitemap_index.xml",
-   "pages": 458,
-   "undated": 0,
-   "new_urls": 0,
-   "play": "Refreshes account and borrowing pages, and launches AI wealth management and M1 Advisor content.",
-   "aimed": "Investors ready to open accounts"
-  },
-  {
-   "name": "Public.com",
-   "site": "https://public.com",
-   "you": false,
-   "n": 0,
-   "site_pages": 519,
-   "n_prev": 5,
-   "refreshed": 0,
-   "mix": {
-    "compare": 0,
-    "howto": 0,
-    "list": 0,
-    "research": 0,
-    "case": 0,
-    "opinion": 0,
-    "news": 0,
-    "landing": 0
-   },
-   "stages": {
-    "learning": 0,
-    "comparing": 0,
-    "buying": 0,
-    "customers": 0
-   },
-   "topics": [],
-   "unclassified": 20,
-   "removed": 0,
-   "removed_titles": [],
-   "new": 0,
+   "new": 4,
    "updated": 0,
    "bulk": [],
    "programmatic": [],
@@ -372,11 +206,11 @@
    "error": null,
    "method": "sitemap",
    "url": "https://public.com/sitemap_index.xml",
-   "pages": 519,
+   "pages": 520,
    "undated": 0,
-   "new_urls": 0,
-   "play": "Has 519 pages but published or updated nothing in the last 30 days.",
-   "aimed": "No clear audience this period"
+   "new_urls": 1,
+   "play": "Mixes broker explainers, a calculator and a comparison, plus one page on its AI tool Meta Muse.",
+   "aimed": "Retail investors comparing or buying"
   },
   {
    "name": "Titan",
@@ -417,15 +251,94 @@
    "pages": 0,
    "undated": 0,
    "new_urls": 0,
-   "play": "No pages found in the data, so no content play is visible.",
-   "aimed": "No visible audience"
+   "play": "No pages found in the data.",
+   "aimed": "Unclear from data"
   },
   {
-   "name": "SoFi Invest",
-   "site": "https://www.sofi.com/invest",
+   "name": "Walnut",
+   "site": "https://walnutinvest.com",
    "you": false,
    "n": 0,
-   "site_pages": 0,
+   "site_pages": 14233,
+   "n_prev": 2,
+   "refreshed": 0,
+   "mix": {
+    "compare": 0,
+    "howto": 0,
+    "list": 0,
+    "research": 0,
+    "case": 0,
+    "opinion": 0,
+    "news": 0,
+    "landing": 0
+   },
+   "stages": {
+    "learning": 0,
+    "comparing": 0,
+    "buying": 0,
+    "customers": 0
+   },
+   "topics": [],
+   "unclassified": 456,
+   "removed": 0,
+   "removed_titles": [],
+   "new": 0,
+   "updated": 0,
+   "bulk": [
+    {
+     "type": "launch",
+     "day": "2026-10-16",
+     "pages": 39
+    },
+    {
+     "type": "edit",
+     "day": "2026-10-16",
+     "pages": 39
+    }
+   ],
+   "programmatic": [
+    {
+     "section": "stocks",
+     "pages": 10122,
+     "new": 0
+    },
+    {
+     "section": "etf",
+     "pages": 2210,
+     "new": 0
+    },
+    {
+     "section": "comparison",
+     "pages": 677,
+     "new": 0
+    },
+    {
+     "section": "help",
+     "pages": 213,
+     "new": 0
+    },
+    {
+     "section": "stats",
+     "pages": 210,
+     "new": 0
+    }
+   ],
+   "ok": true,
+   "error": null,
+   "method": "sitemap",
+   "url": "https://walnutinvest.com/sitemap.xml",
+   "pages": 14233,
+   "undated": 0,
+   "new_urls": 0,
+   "play": "Runs a huge template library: 10122 stock pages, 2210 ETF pages and 677 comparison pages.",
+   "aimed": "Search visitors looking up stocks and ETFs"
+  },
+  {
+   "name": "Magnifi",
+   "site": "https://magnifi.com",
+   "you": false,
+   "n": 0,
+   "site_pages": 269,
    "n_prev": 0,
    "refreshed": 0,
    "mix": {
@@ -445,22 +358,223 @@
     "customers": 0
    },
    "topics": [],
-   "unclassified": 0,
+   "unclassified": 11,
    "removed": 0,
    "removed_titles": [],
    "new": 0,
    "updated": 0,
    "bulk": [],
    "programmatic": [],
-   "ok": false,
-   "error": "no sitemap or feed found. Add a sitemap: or feed: line for this site in config.yaml",
-   "method": null,
-   "url": "https://www.sofi.com/invest",
-   "play": "",
-   "aimed": ""
+   "ok": true,
+   "error": null,
+   "method": "sitemap",
+   "url": "https://magnifi.com/sitemap.xml",
+   "pages": 269,
+   "undated": 0,
+   "new_urls": 0,
+   "play": "269 pages on the site, but no recent publishing in the data.",
+   "aimed": "Unclear from data"
+  },
+  {
+   "name": "Composer",
+   "site": "https://composer.trade",
+   "you": false,
+   "n": 0,
+   "site_pages": 4972,
+   "n_prev": 0,
+   "refreshed": 0,
+   "mix": {
+    "compare": 0,
+    "howto": 0,
+    "list": 0,
+    "research": 0,
+    "case": 0,
+    "opinion": 0,
+    "news": 0,
+    "landing": 0
+   },
+   "stages": {
+    "learning": 0,
+    "comparing": 0,
+    "buying": 0,
+    "customers": 0
+   },
+   "topics": [],
+   "unclassified": 171,
+   "removed": 0,
+   "removed_titles": [],
+   "new": 0,
+   "updated": 0,
+   "bulk": [],
+   "programmatic": [
+    {
+     "section": "etf",
+     "pages": 3230,
+     "new": 0
+    },
+    {
+     "section": "trading-strategies",
+     "pages": 1386,
+     "new": 0
+    },
+    {
+     "section": "etf-comparisons",
+     "pages": 145,
+     "new": 0
+    }
+   ],
+   "ok": true,
+   "error": null,
+   "method": "sitemap",
+   "url": "https://www.composer.trade/sitemap.xml",
+   "pages": 4972,
+   "undated": 4758,
+   "new_urls": 0,
+   "play": "Builds scale from 3230 ETF pages and 1386 trading-strategy pages, plus 145 ETF comparisons.",
+   "aimed": "Self-directed, strategy-minded traders"
   }
  ],
  "pages": [
+  {
+   "site": "Public.com",
+   "url": "https://public.com/tools/treasuries-vs-high-yield-cash-calculator",
+   "title": "Treasuries vs High Yield Cash Calculator - Public.com",
+   "date": "2026-10-21T02:47:43+00:00",
+   "kind": "new",
+   "published": null,
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "comparing",
+   "topic": "Treasuries vs high-yield cash comparison",
+   "search": "treasuries vs high yield savings calculator",
+   "why": "Helps investors compare Treasury yields and cash returns to choose the better option."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/product/risk-management",
+   "title": "AI Managed Stock Portfolio & Risk Tools | Magnifi",
+   "date": "2026-10-21T02:25:26+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI portfolio risk management tools",
+   "search": "portfolio risk management AI automated",
+   "why": "Showcases core feature to convince investors to choose Magnifi over competitors."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/product/market-research",
+   "title": "AI Stock Investing Research & Market Analysis Tools | Magnifi",
+   "date": "2026-10-21T02:25:26+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "landing",
+   "stage": "learning",
+   "topic": "AI stock market research analysis",
+   "search": "AI stock research tools",
+   "why": "Educates investors on AI-powered market research capabilities before trying the app."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/product/investment-discovery",
+   "title": "AI Investing Platform & Stock Discovery | Magnifi",
+   "date": "2026-10-21T02:25:26+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "landing",
+   "stage": "learning",
+   "topic": "AI stock discovery and investment search",
+   "search": "AI investing platform stock discovery",
+   "why": "Shows core product capability to attract investors exploring AI-powered stock picking tools."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/ai",
+   "title": "Trade with AI – Composer",
+   "date": "2026-10-20T07:38:15+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "landing",
+   "stage": "comparing",
+   "topic": "AI-powered automated trading strategies",
+   "search": "AI trading assistant platform",
+   "why": "Positions Composer as a differentiated AI trading solution against generic chatbots and traditional robo-advisors."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/blog",
+   "title": "Blog – Composer",
+   "date": "2026-10-20T07:38:15+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "list",
+   "stage": "learning",
+   "topic": "Automated trading strategies blog",
+   "search": "automated trading strategies ai stock picks",
+   "why": "Establish thought leadership and attract early-stage traders researching AI-assisted trading options."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/learn",
+   "title": "Learn – Composer",
+   "date": "2026-10-20T07:38:15+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "landing",
+   "stage": "learning",
+   "topic": "Algorithmic trading education resources",
+   "search": "algorithmic trading guides automated investing",
+   "why": "Captures early-stage learners researching automated trading and AI-driven investing fundamentals."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/quiverquant",
+   "title": "Composer x Quiver Quant – Composer",
+   "date": "2026-10-20T07:38:15+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "landing",
+   "stage": "comparing",
+   "topic": "AI trading strategies with alternative data",
+   "search": "Quiver Quant trading strategies alternative data",
+   "why": "Showcases Composer partnership with Quiver Quant to attract data-focused algorithmic traders."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/retirement",
+   "title": "Retirement Accounts – Composer",
+   "date": "2026-10-20T07:38:15+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Retirement accounts tax-smart trading",
+   "search": "AI automated trading IRA retirement",
+   "why": "Targets investors seeking tax-efficient retirement account automation with AI strategies."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/symphony",
+   "title": "Symphony Database: Backtested Trading Strategies (Sharpe, Drawdown) | Composer – Composer",
+   "date": "2026-10-20T07:38:15+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "landing",
+   "stage": "comparing",
+   "topic": "Backtested trading strategies database",
+   "search": "backtested trading strategies database",
+   "why": "Showcases strategy performance metrics to attract traders evaluating automated trading tools."
+  },
   {
    "site": "Public.com",
    "url": "https://public.com/how-to-buy/chainlink",
@@ -1036,6 +1150,90 @@
    "why": "Captures search traffic from beginners learning to buy a specific cryptocurrency."
   },
   {
+   "site": "Public.com",
+   "url": "https://public.com/how-to-buy/curve-dao-token",
+   "title": "Curve dao token",
+   "date": "2026-10-19T20:11:31+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T02:24:25+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "How to buy Curve DAO token",
+   "search": "how to buy Curve DAO token",
+   "why": "Captures beginners searching to learn how to purchase a specific cryptocurrency asset."
+  },
+  {
+   "site": "Public.com",
+   "url": "https://public.com/how-to-buy/ethereum",
+   "title": "Ethereum",
+   "date": "2026-10-19T20:11:31+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T02:24:25+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "How to buy Ethereum",
+   "search": "how to buy ethereum",
+   "why": "Captures beginner investors researching crypto purchases before deciding where to trade."
+  },
+  {
+   "site": "Public.com",
+   "url": "https://public.com/how-to-buy/shiba-inu",
+   "title": "Shiba inu",
+   "date": "2026-10-19T20:11:31+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T02:24:25+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "How to buy Shiba Inu",
+   "search": "how to buy shiba inu",
+   "why": "Captures search traffic from crypto beginners researching Shiba Inu purchases."
+  },
+  {
+   "site": "Public.com",
+   "url": "https://public.com/how-to-buy/the-graph",
+   "title": "The graph",
+   "date": "2026-10-19T20:11:31+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T02:24:25+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "How to buy The Graph token",
+   "search": "how to buy The Graph GRT token",
+   "why": "Targets users researching how to purchase specific cryptocurrencies on their platform."
+  },
+  {
+   "site": "Public.com",
+   "url": "https://public.com/how-to-buy/tron",
+   "title": "Tron",
+   "date": "2026-10-19T20:11:31+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T02:24:25+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "How to buy Tron cryptocurrency",
+   "search": "how to buy tron",
+   "why": "Captures beginner investors searching for cryptocurrency buying guides."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn",
+   "title": "Learn AI Investing: Insights, Strategies & Market Research | Magnifi",
+   "date": "2026-10-19T18:06:59+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "landing",
+   "stage": "learning",
+   "topic": "AI investing guides and market research",
+   "search": "how to use AI for investing",
+   "why": "Attracts early-stage investors researching AI-assisted trading and investment strategies."
+  },
+  {
    "site": "M1 Finance",
    "url": "https://m1.com/invest/joint-brokerage-account/",
    "title": "M1 Joint Brokerage Account: Invest together",
@@ -1048,6 +1246,566 @@
    "topic": "Joint brokerage account investing",
    "search": "joint brokerage account investing together",
    "why": "Converts couples and partners ready to open joint accounts with AI-guided fiduciary advice."
+  },
+  {
+   "site": "Public.com",
+   "url": "https://public.com/high-yield-cash-account",
+   "title": "Public.com 3.75% APY High-Yield Cash Account",
+   "date": "2026-10-16T16:18:09+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T02:24:25+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "High-yield savings cash account",
+   "search": "high yield cash account 3.75% APY",
+   "why": "Converts cash users into Reserve subscribers with competitive APY rates."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers",
+   "title": "Brokers You Can Connect to AI: Fees, AI Features and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "AI brokers compatible features",
+   "search": "best brokers for AI trading assistant",
+   "why": "Captures buyers choosing between brokers by comparing Walnut integration and native AI features."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/features",
+   "title": "Walnut features: what the AI investing app does for your money",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "landing",
+   "stage": "comparing",
+   "topic": "AI investing app features and capabilities",
+   "search": "AI investment app features portfolio analysis",
+   "why": "Showcases Walnut's feature set to help prospects understand its AI advisor capabilities versus competitors."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/public",
+   "title": "Public with AI: Alpha, Agents, Public MCP, Fees and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "Public broker comparison and Walnut integration",
+   "search": "Public broker AI features pricing Walnut",
+   "why": "Helps buyers evaluating Public understand its AI features, costs, and how Walnut integrates with it."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/robinhood",
+   "title": "Robinhood with AI: Agentic Trading, Cortex, Gold and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "Robinhood vs Walnut AI trading",
+   "search": "Robinhood AI trading Cortex Walnut integration",
+   "why": "Positions Walnut alongside Robinhood's native AI tools to win customers evaluating both platforms."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/fidelity",
+   "title": "Fidelity with AI: Fees, Fidelity Go, Safety and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "Fidelity broker with AI comparison",
+   "search": "Fidelity broker fees AI assistant",
+   "why": "Positions Walnut as AI layer that integrates with Fidelity, catching users mid-evaluation."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/vanguard",
+   "title": "Vanguard with AI: Digital Advisor Chat, Fees and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "Vanguard broker AI features fees",
+   "search": "Vanguard AI advisor fees vs competitors",
+   "why": "Positions Walnut as superior AI layer over Vanguard for account analysis and comparison."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/schwab",
+   "title": "Schwab with AI: Charley, Portfolio Insights, Fees and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "Schwab broker features and fees",
+   "search": "Schwab vs other brokers AI features",
+   "why": "Positions Walnut against Schwab's native AI to win brokers comparing tools."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/aj-bell",
+   "title": "AJ Bell with AI: Charges, ISA and SIPP, and How Walnut Reads It",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "AJ Bell broker fees and AI tools",
+   "search": "AJ Bell charges ISA SIPP pricing",
+   "why": "Converts prospects comparing brokers by positioning Walnut as AI layer atop legacy platforms."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/bmo-investorline",
+   "title": "BMO InvestorLine with AI: $0 Trades, AI Summaries and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "BMO InvestorLine broker review",
+   "search": "BMO InvestorLine vs Questrade Wealthsimple",
+   "why": "Captures comparing investors evaluating BMO against competing brokers."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/bux",
+   "title": "BUX with AI: Fees, Prime, Safety, ChatGPT and Claude, and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "BUX broker fees and features",
+   "search": "BUX broker fees plans pricing",
+   "why": "Helps buyers evaluate BUX against competitors and understand Walnut's integration value."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/chase",
+   "title": "Chase Investing with AI: J.P. Morgan Self-Directed and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "Chase investing vs AI-powered alternatives",
+   "search": "Chase investing vs Walnut AI broker comparison",
+   "why": "Positions Walnut against Chase by showing Chase lacks AI; captures buyers evaluating brokers."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/cibc-investors-edge",
+   "title": "CIBC Investor's Edge with AI: Fees, Accounts and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "CIBC Investor's Edge AI features",
+   "search": "CIBC Investor's Edge vs other brokers AI",
+   "why": "Shows how Walnut's AI reads CIBC accounts alongside competitors to help buyers choose."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/citi",
+   "title": "Citi Self Invest with AI: Fees, Citi Sky and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "Citi Self Invest broker comparison",
+   "search": "Citi Self Invest fees costs vs competitors",
+   "why": "Positions Walnut as broker comparison tool for buyers evaluating Citi."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/commsec",
+   "title": "CommSec with AI: Fees, Safety, ChatGPT and Claude, and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "CommSec broker features pricing AI",
+   "search": "CommSec fees AI assistant ChatGPT",
+   "why": "Positions Walnut as an AI layer that enhances CommSec broker experience versus competitors."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/degiro",
+   "title": "DEGIRO with AI: Fees, Safety, ChatGPT and Claude, and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "DEGIRO broker AI integration",
+   "search": "DEGIRO fees AI ChatGPT Claude",
+   "why": "Positions Walnut as the AI layer for DEGIRO users comparing broker capabilities."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/empower",
+   "title": "Empower with AI: Fees, Personal Strategy, Safety and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "Empower broker features fees costs",
+   "search": "Empower broker pricing fees Personal Strategy",
+   "why": "Positions Walnut as AI-powered alternative for investors evaluating Empower's managed accounts and pricing."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/etoro",
+   "title": "eToro with AI: Tori, AI Connectors, Fees and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "eToro broker features and fees",
+   "search": "eToro vs other brokers AI trading",
+   "why": "Shows how eToro's AI and fees compare, positioning Walnut as the multi-broker view investors need."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/etrade",
+   "title": "E*Trade with AI: Fees, Core Portfolios, Safety and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "E*Trade AI-assisted trading",
+   "search": "E*Trade fees costs safety",
+   "why": "Positions Walnut as AI layer for E*Trade users to make better-informed trades."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/interactive-brokers",
+   "title": "Interactive Brokers with AI: IBKR Lite, Pro, Ask IBKR, Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "Interactive Brokers AI features pricing",
+   "search": "Interactive Brokers vs Robinhood stock trading platform",
+   "why": "Positions Walnut as unified view across multiple brokers, comparing IBKR's standalone AI to Walnut's cross-broker capability."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/moomoo",
+   "title": "moomoo with AI: moomoo AI, Its MCP Server, Engine and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "moomoo broker features and costs",
+   "search": "moomoo vs other brokers AI features",
+   "why": "Helps buyers choosing a broker by detailing moomoo's AI tools, fees, and Walnut integration capabilities."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/pnc",
+   "title": "PNC Self-Directed Investing with AI: Fees and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "PNC broker fees and AI comparison",
+   "search": "PNC self-directed investing fees AI",
+   "why": "Captures investors comparing PNC broker to Walnut's multi-broker AI platform."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/questrade",
+   "title": "Questrade with AI: Agentic Finance, Questrade Plus and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "landing",
+   "stage": "comparing",
+   "topic": "Questrade broker profile and AI features",
+   "search": "Questrade review features pricing",
+   "why": "Shows how Walnut integrates Questrade with AI tools versus competitors like Wealthsimple."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/stake",
+   "title": "Stake with AI: Fees, Safety, ChatGPT and Claude, and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "Stake broker integration with AI",
+   "search": "Stake broker fees AI assistant comparison",
+   "why": "Positions Walnut as the AI layer over Stake, catching traders choosing brokers."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/tastytrade",
+   "title": "tastytrade with AI: MCP Server, Fees, Safety and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "landing",
+   "stage": "comparing",
+   "topic": "tastytrade broker profile features",
+   "search": "tastytrade vs other brokers features",
+   "why": "Helps users evaluate tastytrade against competitors and understand Walnut's integration capabilities."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/td-direct-investing",
+   "title": "TD Direct Investing with AI: Fees, Accounts and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "TD Direct Investing broker platform",
+   "search": "TD Direct Investing fees and features",
+   "why": "Captures investors comparing TD Direct Investing with Walnut's AI capabilities and other brokers."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/tiaa",
+   "title": "TIAA with AI: Brokerage Fees, gAIt Search and Walnut Analysis",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "TIAA brokerage fees and AI features",
+   "search": "TIAA brokerage fees commissions costs",
+   "why": "Shows how Walnut's AI complements TIAA's limited AI by reading linked accounts across brokers."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/trading-212",
+   "title": "Trading 212 with AI: AI Chatbot, API, Fees and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "landing",
+   "stage": "comparing",
+   "topic": "Trading 212 broker features pricing AI",
+   "search": "Trading 212 AI chatbot fees API",
+   "why": "Shows how Trading 212 stacks up against competitors, positioning Walnut as the bridge to unified portfolio management."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/transamerica",
+   "title": "Transamerica with AI: IRA Fees, Pearl Assistant and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "Transamerica IRA fees and AI features",
+   "search": "Transamerica IRA fees Pearl AI assistant",
+   "why": "Helps buyers compare Transamerica's AI capabilities and fees against Walnut's offerings and other brokers."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/upstox",
+   "title": "Upstox with AI: Its MCP Server, Fees, Safety and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "Upstox broker AI features integration",
+   "search": "Upstox AI MCP server ChatGPT Claude",
+   "why": "Positions Walnut as AI assistant that aggregates Upstox with other brokers."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/us-bank",
+   "title": "U.S. Bank Investing with AI: Fees, Safety and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "U.S. Bank investing fees and features",
+   "search": "U.S. Bank investing fees self-directed",
+   "why": "Helps prospects evaluate U.S. Bank as a broker and see how Walnut integrates with it."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/wealthsimple",
+   "title": "Wealthsimple with AI: Fees, Plans, Willow and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "Wealthsimple broker fees and AI integration",
+   "search": "Wealthsimple fees AI assistant Willow",
+   "why": "Shows how Walnut integrates with Wealthsimple against competing brokers."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/webull",
+   "title": "Webull with AI: Vega, Its AI Connectors, Premium and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "Webull broker AI features costs",
+   "search": "Webull broker AI features pricing costs",
+   "why": "Positions Walnut against Webull's native AI tools to capture broker-shopping buyers."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/wells-fargo",
+   "title": "Wells Fargo WellsTrade with AI: Fees, Fargo and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "Wells Fargo WellsTrade brokerage fees",
+   "search": "Wells Fargo WellsTrade fees costs vs",
+   "why": "Helps investors choosing Wells Fargo understand Walnut's edge in portfolio reading and analysis."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/brokers/zerodha",
+   "title": "Zerodha with AI: Fees, Kite MCP, Claude and ChatGPT, and Walnut",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "Zerodha broker features fees AI",
+   "search": "Zerodha fees AI ChatGPT Claude integration",
+   "why": "Positions Walnut as superior alternative to Zerodha's AI by showing its Kite MCP limitations and broader integration capabilities."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/features/portfolio-analysis",
+   "title": "Portfolio analysis in Walnut: keep, trim or exit, per holding",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "landing",
+   "stage": "comparing",
+   "topic": "Portfolio analysis keep trim exit",
+   "search": "portfolio analysis stock recommendations",
+   "why": "Showcases AI portfolio verdict feature to investors evaluating trading tools."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/features/account-analysis",
+   "title": "Account analysis in Walnut: every brokerage account in one view",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "landing",
+   "stage": "learning",
+   "topic": "Account analysis across brokers",
+   "search": "account aggregation multiple brokers",
+   "why": "Educates prospects about core multi-broker consolidation feature."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/features/outside-accounts",
+   "title": "Outside accounts in Walnut: count a 401(k) toward your goal",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "add 401k outside account to portfolio",
+   "search": "how to add 401k to investment app",
+   "why": "Shows users how to include unconnected retirement accounts in portfolio tracking and goals."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/features/goals",
+   "title": "Financial goals in Walnut: see if your portfolio is on track",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "landing",
+   "stage": "comparing",
+   "topic": "Financial goals portfolio tracking",
+   "search": "portfolio goal tracking retirement planning",
+   "why": "Showcases core feature differentiating Walnut from basic investment apps."
+  },
+  {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/features/ai-financial-guidance",
+   "title": "AI financial guidance in Walnut: answers about what you own",
+   "date": "2026-10-16T00:00:00+00:00",
+   "kind": "bulk",
+   "published": "2026-10-16T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "landing",
+   "stage": "comparing",
+   "topic": "AI financial guidance assistant features",
+   "search": "AI financial advisor chat portfolio analysis",
+   "why": "Shows how their AI assistant differentiates from competitors' chatbots and robo-advisors."
   },
   {
    "site": "Wealthfront",
@@ -1106,6 +1864,34 @@
    "why": "Positions direct indexing as superior, capturing investors weighing ETF alternatives."
   },
   {
+   "site": "Public.com",
+   "url": "https://public.com/tools/high-yield-savings-calculator",
+   "title": "High-Yield Savings Account Calculator - Public.com",
+   "date": "2026-10-15T08:49:30+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T02:24:25+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "High-yield savings calculator tool",
+   "search": "high yield savings account calculator",
+   "why": "Educates users on savings growth potential and positions Public's cash accounts."
+  },
+  {
+   "site": "Public.com",
+   "url": "https://public.com/mcp-trading",
+   "title": "Public MCP Server for trading on AI platforms",
+   "date": "2026-10-15T06:30:59+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T02:24:25+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI-powered trading via MCP server",
+   "search": "connect ChatGPT Claude to brokerage trading",
+   "why": "Sells direct integration enabling AI-powered trading from popular AI platforms."
+  },
+  {
    "site": "Betterment",
    "url": "https://www.betterment.com/resources/saving-while-self-employed",
    "title": "Solo 401(k)s vs. SEP IRAs: Sizing up your self-employed saving options",
@@ -1118,6 +1904,20 @@
    "topic": "Solo 401k vs SEP IRA retirement accounts",
    "search": "solo 401k vs sep ira self employed",
    "why": "Educates self-employed users on retirement savings options to position Betterment as knowledgeable advisor."
+  },
+  {
+   "site": "Public.com",
+   "url": "https://public.com/glossary/prediction-markets",
+   "title": "Learn Prediction Markets: Glossary & Key Terms - Public.com",
+   "date": "2026-10-13T19:24:57+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T02:24:25+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "prediction markets glossary terms",
+   "search": "prediction markets glossary key terms",
+   "why": "Establishes thought leadership and educates early-stage buyers on prediction market concepts."
   },
   {
    "site": "M1 Finance",
@@ -1442,6 +2242,20 @@
    "why": "Shows tax optimization features to convince comparing buyers that Betterment saves more than competitors."
   },
   {
+   "site": "Public.com",
+   "url": "https://public.com/invest/bonds",
+   "title": "Buy Corporate and Treasury Bonds - Public.com",
+   "date": "2026-10-01T18:57:27+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T02:24:25+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Buy corporate and Treasury bonds",
+   "search": "buy corporate and Treasury bonds online",
+   "why": "Converts bond investors by highlighting low minimums and AI-assisted analysis advantages."
+  },
+  {
    "site": "Betterment",
    "url": "https://www.betterment.com/b4a-client-onboarding-lets-talk",
    "title": "Onboarding clients and transitioning assets | Betterment",
@@ -1468,6 +2282,48 @@
    "topic": "Margin borrowing discount promotion",
    "search": "margin loan rates discount",
    "why": "Converts new clients with limited-time borrowing cost promotion and margin account features."
+  },
+  {
+   "site": "Public.com",
+   "url": "https://public.com/invest/prediction-markets",
+   "title": "Prediction Markets & Event Contracts - Public.com",
+   "date": "2026-09-30T13:48:08+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T02:24:25+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Prediction markets and event contracts trading",
+   "search": "prediction markets event contracts trading",
+   "why": "Showcases prediction market feature with AI Agents to convert users to platform adoption."
+  },
+  {
+   "site": "Public.com",
+   "url": "https://public.com/ai-agents/how-it-works",
+   "title": "AI Agents Prompting Guide - Public.com",
+   "date": "2026-09-29T19:08:33+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T02:24:25+00:00",
+   "type": "howto",
+   "stage": "comparing",
+   "topic": "AI agents prompting guide trading",
+   "search": "how to use AI agents for trading",
+   "why": "Educates users on AI agent capabilities to justify choosing Public for automation."
+  },
+  {
+   "site": "Public.com",
+   "url": "https://public.com/learn/how-to-trade-stocks-options-crypto-using-meta-muse",
+   "title": "How to Trade Stocks, Options & Crypto With Meta Muse",
+   "date": "2026-09-28T12:24:12+00:00",
+   "kind": "new",
+   "published": "2026-09-28T12:24:12+00:00",
+   "first_seen": "2026-10-20T02:24:25+00:00",
+   "type": "howto",
+   "stage": "buying",
+   "topic": "Trade stocks options crypto Meta Muse",
+   "search": "how to trade with Meta Muse AI",
+   "why": "Demonstrates AI-assisted trading capabilities to convert prospects into active users."
   },
   {
    "site": "Wealthfront",
@@ -1512,6 +2368,76 @@
    "why": "Keeps existing customers informed of recent platform improvements and upcoming innovations."
   },
   {
+   "site": "Public.com",
+   "url": "https://public.com/reserve",
+   "title": "Public Reserve: Higher Yield, Bigger Matches, One Membership",
+   "date": "2026-09-23T16:22:41+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T02:24:25+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Premium membership premium yield benefits",
+   "search": "investment app premium membership rewards",
+   "why": "Converts prospects ready to upgrade with concrete financial benefits and value stacking."
+  },
+  {
+   "site": "Public.com",
+   "url": "https://public.com/learn/lowest-margin-rates-compared",
+   "title": "Lowest margin rates compared across leading brokers (2026)",
+   "date": "2026-09-23T08:10:40+00:00",
+   "kind": "new",
+   "published": "2026-09-23T08:10:40+00:00",
+   "first_seen": "2026-10-20T02:24:25+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "Margin rates broker comparison",
+   "search": "lowest margin rates brokers",
+   "why": "Captures buyers comparing margin rates; positions Public.com as cheapest alternative."
+  },
+  {
+   "site": "Public.com",
+   "url": "https://public.com/tools/margin-interest-calculator",
+   "title": "Margin Rate Calculator - Compare Leading US Brokerages",
+   "date": "2026-09-23T08:06:17+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T02:24:25+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "margin interest rates brokers",
+   "search": "margin interest rates calculator comparison",
+   "why": "Positions Public's competitive margin rates against major rivals to win borrowing-focused traders."
+  },
+  {
+   "site": "Public.com",
+   "url": "https://public.com/learn/24-5-trading-how-pre-market-after-hours-overnight-trading-work",
+   "title": "24/5 Trading: How Pre-Market, After-Hours & Overnight Trading Work",
+   "date": "2026-09-22T01:09:49+00:00",
+   "kind": "new",
+   "published": "2026-09-22T01:09:49+00:00",
+   "first_seen": "2026-10-20T02:24:25+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "24/5 trading hours extended-hours",
+   "search": "what is 24/5 trading how does it work",
+   "why": "Educates newcomers on Public's key feature before they trade stocks."
+  },
+  {
+   "site": "Public.com",
+   "url": "https://public.com/invest/margin",
+   "title": "Margin Rates on Public.com – Low Rates, Transparent Fees",
+   "date": "2026-09-21T19:13:10+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T02:24:25+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "margin rates leading brokerages",
+   "search": "lowest margin rates brokerages",
+   "why": "Positions Public's margin rates as lowest versus major competitors to convert active traders."
+  },
+  {
    "site": "Wealthfront",
    "url": "https://www.wealthfront.com/blog/apy-increase-effr/",
    "title": "Why We’re Raising the APY on Your Cash",
@@ -1524,6 +2450,20 @@
    "topic": "Cash Account APY rate increase",
    "search": "Wealthfront Cash Account APY interest rate",
    "why": "Announces APY improvement to existing customers, builds trust and retention."
+  },
+  {
+   "site": "Public.com",
+   "url": "https://public.com/generated-asset",
+   "title": "Generated Assets – Turn Investment Ideas into Custom AI-Generated Indexes",
+   "date": "2026-09-18T09:04:30+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T02:24:25+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI-generated custom investment indexes",
+   "search": "create custom AI investment index ETF",
+   "why": "Showcases unique product feature to convert casual investing ideas into tradeable indexes."
   },
   {
    "site": "M1 Finance",
@@ -1552,6 +2492,20 @@
    "topic": "Crypto investing automation platform",
    "search": "automated crypto investing platform",
    "why": "Showcases crypto capabilities to drive conversions from buyers ready to invest."
+  },
+  {
+   "site": "Public.com",
+   "url": "https://public.com/invest/crypto",
+   "title": "Buy and Sell Bitcoin, Ethereum, and other cryptos on Public.com",
+   "date": "2026-09-15T13:52:11+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T02:24:25+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Buy and sell cryptocurrency",
+   "search": "buy Bitcoin Ethereum crypto trading",
+   "why": "Converts crypto buyers by showcasing 60+ assets, 24/7 trading, and frictionless signup."
   },
   {
    "site": "Wealthfront",
@@ -1594,6 +2548,34 @@
    "topic": "mortgage rates timing decision",
    "search": "should you wait for lower mortgage rates",
    "why": "Educates young homebuyers on rate expectations to build trust with financial planning audience."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/best-ai-stock-research-platform-comparison",
+   "title": "Comparing AI Investing Tools: Man vs. Machine vs. Hybrid – Which Investing Approach Wins - Magnifi Insights",
+   "date": "2026-09-01T18:34:00+00:00",
+   "kind": "unknown",
+   "published": "2026-09-01T18:34:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "AI stock research platforms",
+   "search": "best AI stock research platform comparison",
+   "why": "Positions hybrid AI tools as superior to pure robo-advisors and manual investing."
+  },
+  {
+   "site": "Public.com",
+   "url": "https://public.com/options-rebate-explained",
+   "title": "Options Rebate Explained - Public.com",
+   "date": "2026-08-31T14:41:10+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T02:24:25+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "options trading rebates explained",
+   "search": "options trading rebates how much",
+   "why": "Explains rebate advantage to attract options traders ready to compare platforms."
   },
   {
    "site": "Wealthfront",
@@ -1652,6 +2634,34 @@
    "why": "Educates early-stage investors about SRI strategy and positions M1 as knowledgeable advisor."
   },
   {
+   "site": "Public.com",
+   "url": "https://public.com/ai-agents",
+   "title": "AI Agents for Investing - Public.com",
+   "date": "2026-08-25T14:10:54+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T02:24:25+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI agents automated investing platform",
+   "search": "AI agents automated trading stocks ETFs",
+   "why": "Showcases proprietary AI agent feature to convert prospects into active traders."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/choosing-the-ai-investing-app-that-is-right-for-you",
+   "title": "Choosing the AI Investing App That’s Right for You - Magnifi Insights",
+   "date": "2026-08-18T13:21:00+00:00",
+   "kind": "unknown",
+   "published": "2026-08-18T13:21:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "AI investing apps comparison",
+   "search": "best AI investing app for beginners",
+   "why": "Captures prospects evaluating AI investing tools against Magnifi's alternatives."
+  },
+  {
    "site": "Betterment",
    "url": "https://www.betterment.com/retail-report",
    "title": "Retail Investor Survey",
@@ -1666,6 +2676,48 @@
    "why": "Establishes thought leadership through original survey data on investor behavior trends."
   },
   {
+   "site": "Walnut",
+   "url": "https://walnutinvest.com/how-it-works",
+   "title": "How Walnut Works: AI That Reads Your Real Brokerage Portfolio",
+   "date": "2026-08-07T00:00:00+00:00",
+   "kind": "unknown",
+   "published": "2026-08-07T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "How Walnut AI reads your portfolio",
+   "search": "how does Walnut AI financial advisor work",
+   "why": "Explains core product mechanics to prospects exploring conversational AI investing tools."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/blog/composer-joins-sofi",
+   "title": "Composer joins SoFi",
+   "date": "2026-06-23T07:30:00+00:00",
+   "kind": "unknown",
+   "published": "2026-06-23T07:30:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "Composer acquired by SoFi",
+   "search": "Composer SoFi acquisition announcement",
+   "why": "Announces major acquisition to build trust and explain strategic direction to existing users."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/whats-new",
+   "title": "What's New – Composer",
+   "date": "2026-06-23T00:00:00+00:00",
+   "kind": "unknown",
+   "published": "2026-06-23T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "Composer joins SoFi acquisition news",
+   "search": "Composer SoFi acquisition automated trading",
+   "why": "Announces major acquisition by SoFi and highlights feature updates to retain customers."
+  },
+  {
    "site": "Betterment",
    "url": "https://www.betterment.com/employees/resources/2026-is-shaping-up-to-be-the-year-of-the-ipo",
    "title": "2026 is shaping up to be the year of the IPO",
@@ -1678,6 +2730,20 @@
    "topic": "IPOs impact retirement accounts",
    "search": "how do IPOs affect retirement accounts 2026",
    "why": "Educates investors about major 2026 IPOs and their portfolio impact."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/what-is-ai-investing",
+   "title": "What is AI Investing and How Can You Use AI to Invest? - Magnifi Insights",
+   "date": "2026-06-09T17:41:00+00:00",
+   "kind": "unknown",
+   "published": "2026-06-09T17:41:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "AI investing basics guide",
+   "search": "what is AI investing how to use",
+   "why": "Educates early-stage prospects on AI investing to build awareness and authority."
   },
   {
    "site": "Betterment",
@@ -1708,6 +2774,104 @@
    "why": "Educates early investors on realistic wealth-building timelines and psychology of waiting."
   },
   {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/grid-modernization-investment",
+   "title": "The Great Grid Bottleneck - Magnifi Insights",
+   "date": "2026-06-01T18:18:00+00:00",
+   "kind": "unknown",
+   "published": "2026-06-01T18:18:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "research",
+   "stage": "learning",
+   "topic": "Grid modernization energy infrastructure investment",
+   "search": "grid modernization investment opportunity AI data centers",
+   "why": "Positions Magnifi as market insight source for emerging energy infrastructure trends."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/learning-to-invest",
+   "title": "How You Can Start Learning to Invest Today - Magnifi Insights",
+   "date": "2026-05-26T14:11:00+00:00",
+   "kind": "unknown",
+   "published": "2026-05-26T14:11:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "How to start learning investing",
+   "search": "how to start learning to invest",
+   "why": "Attracts beginners searching for investment education before considering their platform."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/how-to-build-a-stock-portfolio",
+   "title": "How to Build a Stock Portfolio - Magnifi Insights",
+   "date": "2026-05-19T18:18:00+00:00",
+   "kind": "unknown",
+   "published": "2026-05-19T18:18:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "How to build a stock portfolio",
+   "search": "how to build a stock portfolio",
+   "why": "Attracts beginners researching portfolio basics to their platform."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/what-is-a-high-interest-savings-account",
+   "title": "What is a High Interest Savings Account? - Magnifi Insights",
+   "date": "2026-05-12T13:59:00+00:00",
+   "kind": "unknown",
+   "published": "2026-05-12T13:59:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "high interest savings accounts",
+   "search": "what is high interest savings account",
+   "why": "Attracts searchers learning about savings options before investing."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/understanding-fees-associated-with-mutual-fund-investments",
+   "title": "Understanding Fees Associated with Mutual Fund Investments - Magnifi Insights",
+   "date": "2026-05-05T21:13:00+00:00",
+   "kind": "unknown",
+   "published": "2026-05-05T21:13:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Mutual fund fees and costs",
+   "search": "mutual fund fees explained",
+   "why": "Educates prospects on investment fundamentals, building trust before conversion."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/how-the-cost-of-raising-a-child-has-skyrocketed-over-25-years",
+   "title": "How the Cost of Raising a Child Has Skyrocketed Over 25 Years - Magnifi Insights",
+   "date": "2026-05-05T18:42:00+00:00",
+   "kind": "unknown",
+   "published": "2026-05-05T18:42:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "research",
+   "stage": "learning",
+   "topic": "child raising costs inflation trends",
+   "search": "cost of raising a child 25 years",
+   "why": "Establishes expertise in financial analysis; attracts parents planning education savings."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/five-financial-ratios",
+   "title": "5 Financial Ratios to Evaluate an Investment - Magnifi Insights",
+   "date": "2026-04-28T12:44:00+00:00",
+   "kind": "unknown",
+   "published": "2026-04-28T12:44:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "financial ratios evaluate investments",
+   "search": "financial ratios to evaluate investments",
+   "why": "Educates prospects on investment fundamentals, building trust before recommending their AI advisor."
+  },
+  {
    "site": "Betterment",
    "url": "https://www.betterment.com/resources/free-live-chat-financial-goals",
    "title": "Free financial advice, for the busiest season of your life",
@@ -1720,6 +2884,34 @@
    "topic": "Premium financial advice for high-net-worth customers",
    "search": "free financial advisor for high net worth",
    "why": "Converts high-balance customers by showcasing premium advisory service included in their account."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/education-planning-starting-a-college-fund-for-kids",
+   "title": "Education Planning: Starting a College Fund for Kids - Magnifi Insights",
+   "date": "2026-04-21T20:52:00+00:00",
+   "kind": "unknown",
+   "published": "2026-04-21T20:52:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "college fund planning investing for education",
+   "search": "how to start a college fund kids",
+   "why": "Attracts parents researching education savings options early in their journey."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/top-10-ai-tools-for-portfolio-analysis",
+   "title": "Top 10 AI Tools for Holistic Portfolio Analysis: Maximize Your Investment Strategy - Magnifi Insights",
+   "date": "2026-04-21T17:57:00+00:00",
+   "kind": "unknown",
+   "published": "2026-04-21T17:57:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "list",
+   "stage": "learning",
+   "topic": "AI tools for portfolio analysis",
+   "search": "best AI tools portfolio analysis",
+   "why": "Attracts investors researching AI portfolio solutions before considering their own offering."
   },
   {
    "site": "Betterment",
@@ -1736,6 +2928,160 @@
    "why": "Educate Gen Z early investors on retirement account options to build brand affinity."
   },
   {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/ai-portfolio-analysis-maximize-investments",
+   "title": "Maximize Your Investments: A Comprehensive Guide to AI Portfolio Analysis - Magnifi Insights",
+   "date": "2026-04-14T18:44:00+00:00",
+   "kind": "unknown",
+   "published": "2026-04-14T18:44:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "AI portfolio analysis guide",
+   "search": "AI portfolio analysis optimize investments",
+   "why": "Attracts early-stage investors researching AI-driven portfolio management solutions."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/how-the-cost-of-independent-living-has-changed-over-time",
+   "title": "How the Cost of Independent Living Has Changed Over Time - Magnifi Insights",
+   "date": "2026-04-14T18:13:00+00:00",
+   "kind": "unknown",
+   "published": "2026-04-14T18:13:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "research",
+   "stage": "learning",
+   "topic": "cost of living independent research",
+   "search": "cost of independent living over time",
+   "why": "Attracts early-stage learners researching personal finance and cost of living trends."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/mcdonalds-shake-shack-investment-analysis",
+   "title": "The Death of the Drive-Through: Fast Food’s Unintended Pivot to Luxury - Magnifi Insights",
+   "date": "2026-04-07T20:36:00+00:00",
+   "kind": "unknown",
+   "published": "2026-04-07T20:36:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "compare",
+   "stage": "learning",
+   "topic": "McDonald's Shake Shack investment analysis",
+   "search": "McDonald's vs Shake Shack stock comparison",
+   "why": "Teaches investors how to analyze fast-food stocks and spot competitive advantages."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/ai-portfolio-analysis-steps-to-maximize-investments",
+   "title": "A Step-by-Step Guide to AI Portfolio Analysis: Elevate Your Investment Strategy - Magnifi Insights",
+   "date": "2026-04-07T18:22:00+00:00",
+   "kind": "unknown",
+   "published": "2026-04-07T18:22:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "AI portfolio analysis for investing",
+   "search": "how to use AI for portfolio analysis",
+   "why": "Teaches investors how AI optimizes portfolios, attracting early-stage research audience."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/improving-your-personal-finances-saving-vs-investing",
+   "title": "Improving Your Personal Finances: Saving vs. Investing - Magnifi Insights",
+   "date": "2026-04-07T15:43:00+00:00",
+   "kind": "unknown",
+   "published": "2026-04-07T15:43:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "saving versus investing basics",
+   "search": "saving vs investing what's the difference",
+   "why": "Attracts early-stage learners researching personal finance fundamentals before considering investment tools."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/understanding-the-basics-of-investing-in-etfs",
+   "title": "Understanding the Basics of Investing in ETFs - Magnifi Insights",
+   "date": "2026-03-31T19:38:00+00:00",
+   "kind": "unknown",
+   "published": "2026-03-31T19:38:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Basics of investing in ETFs",
+   "search": "how to invest in ETFs for beginners",
+   "why": "Builds SEO authority with foundational financial content for early-stage investors."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/ai-for-portfolio-risk-analysis-strategies",
+   "title": "Harnessing AI for Portfolio Risk Analysis: How to Use AI to Identify and Reduce Investment Risks - Magnifi Insights",
+   "date": "2026-03-31T18:54:00+00:00",
+   "kind": "unknown",
+   "published": "2026-03-31T18:54:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "AI portfolio risk analysis",
+   "search": "how to use AI for portfolio risk",
+   "why": "Educates prospects on AI's value for risk management before they're ready to buy."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/risk-management-5-steps-to-conducting-portfolio-analysis",
+   "title": "5 Steps For Conducting Portfolio Analysis and Identifying Hidden Risk - Magnifi Insights",
+   "date": "2026-03-24T22:25:00+00:00",
+   "kind": "unknown",
+   "published": "2026-03-24T22:25:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "portfolio analysis risk management",
+   "search": "how to conduct portfolio analysis risk",
+   "why": "Attracts early-stage investors learning about portfolio risk basics."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/using-ai-as-a-portfolio-visualizer",
+   "title": "Using AI as a Portfolio Visualizer - Magnifi Insights",
+   "date": "2026-03-24T15:51:00+00:00",
+   "kind": "unknown",
+   "published": "2026-03-24T15:51:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "AI portfolio visualization for investing",
+   "search": "using AI to visualize portfolio",
+   "why": "Educates early-stage investors on AI capabilities to drive product awareness."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/4-ways-to-build-an-investment-portfolio-using-ai",
+   "title": "4 Ways to Build an Investment Portfolio Using AI - Magnifi Insights",
+   "date": "2026-03-10T18:46:00+00:00",
+   "kind": "unknown",
+   "published": "2026-03-10T18:46:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "list",
+   "stage": "learning",
+   "topic": "AI portfolio building methods",
+   "search": "how to build investment portfolio using AI",
+   "why": "Educates early-stage investors on AI tools, establishes expertise and authority."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/blog/can-ai-beat-the-sp500",
+   "title": "Can an AI beat the S&P 500?",
+   "date": "2026-03-08T00:05:10+00:00",
+   "kind": "updated",
+   "published": "2025-07-10T10:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "research",
+   "stage": "learning",
+   "topic": "AI stock performance versus S&P 500",
+   "search": "can AI beat the S&P 500",
+   "why": "Demonstrates AI stock-picking capability to attract investors researching AI trading tools."
+  },
+  {
    "site": "Betterment",
    "url": "https://www.betterment.com/employees/resources/retirement-account-tax-planning",
    "title": "Taxes made simple: Getting the most out of your retirement accounts",
@@ -1748,6 +3094,76 @@
    "topic": "Retirement account tax planning",
    "search": "how to optimize taxes with retirement accounts",
    "why": "Attracts early-stage investors learning about tax-efficient retirement strategies and account types."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/agentic-ai-investment-strategy",
+   "title": "From Reactive to Proactive: How Agentic AI is Rewiring Wealth Management - Magnifi Insights",
+   "date": "2026-03-03T20:07:00+00:00",
+   "kind": "unknown",
+   "published": "2026-03-03T20:07:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "opinion",
+   "stage": "learning",
+   "topic": "Agentic AI wealth management",
+   "search": "agentic AI investment strategy",
+   "why": "Establishes thought leadership on AI-driven wealth management trends before buyer decision stage."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/building-an-aggressive-growth-portfolio",
+   "title": "Building an Aggressive Growth Portfolio - Magnifi Insights",
+   "date": "2026-02-24T21:43:00+00:00",
+   "kind": "unknown",
+   "published": "2026-02-24T21:43:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "aggressive growth portfolio strategy",
+   "search": "how to build aggressive growth portfolio",
+   "why": "Educates early-stage investors on portfolio types to build trust and authority."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/resilient-dividend-portfolio-strategy",
+   "title": "The AI Dividend Detective: Automating the Hunt for Reliable Yield - Magnifi Insights",
+   "date": "2026-02-17T17:18:00+00:00",
+   "kind": "unknown",
+   "published": "2026-02-17T17:18:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "research",
+   "stage": "learning",
+   "topic": "dividend stocks yield traps risk",
+   "search": "how to find reliable dividend stocks",
+   "why": "Educates early-stage investors on dividend risks before they consider using Magnifi's AI tools."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/what-beta-means-for-investors-finding-low-risk-investments",
+   "title": "What \"Beta\" Means for Investors - Magnifi Insights",
+   "date": "2026-02-10T19:39:00+00:00",
+   "kind": "unknown",
+   "published": "2026-02-10T19:39:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "beta risk management investing",
+   "search": "what does beta mean investing",
+   "why": "Educates early-stage investors on risk concepts to build trust and credibility."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/using-leveraged-etfs-to-grow-your-portfolio",
+   "title": "Using Leveraged ETFs to Grow Your Portfolio - Magnifi Insights",
+   "date": "2026-02-03T20:13:00+00:00",
+   "kind": "unknown",
+   "published": "2026-02-03T20:13:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "leveraged ETFs portfolio growth",
+   "search": "what are leveraged ETFs how to use",
+   "why": "Educates prospects on advanced investing tools relevant to active traders."
   },
   {
    "site": "Betterment",
@@ -1778,6 +3194,34 @@
    "why": "Educates prospects on savings strategy, showing Betterment's competitive advantage through data."
   },
   {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/how-to-invest-in-geothermal-energy",
+   "title": "Investing in Geothermal Energy Stocks - Magnifi Insights",
+   "date": "2026-01-27T21:30:00+00:00",
+   "kind": "unknown",
+   "published": "2026-01-27T21:30:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "investing in geothermal energy stocks",
+   "search": "how to invest in geothermal energy stocks",
+   "why": "Attracts investors researching renewable energy plays to discover Magnifi's advice and platform."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/a-guide-to-investing-in-copper-stocks-and-etfs",
+   "title": "A Guide to Investing in Copper Stocks and ETFs - Magnifi Insights",
+   "date": "2026-01-20T21:38:00+00:00",
+   "kind": "unknown",
+   "published": "2026-01-20T21:38:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Copper stocks and ETFs investing guide",
+   "search": "how to invest in copper stocks ETFs",
+   "why": "Educate early-stage investors on commodity investing to build trust and platform awareness."
+  },
+  {
    "site": "Betterment",
    "url": "https://www.betterment.com/offer/investments-managed-free",
    "title": "Automated Investing | Start saving better.",
@@ -1790,6 +3234,48 @@
    "topic": "Automated investing with zero management fees",
    "search": "automated investing app no fees",
    "why": "Converts interested prospects with limited-time offer and proof of long-term returns."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/investing-in-cryptocurrency-bitcoin-and-blockchain",
+   "title": "Guide to Investing in Bitcoin and Other Cryptocurrency - Magnifi Insights",
+   "date": "2026-01-13T22:05:00+00:00",
+   "kind": "unknown",
+   "published": "2026-01-13T22:05:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Bitcoin and cryptocurrency investing guide",
+   "search": "how to invest in bitcoin cryptocurrency",
+   "why": "Educates potential users on crypto investing before they trade with Magnifi."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/blog/which-broker-should-i-use-for-my-llc",
+   "title": "Which broker should I use for my LLC?",
+   "date": "2026-01-08T13:48:04+00:00",
+   "kind": "updated",
+   "published": "2025-06-27T15:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Broker selection for LLC trading",
+   "search": "which broker to use for LLC trading",
+   "why": "Attracts retail traders exploring LLC formation for tax efficiency."
+  },
+  {
+   "site": "Magnifi",
+   "url": "https://magnifi.com/learn/how-to-invest-in-artificial-intelligence",
+   "title": "Investing in Artificial Intelligence - Magnifi Insights",
+   "date": "2026-01-06T21:55:00+00:00",
+   "kind": "unknown",
+   "published": "2026-01-06T21:55:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "investing in artificial intelligence",
+   "search": "how to invest in artificial intelligence",
+   "why": "Attracts early-stage investors researching AI investment opportunities and strategy."
   },
   {
    "site": "Betterment",
@@ -1834,6 +3320,62 @@
    "why": "Helps people understand retirement expenses and establishes Betterment as trusted financial guide."
   },
   {
+   "site": "Composer",
+   "url": "https://www.composer.trade/blog/the-composer-manifesto-2-0",
+   "title": "The Composer Manifesto 2.0",
+   "date": "2025-08-14T15:46:54+00:00",
+   "kind": "updated",
+   "published": "2025-07-01T09:30:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "opinion",
+   "stage": "learning",
+   "topic": "Tokenized assets and global market portfolio",
+   "search": "tokenized assets future of investing",
+   "why": "Establishes thought leadership on emerging market trends and company vision."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/blog/ais-effect-on-markets",
+   "title": "AI's Effect on Markets",
+   "date": "2025-08-14T09:00:00+00:00",
+   "kind": "unknown",
+   "published": "2025-08-14T09:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "opinion",
+   "stage": "learning",
+   "topic": "AI impact on financial markets",
+   "search": "how does AI affect stock market trading",
+   "why": "Positions Composer as thought leader on AI's market role while reassuring humans traders won't disappear."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/blog/should-you-even-try-to-beat-the-market",
+   "title": "Should You Even Try to Beat the Market?",
+   "date": "2025-05-22T11:00:00+00:00",
+   "kind": "unknown",
+   "published": "2025-05-22T11:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "opinion",
+   "stage": "learning",
+   "topic": "Beating the market through active trading",
+   "search": "can you beat the stock market",
+   "why": "Establishes thought leadership on trading strategy to attract early-stage investors."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/blog/from-idea-to-launch-modern-hedge-fund-ops-101",
+   "title": "From Idea to Launch: Modern Hedge Fund Ops 101",
+   "date": "2025-05-14T10:00:00+00:00",
+   "kind": "unknown",
+   "published": "2025-05-14T10:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "hedge fund operations launch guide",
+   "search": "how to start hedge fund operations",
+   "why": "Educates early-stage fund managers on operational best practices and processes."
+  },
+  {
    "site": "Betterment",
    "url": "https://www.betterment.com/resources/tax-loss-harvesting",
    "title": "Turn market losses into tax wins with tax-loss harvesting",
@@ -1860,6 +3402,34 @@
    "topic": "401k savings roadmap retirement",
    "search": "how to start saving 401k",
    "why": "Helps people understand retirement planning basics and start saving with Betterment."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/blog/why-composer-isnt-in-canada",
+   "title": "Why Composer isn't in Canada",
+   "date": "2025-03-17T13:56:10+00:00",
+   "kind": "updated",
+   "published": "2025-03-14T08:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "opinion",
+   "stage": "learning",
+   "topic": "Why Composer isn't in Canada",
+   "search": "why is composer not available in canada",
+   "why": "Explains regulatory barriers to justify market absence and position against competitors."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/blog/trading-entity-setup-and-tax-reporting-101",
+   "title": "Trading Entity Setup & Tax Reporting 101",
+   "date": "2025-03-03T12:00:00+00:00",
+   "kind": "unknown",
+   "published": "2025-03-03T12:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Trading entity setup tax reporting",
+   "search": "trading entity setup tax reporting",
+   "why": "Educates early-stage traders on structural and compliance requirements before using platform."
   },
   {
    "site": "Betterment",
@@ -1890,6 +3460,20 @@
    "why": "Educates employees on maximizing retirement benefits to build trust in Betterment's retirement planning expertise."
   },
   {
+   "site": "Composer",
+   "url": "https://www.composer.trade/blog/composer-evolution-or-revolution",
+   "title": "Composer: Evolution or Revolution",
+   "date": "2024-11-12T18:11:46+00:00",
+   "kind": "updated",
+   "published": "2022-01-14T09:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "opinion",
+   "stage": "learning",
+   "topic": "Composer democratizing automated investing",
+   "search": "how Composer democratizes investing",
+   "why": "Positions Composer as revolutionary in automated trading, attracts early-stage research users."
+  },
+  {
    "site": "Betterment",
    "url": "https://www.betterment.com/resources/rollover-transfer-considerations",
    "title": "Should you pack up and roll over your old accounts?",
@@ -1918,6 +3502,118 @@
    "why": "Removes friction for prospects ready to switch by explaining the account transfer process."
   },
   {
+   "site": "Composer",
+   "url": "https://www.composer.trade/blog/surviving-a-bear-market",
+   "title": "Surviving and Investing in a Bear Market",
+   "date": "2024-07-23T20:19:00+00:00",
+   "kind": "updated",
+   "published": "2022-01-27T09:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "bear market investing strategies",
+   "search": "how to invest in bear market",
+   "why": "Attracts investors researching downmarket strategies, positions Composer as educational authority."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/blog/an-online-origin-story",
+   "title": "An Online Origin Story: Hedgefundie's Excellent Adventure",
+   "date": "2024-07-23T19:51:58+00:00",
+   "kind": "updated",
+   "published": "2021-12-02T09:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "case",
+   "stage": "learning",
+   "topic": "Hedgefundie investment strategy backtest",
+   "search": "Hedgefundie excellent adventure strategy backtest",
+   "why": "Demonstrates a real-world trading strategy using Composer's platform to attract curious investors."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/blog/risk-parity",
+   "title": "Understanding Risk Parity",
+   "date": "2024-07-23T19:46:55+00:00",
+   "kind": "updated",
+   "published": "2022-02-03T09:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Risk parity portfolio strategy",
+   "search": "how to implement risk parity strategy",
+   "why": "Educates early-stage investors on portfolio strategies they can execute on Composer."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/blog/notes-on-inflation",
+   "title": "Notes on Inflation",
+   "date": "2024-07-23T19:45:59+00:00",
+   "kind": "updated",
+   "published": "2022-03-17T09:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "opinion",
+   "stage": "learning",
+   "topic": "inflation investing strategy",
+   "search": "how to invest during inflation",
+   "why": "Positions Composer as financial thought leader educating early-stage investors about inflation hedging."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/blog/the-scientific-method",
+   "title": "The Scientific Method",
+   "date": "2024-07-23T19:45:33+00:00",
+   "kind": "updated",
+   "published": "2022-03-24T09:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "scientific method investment strategies",
+   "search": "how to test investment strategies",
+   "why": "Teaches users how to validate trading strategies using scientific principles and backtesting."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/blog/Trading-View-Composer",
+   "title": "How to use Composer and TradingView to potentially enhance your portfolio",
+   "date": "2024-07-23T19:43:13+00:00",
+   "kind": "updated",
+   "published": "2023-01-04T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Composer TradingView portfolio enhancement",
+   "search": "how to use Composer TradingView trading strategies",
+   "why": "Educates traders on combining tools to build algorithmic strategies with Composer's platform."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/blog/backtest-portfolio",
+   "title": "Backtesting Trading Strategies: A Complete Guide",
+   "date": "2024-07-23T19:39:54+00:00",
+   "kind": "updated",
+   "published": "2023-10-26T09:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Backtesting trading strategies",
+   "search": "how to backtest trading strategies",
+   "why": "Educates early-stage traders on strategy validation before using their platform."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/blog/building-risk-parity",
+   "title": "How to Build Risk-Parity Strategies",
+   "date": "2024-07-23T19:38:30+00:00",
+   "kind": "updated",
+   "published": "2023-12-01T09:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Risk parity investment strategies",
+   "search": "how to build risk parity strategies",
+   "why": "Educates early-stage investors on strategy fundamentals to build trust and authority."
+  },
+  {
    "site": "Betterment",
    "url": "https://www.betterment.com/employees/resources/how-an-ira-can-fit-into-your-retirement-strategy",
    "title": "How an IRA can fit into your retirement strategy",
@@ -1944,6 +3640,76 @@
    "topic": "Core Portfolio investment strategy",
    "search": "automated investing portfolio diversification",
    "why": "Educates investors on Betterment's flagship portfolio option and its features."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/blog/how-composer-is-scaling-to-meet-your-needs-in-2024",
+   "title": "How Composer is Scaling to Meet Your Needs in 2024",
+   "date": "2024-01-30T00:00:00+00:00",
+   "kind": "unknown",
+   "published": "2024-01-30T00:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "Composer platform scaling infrastructure 2024",
+   "search": "Composer AI trading platform updates 2024",
+   "why": "Reassures existing users about platform reliability and future capacity improvements."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/blog/welcome-to-the-diamond-age",
+   "title": "Welcome to the Diamond Age",
+   "date": "2023-06-13T17:56:47+00:00",
+   "kind": "updated",
+   "published": "2023-04-20T09:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "opinion",
+   "stage": "learning",
+   "topic": "AI advancements in software design",
+   "search": "GPT-4 software interaction design",
+   "why": "Positions Composer as AI thought leader, builds awareness before pitch."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/blog/why-clojure",
+   "title": "Why Clojure?",
+   "date": "2023-05-29T16:04:03+00:00",
+   "kind": "updated",
+   "published": "2021-10-14T09:28:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "opinion",
+   "stage": "customers",
+   "topic": "Clojure programming language choice",
+   "search": "why Clojure programming language",
+   "why": "Builds developer trust by explaining tech stack decisions transparently."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/blog/composer-manifesto",
+   "title": "The Composer Manifesto",
+   "date": "2022-10-24T16:52:14+00:00",
+   "kind": "updated",
+   "published": "2021-02-22T09:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "opinion",
+   "stage": "learning",
+   "topic": "investment innovation and strategy philosophy",
+   "search": "investment innovation strategy philosophy",
+   "why": "Establishes company values and thought leadership on automated investing approach."
+  },
+  {
+   "site": "Composer",
+   "url": "https://www.composer.trade/blog/launched-introducing-composer",
+   "title": "Launched: Introducing Composer Trade",
+   "date": "2022-10-24T16:49:46+00:00",
+   "kind": "updated",
+   "published": "2021-11-15T09:00:00+00:00",
+   "first_seen": "2026-10-21T02:47:43+00:00",
+   "type": "news",
+   "stage": "learning",
+   "topic": "Composer Trade launch announcement",
+   "search": "Composer Trade automated trading software",
+   "why": "Announces new product feature to build brand awareness and attract early adopters."
   },
   {
    "site": "Betterment",
@@ -1991,7 +3757,7 @@
  "history": [
   {
    "week": "2026-W43",
-   "date": "2026-10-20T02:24:25+00:00",
+   "date": "2026-10-21T02:47:43+00:00",
    "sites": {
     "Clera": {
      "new": 0,
@@ -1999,29 +3765,11 @@
      "removed": 0,
      "pages": 1
     },
-    "Wealthfront": {
-     "new": 2,
-     "updated": 2,
-     "removed": 0,
-     "pages": 679
-    },
-    "Betterment": {
+    "Public.com": {
      "new": 1,
      "updated": 0,
      "removed": 0,
-     "pages": 296
-    },
-    "M1 Finance": {
-     "new": 0,
-     "updated": 5,
-     "removed": 0,
-     "pages": 308
-    },
-    "Public.com": {
-     "new": 0,
-     "updated": 0,
-     "removed": 0,
-     "pages": 519
+     "pages": 520
     },
     "Titan": {
      "new": 0,
@@ -2029,11 +3777,23 @@
      "removed": 0,
      "pages": 0
     },
-    "SoFi Invest": {
+    "Walnut": {
      "new": 0,
      "updated": 0,
      "removed": 0,
-     "pages": 0
+     "pages": 801
+    },
+    "Magnifi": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 269
+    },
+    "Composer": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 211
     }
    }
   }

@@ -2,7 +2,7 @@
  "weeks": [
   {
    "week": "2026-W43",
-   "date": "2026-10-20T02:24:25+00:00",
+   "date": "2026-10-21T02:47:43+00:00",
    "sites": {
     "Clera": {
      "new": 0,
@@ -10,29 +10,11 @@
      "removed": 0,
      "pages": 1
     },
-    "Wealthfront": {
-     "new": 2,
-     "updated": 2,
-     "removed": 0,
-     "pages": 679
-    },
-    "Betterment": {
+    "Public.com": {
      "new": 1,
      "updated": 0,
      "removed": 0,
-     "pages": 296
-    },
-    "M1 Finance": {
-     "new": 0,
-     "updated": 5,
-     "removed": 0,
-     "pages": 308
-    },
-    "Public.com": {
-     "new": 0,
-     "updated": 0,
-     "removed": 0,
-     "pages": 519
+     "pages": 520
     },
     "Titan": {
      "new": 0,
@@ -40,11 +22,23 @@
      "removed": 0,
      "pages": 0
     },
-    "SoFi Invest": {
+    "Walnut": {
      "new": 0,
      "updated": 0,
      "removed": 0,
-     "pages": 0
+     "pages": 801
+    },
+    "Magnifi": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 269
+    },
+    "Composer": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 211
     }
    }
   }

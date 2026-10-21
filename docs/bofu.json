@@ -3,7 +3,7 @@
   "title": "Bottom-of-funnel content tracker",
   "niche": "AI-powered automated investing and personal wealth management apps",
   "you": "Clera",
-  "generated": "2026-10-20T02:30:48+00:00",
+  "generated": "2026-10-21T02:54:52+00:00",
   "state_updated": "2026-10-20T02:24:25+00:00",
   "repo": "nico497/Clera"
  },
@@ -72,8 +72,8 @@
   },
   {
    "name": "Public.com",
-   "tracked": 519,
-   "considered": 515,
+   "tracked": 520,
+   "considered": 516,
    "own_pricing": null,
    "hubs": []
   },
