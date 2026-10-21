@@ -7,8 +7,8 @@
 title: Competitor Radar
 
 # Used to tailor the analysis.
-niche: AI-powered automated investing and personal wealth management apps
-audience: Clera's marketing team, retail investors evaluating AI-driven investing and wealth management platforms
+niche: Conversational AI financial advisor apps — chat-based stock picks and AI-assisted trade execution
+audience: Clera's marketing team, retail investors evaluating conversational AI investing and trading apps
 
 window_days: 30          # the dashboard compares the last 30 days with the 30 before
 first_run_days: 60       # on the first run, classify pages dated within this many days
@@ -33,20 +33,17 @@ you:
 #   exclude_pattern: /docs/     ignore URLs matching this regex
 # ------------------------------------------------------------------
 competitors:
-  - name: Wealthfront
-    site: https://www.wealthfront.com
-
-  - name: Betterment
-    site: https://www.betterment.com
-
-  - name: M1 Finance
-    site: https://www.m1.com
-
   - name: Public.com
     site: https://public.com
 
   - name: Titan
     site: https://www.titan.com
 
-  - name: SoFi Invest
-    site: https://www.sofi.com/invest
+  - name: Walnut
+    site: https://walnutinvest.com
+
+  - name: Magnifi
+    site: https://magnifi.com
+
+  - name: Composer
+    site: https://composer.trade
