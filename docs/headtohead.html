@@ -269,7 +269,7 @@ ul.how { margin: 0; padding-left: 20px; color: var(--ink-2); max-width: 62em; } 
     <nav class="nav" aria-label="Tools"><svg width="24" height="24" viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="17" width="7" height="11" rx="2" fill="#3a547a"/><rect x="12.5" y="10" width="7" height="18" rx="2" fill="#3a547a"/><rect x="21" y="3" width="7" height="25" rx="2" fill="#0aa8bf"/></svg><a href="./">Competitor Radar</a><a href="funnel.html">Funnel Gap Radar</a><a href="headtohead.html" aria-current="page">Head-to-Head Radar</a></nav>
     <span class="stamp">OpenAI API (gpt-4o) · Oct 2026</span>
   </header>
-  <p class="mockbar"><b>Real data, and a total knowledge gap — read this before the scoreboard.</b> All 60 forced-pick answers and all 12 open-comparison answers came from the OpenAI API (gpt-4o) directly, no browsing. The model did not recognize Clera as an investing app in <b>any</b> of the 6 rivals compared — it repeatedly said "Clera" wasn't a widely recognized financial platform, and in one run confused it with "Clera Windows and Doors," an unrelated home-improvement brand. Every number on this page reflects that blind spot, not a judged comparison.</p>
+  <p class="mockbar"><b>Real data, and a total knowledge gap — read this before the scoreboard.</b> All 50 forced-pick answers and all 10 open-comparison answers came from the OpenAI API (gpt-4o) directly, no browsing, against 5 rivals chosen for actually matching Clera's pitch — chat-based AI stock picks and trade execution, not generic robo-advising. The model did not recognize Clera as an investing app in <b>any</b> of the 5 rivals compared — it repeatedly said "Clera" wasn't a widely recognized financial platform, and in one run confused it with "Clera Windows and Doors," an unrelated home-improvement brand. Every number on this page reflects that blind spot, not a judged comparison.</p>
 
   <section id="headline"></section>
 
@@ -304,10 +304,11 @@ ul.how { margin: 0; padding-left: 20px; color: var(--ink-2); max-width: 62em; } 
   <section class="sec">
     <div class="sechead"><h2 class="title">How this works, and what it doesn't cover yet</h2></div>
     <ul class="how">
-      <li>Forced-pick question: "If you had to pick one AI-powered automated investing app for a retail investor, Clera or {rival}?" Asked in both name orders, 5 fresh runs each (60 answers total), via the OpenAI API (gpt-4o) directly, with a system prompt forcing a decisive pick.</li>
-      <li>Open comparison question: "Clera vs. {rival}: which should I choose?" Asked once per order (12 answers), no system prompt — this is where the reasoning notes above come from. It is <b>not</b> repeated, so a single odd answer could be noise. The API route has no browsing, so none of these answers carry citations.</li>
-      <li><b>The headline finding: there is no real competitive signal here at all.</b> In every one of the 12 open-comparison runs, the model said it did not recognize "Clera" as a financial platform — it repeatedly hedged with phrasing like "not a widely recognized financial service," and in one run (vs. Titan) it defaulted to describing an entirely unrelated company, Clera Windows and Doors. The forced-pick numbers below (sweeps against four rivals, near-ties against the other two) are an artifact of how the model resolves uncertainty when forced to pick a name it doesn't know, not a judgment about product quality.</li>
-      <li>Wealthfront, Betterment, M1 Finance and SoFi Invest were swept 10 of 10 against an unrecognized Clera — the model consistently defaulted to the well-known, well-documented brand. Public.com was close to even (5 of 10) and Titan actually won the majority (8 of 10) — likely because Titan is itself a smaller, less universally known brand, making the forced pick closer to a coin flip between two names the model wasn't confident about.</li>
+      <li>Forced-pick question: "If you had to pick one AI-powered automated investing app for a retail investor, Clera or {rival}?" Asked in both name orders, 5 fresh runs each (50 answers total), via the OpenAI API (gpt-4o) directly, with a system prompt forcing a decisive pick.</li>
+      <li>Open comparison question: "Clera vs. {rival}: which should I choose?" Asked once per order (10 answers), no system prompt — this is where the reasoning notes above come from. It is <b>not</b> repeated, so a single odd answer could be noise. The API route has no browsing, so none of these answers carry citations.</li>
+      <li><b>Rival list, tightened:</b> this page compares Clera against the apps that actually share its pitch — chat-based AI stock picks and trade execution (Titan, Public.com's Alpha, Walnut, Magnifi, Composer's Trade with AI) — not generic robo-advisors like Wealthfront or Betterment, which manage portfolios algorithmically with no conversational AI front end. A tighter, honest list beats a longer, loosely-related one.</li>
+      <li><b>The headline finding: there is still no real competitive signal here.</b> In every one of the 10 open-comparison runs, the model never once correctly identified Clera — it repeatedly hedged with phrasing like "not a widely recognized financial service," and in one run (vs. Titan) it defaulted to describing an entirely unrelated company, Clera Windows and Doors. Several rivals fared little better: Walnut got a total hedge in both runs, and Composer was confused with the unrelated (and far better-known) PHP dependency-management tool of the same name in one run. This is a page of brand-recognition artifacts, not a judged comparison.</li>
+      <li>Walnut and Public.com land closest to even (5 of 10 each) — both are smaller brands the model is also uncertain about, so an unrecognized Clera doesn't automatically lose. Magnifi and Composer each won 7 of 10, and Titan won 8 of 10 — in every case because the rival's name resolved the model's uncertainty more decisively than Clera's did, not because of any real feature comparison.</li>
       <li>Not yet covered: pricing, integrations, onboarding, setup and support as separate scored dimensions — the open-comparison answers made almost no specific, checkable claims about Clera itself (since the model didn't recognize it), so there isn't a real "worth checking" fact sheet for this project. Also not covered: any run through the ChatGPT web app, or any run while logged in.</li>
     </ul>
   </section>
@@ -321,42 +322,12 @@ const YOU = "Clera";
 // you: Clera named first. them: rival named first. Each is {blvd, rival} out of 5 (kept as "blvd" internally).
 // knowledge is uniformly "unknown" here — the model never recognized Clera as a real investing app.
 const H2H = {
-  Wealthfront: {
-    you: { blvd: 0, rival: 5 }, them: { blvd: 0, rival: 5 },
-    knowledge: "unknown",
-    openPoints: [
-      "The model did not recognize Clera at all. In both open-comparison runs it said there's “limited information about an investment or financial service provider named Clera” and speculated it could be “a newer or lesser-known platform” or a misspelling of an established one.",
-      "Wealthfront, by contrast, was described accurately and specifically: robo-advisor investing, the Path financial-planning tool, tax-loss harvesting, ~0.25% fee, high-interest cash account.",
-      "The forced-pick sweep (10 of 10) reads as the model defaulting to the brand it could actually describe — not a judged comparison of either platform's quality.",
-    ],
-    openCites: "No citations (API route, no browsing) — this is the model's own training knowledge, and that knowledge doesn't include Clera as a financial brand.",
-  },
-  Betterment: {
-    you: { blvd: 0, rival: 5 }, them: { blvd: 0, rival: 5 },
-    knowledge: "unknown",
-    openPoints: [
-      "Same pattern: the model said there “isn't a widely recognized financial platform named 'Clera'” and asked the reader to clarify or confirm the name, offering only generic evaluation advice (check reviews, fees, regulation) in its place.",
-      "Betterment was described accurately: robo-advisor investment management, tax-loss harvesting, goal-based investing, access to human financial advisors, socially responsible investing options.",
-      "Forced pick sweeps 10 of 10 for Betterment — again, a visibility gap rather than a verdict on either product's merits.",
-    ],
-    openCites: "No citations, and no recognition of Clera as a financial platform in either run.",
-  },
-  "M1 Finance": {
-    you: { blvd: 0, rival: 5 }, them: { blvd: 0, rival: 5 },
-    knowledge: "unknown",
-    openPoints: [
-      "The model explicitly floated that “Clera” could be “a misspelling of a more established financial service” and gave only generic due-diligence advice (check fees, reviews, regulation) rather than any real description.",
-      "M1 Finance was described accurately and in detail: custom “pie” portfolios, commission-free trading, fractional shares, M1 Borrow, M1 Spend cash management, no management fee on the basic tier.",
-      "Forced pick sweeps 10 of 10 for M1 Finance — the same unfamiliarity-bias pattern as every other sweep on this page.",
-    ],
-    openCites: "No citations, and Clera was never correctly identified as an investing app.",
-  },
   "Public.com": {
     you: { blvd: 3, rival: 2 }, them: { blvd: 2, rival: 3 },
     knowledge: "unknown",
     openPoints: [
       "The closest matchup in this set, and still a clear unfamiliarity story: the model flagged Clera as possibly “a typo or confusion with another similar name” and gave no real description, while correctly describing Public.com as a social investing app with commission-free trades and a community feed.",
-      "Unlike the four sweeps, this one is close to a coin flip (5 of 10 total) — likely because Public.com's own brand recognition is weaker than Wealthfront/Betterment/M1/SoFi, making the forced pick less lopsided even with Clera equally unrecognized.",
+      "One of the closest results on the page (5 of 10 total) — likely because Public.com's own brand recognition is also fairly thin for this model, making the forced pick less lopsided even with Clera equally unrecognized.",
       "This is not evidence Clera competes well against Public.com specifically — it's evidence the model is similarly uncertain about both names in this one matchup.",
     ],
     openCites: "No citations, and Clera was never correctly identified in either run.",
@@ -371,15 +342,35 @@ const H2H = {
     ],
     openCites: "No citations, and one run misidentified Clera as a different company altogether (Clera Windows and Doors).",
   },
-  "SoFi Invest": {
-    you: { blvd: 0, rival: 5 }, them: { blvd: 0, rival: 5 },
+  Walnut: {
+    you: { blvd: 3, rival: 2 }, them: { blvd: 2, rival: 3 },
     knowledge: "unknown",
     openPoints: [
-      "The model again stated Clera “is not a widely recognized investment platform” and offered only hypothetical, hedged comparisons (“assuming Clera is similar to other platforms…”) rather than real information.",
-      "SoFi Invest was described accurately: no-commission stock/ETF trading, fractional shares, crypto trading, a no-fee robo-advisor tier, and SoFi's broader loans/banking ecosystem.",
-      "Forced pick sweeps 10 of 10 for SoFi Invest — consistent with every other well-known rival in this set.",
+      "The model didn't recognize either brand with any confidence. The you-first run asked outright for clarification — “Clera and Walnut could refer to a variety of things… could you please provide more information?” — rather than attempting any comparison.",
+      "The them-first run hedged across two entirely different possible categories (“software tools/platforms” vs. “locations/products”) without settling on what either Walnut or Clera actually is.",
+      "At 5 of 10, this is one of the closest results on the page — not because the model has a real view on Walnut's chat-to-trade feature, but because it's about as unsure of Walnut's name as it is of Clera's.",
     ],
-    openCites: "No citations, and no recognition of Clera as a financial platform in either run.",
+    openCites: "No citations — the model never identified Walnut as the AI investing app it actually is in either run.",
+  },
+  Magnifi: {
+    you: { blvd: 5, rival: 0 }, them: { blvd: 2, rival: 3 },
+    knowledge: "unknown",
+    openPoints: [
+      "Mixed and hedged both times. The you-first run guessed “Magnifi is often associated with technology platforms, particularly in the realm of finance… I'll assume it's the finance-related platform” — a tentative, caveated guess rather than real knowledge — while misreading Clera as “a company in the window and door industry” (Clera Windows + Doors again).",
+      "The them-first run dropped even that partial guess, describing Magnifi only in generic terms (“likely designed for a specific purpose such as financial management, investment analysis, or similar applications”).",
+      "The order split (5-0 you-first vs. 2-3 them-first) tracks which brand confusion got anchored first in each run, not a real comparison of either product.",
+    ],
+    openCites: "No citations — Magnifi's actual AI-chat/brokerage-connection features never come up in either run.",
+  },
+  Composer: {
+    you: { blvd: 5, rival: 0 }, them: { blvd: 2, rival: 3 },
+    knowledge: "confused",
+    openPoints: [
+      "The clearest brand collision on this page: the them-first run confidently and correctly describes Composer as \"a dependency management tool for PHP\" — the real, much more famous open-source project — and never once considers the investing app of the same name.",
+      "The you-first run hedges toward the same confusion, noting Composer \"might refer to different tools in different industries (such as music composition software or a dependency manager for PHP).\"",
+      "Both runs also misread Clera in generic, non-financial terms. This is a genuine name collision for Composer, not mere unfamiliarity — the model has specific, confident, wrong knowledge about what Composer is.",
+    ],
+    openCites: "No citations — the them-first answer describes the PHP tool's actual features (dependency declaration, autoloading, versioning) in place of the investing app's.",
   },
 };
 const RIV = Object.keys(H2H);
@@ -387,12 +378,11 @@ const RIV = Object.keys(H2H);
 // What's actually checkable here: not pricing claims (none were made with real citations about Clera),
 // but whether the model could identify Clera at all in each matchup.
 const FACTS = [
-  ["Wealthfront", "Model had no knowledge of Clera; described Wealthfront accurately (robo-advisor, Path planning tool, ~0.25% fee)", "Unknown"],
-  ["Betterment", "Model had no knowledge of Clera; asked the reader to confirm or clarify the name", "Unknown"],
-  ["M1 Finance", "Model speculated Clera might be a misspelling of an established brand", "Unknown"],
   ["Public.com", "Model flagged Clera as possibly a typo or name confusion; closest forced-pick result in the set (5 of 10)", "Unknown"],
   ["Titan", "Model misidentified Clera as “Clera Windows and Doors,” an unrelated home-improvement brand", "Confused"],
-  ["SoFi Invest", "Model had no knowledge of Clera; described SoFi Invest accurately and in detail", "Unknown"],
+  ["Walnut", "Model couldn't confidently identify either Walnut or Clera; asked for clarification outright in one run", "Unknown"],
+  ["Magnifi", "Model only tentatively guessed Magnifi was finance-related (\"I'll assume\"), with no confirmed knowledge", "Unknown"],
+  ["Composer", "Model confidently and incorrectly identified Composer as the unrelated PHP dependency-management tool", "Confused"],
 ];
 
 function pct(obj) { const t = obj.blvd + obj.rival; return t ? Math.round((obj.blvd / t) * 100) : 0; }
@@ -407,7 +397,7 @@ function stability(r) {
 function renderHead() {
   const wins = RIV.filter((r) => total(r).blvd > total(r).rival);
   $("#headline").innerHTML = `<h1 class="title">${YOU} wins <mark class="hl you">${wins.length} of ${RIV.length}</mark> forced-pick head-to-heads — and that number means nothing.</h1>
-  <p class="facts">The model did not recognize ${esc(YOU)} as a real investing app in <b>any</b> of the 6 comparisons — not even once. It swept against the best-known rivals (Wealthfront, Betterment, M1 Finance, SoFi Invest), came close to even against the lesser-known Public.com, and actually won the majority against Titan — a pattern driven entirely by how well-known each rival's own name is, not by anything about ${esc(YOU)}. Read "Did it even know Clera?" below before trusting the scoreboard.</p>`;
+  <p class="facts">The model did not recognize ${esc(YOU)} as a real investing app in <b>any</b> of the 5 comparisons — not even once. It came close to even against Walnut and Public.com (both smaller, also-uncertain brands), and lost more decisively against Magnifi, Composer and Titan — a pattern driven by how confidently the model resolved each rival's own name, not by anything about ${esc(YOU)}. Composer is a special case: the model confused it with an unrelated, far more famous PHP tool of the same name. Read "Did it even know Clera?" below before trusting the scoreboard.</p>`;
 }
 
 function renderBoard() {
@@ -455,18 +445,16 @@ function renderFacts() {
 
 // Real source answers (from the single open-comparison run per rival/order, OpenAI API gpt-4o).
 const RAW = {
-  "Wealthfront|you": "Wealthfront: robo-advisor automated investing based on modern portfolio theory, Path financial-planning tool (retirement, education, savings insights), generally low fees with no hidden charges, portfolio customization across asset classes, high-interest cash account with FDIC insurance. Clera: “not a widely recognized financial service or platform like Wealthfront” — possible misunderstanding, new company, localized service or misspelling; offers only generic evaluation tips (reputation, services, fees, security/regulation, customer support) rather than any real description. Recommends contacting the company directly if Clera is the correct name.",
-  "Wealthfront|them": "Wealthfront: known for its robo-advisor platform (automated portfolio management, low-cost index funds/ETFs), financial planning tools and calculators (retirement, home ownership, college savings), tax-loss harvesting across multiple asset classes, low fees (~0.25% AUM), Path all-in-one financial-planning service. Clera: “limited information… as of my knowledge cutoff” — could be niche or emerging, or operate outside typical financial advisory space. Recommends double-checking the name/context since the industry evolves quickly.",
-  "Betterment|you": "Betterment: robo-advisor and investment management — automated portfolio management with personalized strategies, tax-loss harvesting, goal-based investing, access to human financial advisors, socially responsible investing options. Clera: “isn't a widely recognized financial platform… could be a newer or lesser-known service” — the model assumes it “could be a non-financial service or a different financial platform” and asks the reader to compare core offerings to Betterment's without specific information to go on.",
-  "Betterment|them": "Betterment: online financial advisor/robo-advisor — automated investing via algorithms tailored to risk tolerance and goals, tax-loss harvesting, financial planning tools, low fees vs. traditional advisors, access to human financial planners in some packages. Clera: “may refer to a lesser-known or newly-established financial service… or possibly even a misspelling of a more established financial service” — lists only generic things to check (services, fees, user experience, regulation) with no actual description.",
-  "M1 Finance|you": "Clera: “as of my last update, there might be limited information on Clera, as it could be a less-known or newer platform, or possibly even a misspelling of a more established financial service” — lists generic evaluation points (services, fees, user experience, regulation) with no real description. M1 Finance: described in detail and accurately — custom “pies” of stocks/ETFs, commission-free trading, fractional shares, automated rebalancing and dividend reinvestment, M1 Borrow (low-interest loans against portfolio), no management fee on basic tier, M1 Spend checking/debit feature.",
-  "M1 Finance|them": "M1 Finance pros: customizable “pie” portfolios with fractional shares, automated hands-off investing with regular contributions, no trading commissions, flexible account types (individual/joint/retirement/trust), M1 Borrow margin investing, M1 Spend cash management. Cons: no real-time trading (batched once/twice daily), limited (mostly online) customer support, no tax-loss harvesting. Clera: described only as a hypothetical “newer or lesser-known platform” with generic pros (niche services, potentially lower fees, unique tools) and cons (limited track record, smaller user base, uncertain features) — no real information.",
   "Public.com|you": "Clera: “may not be a widely recognized platform, and it might be a typo or confusion with another similar name” — the model asks the reader to confirm the right platform, offering no real features. Public.com: correctly described as a social investing app — stocks/ETFs/crypto, social feed to follow other investors and share insights, commission-free trading, educational and community-driven approach, broad appeal especially among millennials and Gen Z.",
   "Public.com|them": "Public.com: social investing platform — social interaction/community following, commission-free stock and ETF trades, curated investment themes and insights, transparency around removing Payment for Order Flow, fractional shares. Clera: “I am not directly aware of a financial platform specifically named 'Clera'” — suggests it might be a different company or a typo for another known entity, and asks for clarification; lists only generic due-diligence considerations (reviews, fees, security, ease of use, support).",
   "Titan|you": "Opens by reframing the question entirely: “depends on what specific products or services you're referring to… If you're referring to windows and doors, Clera Windows and Doors is known for manufacturing and installing energy-efficient windows and doors, while Titan could refer to another company or product line altogether.” The model never identifies Clera as an investing app at all — it defaults to an unrelated home-improvement brand of the same name and gives only generic buying advice (quality, price, reviews, professional recommendations, after-sales service).",
   "Titan|them": "Lists several equally plausible industries for both names — windows and doors, technology/software, healthcare/pharmaceuticals, automotive/machinery — and gives generic advice (research, needs analysis, expert reviews, cost vs. value, customer support) for whichever context applies. Explicitly asks for more detail: “If you can provide more context or specific information about what you're comparing… I might be able to offer more targeted advice.” Neither name is ever identified as an investing app in this run.",
-  "SoFi Invest|you": "Clera: “since 'Clera' is not a widely recognized brand in the financial services industry (as of my last update in October 2023), it might be a smaller or niche platform, or there might be a misunderstanding” — offers only generic research steps (reputation, costs/fees, investment offerings, user experience, unique features) with no real description. SoFi Invest: described accurately — no-commission stock/ETF trading, fractional shares, crypto trading, no-fee robo-advisor, broader financial ecosystem (loans, banking). Noted limitations: fewer mutual fund/bond options and less comprehensive research tools than larger brokerages.",
-  "SoFi Invest|them": "SoFi Invest: online/mobile investment platform — individual stocks/ETFs, robo-advisory, IPO investing, cryptocurrency, no commission on stocks/ETFs/managed portfolios (crypto has a fee), fractional shares via Stock Bits, educational resources and member events, access to SoFi's broader financial products. Clera: “is not a widely recognized investment platform as of my last update… it's possible that it could be a lesser-known or newer service, or perhaps a platform that operates in a specific region or niche” — the model explicitly says it's “challenging to offer a detailed comparison” without specific information.",
+  "Walnut|you": "Choosing between Clera and Walnut would depend on the context of your decision. Clera and Walnut could refer to a variety of things, such as different types of products, services, or even materials. Could you please provide more information? Are you referring to windows, technologies, materials, or perhaps another category altogether? The model declines to compare anything and asks the reader to clarify both names.",
+  "Walnut|them": "Since you haven't specified what Walnut and Clera refer to, I'll consider a couple of common scenarios where they might be relevant: software tools and personal choices like locations or products. The model then lists generic evaluation criteria for each hypothetical category (purpose/features, ease of use, integration, support, pricing for software; purpose/needs, reviews, cost, amenities for locations/products) without ever settling on what either Walnut or Clera actually is.",
+  "Magnifi|you": "Clera: “typically, Clera refers to a company in the window and door industry, specifically Clera Windows + Doors” — customization, energy efficiency, installation services. Magnifi: “often associated with technology platforms, particularly in the realm of finance and investment or advanced imaging technology. For the sake of this comparison, I'll assume it's the finance-related platform” — investment tools, AI/machine learning for insights, user-friendly interface. A tentative, explicitly-caveated guess on Magnifi, and the Windows+Doors misidentification on Clera.",
+  "Magnifi|them": "Magnifi: “if Magnifi is a tool you're considering, it's likely designed for a specific purpose such as financial management, investment analysis, or similar applications” — hedged, generic, no confirmed features. Clera: “Clera might be more suitable for other specific tasks… such as customer relationship management (CRM), communication tools, or any other domain-specific functionalities” — a different, equally ungrounded guess than the you-first run's windows-and-doors answer, showing the model has no stable picture of either brand.",
+  "Composer|you": "Choosing between Clera and Composer depends on your specific needs and context, as these are likely to be different products or tools from varied domains... Composer might refer to different tools in different industries (such as music composition software or a dependency manager for PHP). The model never settles on the investing app for either name, listing only generic evaluation criteria (purpose, use case, ease of use, integration, cost, reviews).",
+  "Composer|them": "The choice between Composer and Clera will depend on your specific needs, as they serve different functions. Composer: “a dependency management tool for PHP. It allows you to declare the libraries your project depends on and manages (installs/updates) them for you” — essential for Laravel/Symfony-style projects, handles autoloading and package versioning. Clera: “If you meant Clarity or another tool that sounds similar, please provide more context, as 'Clera' might not refer to a well-known tool or technology in programming or development.” The model confidently and correctly describes the wrong Composer, and doesn't recognize Clera at all.",
 };
 const F = { r: "", o: "", run: false };
 function renderFind() {
