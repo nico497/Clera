@@ -1,22 +1,20 @@
 {
   "title": "Bottom-of-funnel content tracker",
-  "niche": "AI-powered automated investing and personal wealth management apps",
+  "niche": "Conversational AI financial advisor apps — chat-based stock picks and AI-assisted trade execution",
   "you": "Clera",
   "competitors": [
-    "Wealthfront",
-    "Betterment",
-    "M1 Finance",
     "Public.com",
     "Titan",
-    "SoFi Invest"
+    "Walnut",
+    "Magnifi",
+    "Composer"
   ],
   "vendors": {
-    "Wealthfront": "wealthfront",
-    "Betterment": "betterment",
-    "M1 Finance": "\\bm1 ?finance\\b|\\bm1\\.com\\b",
     "Public.com": "public\\.com|\\bpublic app\\b",
     "Titan": "\\btitan\\b(?! ?submarine)",
-    "SoFi Invest": "sofi invest|\\bsofi\\b",
+    "Walnut": "\\bwalnut\\b(?! ?street)",
+    "Magnifi": "\\bmagnifi\\b",
+    "Composer": "\\bcomposer\\b(?! ?(php|packagist|dependency))",
     "Clera": "\\bclera\\b|askclera",
     "Robinhood": "robinhood",
     "Acorns": "acorns",
