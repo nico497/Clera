@@ -41,6 +41,48 @@
      "pages": 211
     }
    }
+  },
+  {
+   "week": "2026-W44",
+   "date": "2026-10-26T13:13:51+00:00",
+   "sites": {
+    "Clera": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 1
+    },
+    "Public.com": {
+     "new": 18,
+     "updated": 0,
+     "removed": 0,
+     "pages": 520
+    },
+    "Titan": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 0
+    },
+    "Walnut": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 801
+    },
+    "Magnifi": {
+     "new": 0,
+     "updated": 1,
+     "removed": 0,
+     "pages": 269
+    },
+    "Composer": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 211
+    }
+   }
   }
  ]
 }
