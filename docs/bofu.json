@@ -3,7 +3,7 @@
   "title": "Bottom-of-funnel content tracker",
   "niche": "Conversational AI financial advisor apps — chat-based stock picks and AI-assisted trade execution",
   "you": "Clera",
-  "generated": "2026-10-26T13:18:05+00:00",
+  "generated": "2026-11-02T16:15:00+00:00",
   "state_updated": "2026-10-20T02:24:25+00:00",
   "repo": "nico497/Clera"
  },
@@ -47,8 +47,8 @@
   },
   {
    "name": "Public.com",
-   "tracked": 520,
-   "considered": 516,
+   "tracked": 521,
+   "considered": 517,
    "own_pricing": null,
    "hubs": []
   },
@@ -61,8 +61,8 @@
   },
   {
    "name": "Walnut",
-   "tracked": 14305,
-   "considered": 801,
+   "tracked": 14400,
+   "considered": 804,
    "own_pricing": null,
    "hubs": []
   },
@@ -100,7 +100,7 @@
  ],
  "excluded": {
   "webinars, glossary, events and category pages": 4,
-  "templated pages": 18265
+  "templated pages": 18357
  },
  "pages": [
   {
