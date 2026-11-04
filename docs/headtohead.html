@@ -285,7 +285,7 @@ ul.how { margin: 0; padding-left: 20px; color: var(--ink-2); max-width: 62em; } 
 <div class="wrap">
   <header class="mast">
     <nav class="nav" aria-label="Tools"><svg width="24" height="24" viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="17" width="7" height="11" rx="2" fill="#3a547a"/><rect x="12.5" y="10" width="7" height="18" rx="2" fill="#3a547a"/><rect x="21" y="3" width="7" height="25" rx="2" fill="#0aa8bf"/></svg><a href="./">Competitor Radar</a><a href="funnel.html">Funnel Gap Radar</a><a href="headtohead.html" aria-current="page">Head-to-Head Radar</a></nav>
-    <span class="stamp">OpenAI API (gpt-4o) · Oct 2026</span>
+    <span class="stamp">OpenAI API (gpt-4o) · Nov 2026</span>
   </header>
   <section id="headline"></section>
 
@@ -305,7 +305,7 @@ ul.how { margin: 0; padding-left: 20px; color: var(--ink-2); max-width: 62em; } 
   <section class="sec">
     <div class="sechead"><div><h2 class="title">Did it even know Clera?</h2><p class="sub">Before trusting anything above, check whether the model could actually identify the product it was being asked to compare.</p></div></div>
     <div class="tablewrap"><table class="fc" id="fc"></table></div>
-    <p class="note">The model did not recognize Clera as an investing app in any of the 6 comparisons — every "win" or "loss" above should be read as a knowledge gap, not a verdict.</p>
+    <p class="note">The model did not recognize Clera as an AI talent agent in any of the 6 comparisons, so every "win" or "loss" above should be read as a knowledge gap, not a verdict.</p>
   </section>
 
   <section class="sec" id="find">
@@ -320,12 +320,12 @@ ul.how { margin: 0; padding-left: 20px; color: var(--ink-2); max-width: 62em; } 
   <section class="sec">
     <div class="sechead"><h2 class="title">How this works, and what it doesn't cover yet</h2></div>
     <ul class="how">
-      <li>Forced-pick question: "If you had to pick one AI-powered automated investing app for a retail investor, Clera or {rival}?" Asked in both name orders, 5 fresh runs each (50 answers total), via the OpenAI API (gpt-4o) directly, with a system prompt forcing a decisive pick.</li>
-      <li>Open comparison question: "Clera vs. {rival}: which should I choose?" Asked once per order (10 answers), no system prompt — this is where the reasoning notes above come from. It is <b>not</b> repeated, so a single odd answer could be noise. The API route has no browsing, so none of these answers carry citations.</li>
-      <li><b>Rival list, tightened:</b> this page compares Clera against the apps that actually share its pitch — chat-based AI stock picks and trade execution (Titan, Public.com's Alpha, Walnut, Magnifi, Composer's Trade with AI) — not generic robo-advisors like Wealthfront or Betterment, which manage portfolios algorithmically with no conversational AI front end. A tighter, honest list beats a longer, loosely-related one.</li>
-      <li><b>The headline finding: there is still no real competitive signal here.</b> In every one of the 10 open-comparison runs, the model never once correctly identified Clera — it repeatedly hedged with phrasing like "not a widely recognized financial service," and in one run (vs. Titan) it defaulted to describing an entirely unrelated company, Clera Windows and Doors. Several rivals fared little better: Walnut got a total hedge in both runs, and Composer was confused with the unrelated (and far better-known) PHP dependency-management tool of the same name in one run. This is a page of brand-recognition artifacts, not a judged comparison.</li>
-      <li>Walnut and Public.com land closest to even (5 of 10 each) — both are smaller brands the model is also uncertain about, so an unrecognized Clera doesn't automatically lose. Clera was picked 7 of 10 times against both Magnifi and Composer, and only 2 of 10 against Titan — in each case because of how the model resolved the names, not because of any real feature comparison.</li>
-      <li>Not yet covered: pricing, integrations, onboarding, setup and support as separate scored dimensions — the open-comparison answers made almost no specific, checkable claims about Clera itself (since the model didn't recognize it), so there isn't a real "worth checking" fact sheet for this project. Also not covered: any run through the ChatGPT web app, or any run while logged in.</li>
+      <li>Forced-pick question: "If you had to pick one AI tool to help a job seeker get hired at a startup, Clera or {rival}?" Asked in both name orders, 5 fresh runs each (60 answers total), via the OpenAI API (gpt-4o) directly, with a system prompt forcing a decisive pick.</li>
+      <li>Open comparison question: "Clera vs. {rival}: which should I choose?" Asked once per order (12 answers), no system prompt — this is where the reasoning notes come from. It is <b>not</b> repeated, so a single odd answer could be noise. The API route has no browsing, so none of these answers carry citations: they're the model's general knowledge, not a sourced comparison.</li>
+      <li><b>Rival list:</b> Jack & Jill, Wellfound, Jobright AI, Hunter, JobCopilot and WonsultingAI, chosen as AI tools that help job seekers get hired, taken from Product Hunt's alternatives list, a Stork review and web search. Hunter and Wellfound came from search results only, and none were checked feature by feature.</li>
+      <li><b>The headline finding:</b> in all 12 open answers the model never identified Clera. It guessed windows and doors, customer management, business operations or data analysis, or asked for more context. Only Wellfound was clearly recognized. Others were guesses from the name, such as Hunter taken for Hunter Douglas blinds.</li>
+      <li>Wellfound won 10 of 10, and Jobright AI, JobCopilot and WonsultingAI each won 9 of 10. Jack & Jill is Clera's one win (9 of 10), though the model didn't know that name either. Hunter swings with name order (Clera 0 of 5 when named first, 4 of 5 when Hunter is), a sign the model is guessing.</li>
+      <li>Not yet covered: the hiring-company side of Clera (startups paying per hire), pricing, integrations and support as separate scored dimensions, any run through the ChatGPT web app, and any run while logged in.</li>
     </ul>
   </section>
 </div>
@@ -334,112 +334,72 @@ const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const YOU = "Clera";
 
-// Real forced-pick tallies: 5 runs per order, from the OpenAI API (gpt-4o), Oct 2026.
+// Real forced-pick tallies: 5 runs per order, from the OpenAI API (gpt-4o), Nov 2026.
 // you: Clera named first. them: rival named first. Each is {blvd, rival} out of 5 (kept as "blvd" internally).
-// knowledge is uniformly "unknown" here — the model never recognized Clera as a real investing app.
+// knowledge: whether the model identified Clera (getclera.com, AI talent agent). It never did: "unknown" = no idea, "confused" = guessed a different kind of product.
 const H2H = {
-  "Public.com": {
-    you: { blvd: 3, rival: 2 }, them: { blvd: 2, rival: 3 },
-    knowledge: "unknown",
-    openPoints: [
-      "The closest matchup in this set, and still a clear unfamiliarity story: the model flagged Clera as possibly “a typo or confusion with another similar name” and gave no real description, while correctly describing Public.com as a social investing app with commission-free trades and a community feed.",
-      "One of the closest results on the page (5 of 10 total) — likely because Public.com's own brand recognition is also fairly thin for this model, making the forced pick less lopsided even with Clera equally unrecognized.",
-      "This is not evidence Clera competes well against Public.com specifically — it's evidence the model is similarly uncertain about both names in this one matchup.",
-    ],
-    openCites: "No citations, and Clera was never correctly identified in either run.",
-  },
-  Titan: {
-    you: { blvd: 2, rival: 3 }, them: { blvd: 0, rival: 5 },
-    knowledge: "unknown",
-    openPoints: [
-      "The most telling result on this page: in the “Clera vs. Titan” run, the model guessed Clera might refer to “Clera Windows and Doors,” a real but entirely unrelated home-improvement brand — a direct product misidentification, not just unfamiliarity.",
-      "In the “Titan vs. Clera” run, the model widened the confusion further, listing windows/doors, tech, healthcare and automotive as equally plausible industries for either name, and asked for more context rather than answering.",
-      "Titan actually wins the majority here (8 of 10) — not because the model knows Titan's investing app, but because two unrecognized names produced the least decisive, most order-sensitive result in the set.",
-    ],
-    openCites: "No citations, and one run misidentified Clera as a different company altogether (Clera Windows and Doors).",
-  },
-  Walnut: {
-    you: { blvd: 3, rival: 2 }, them: { blvd: 2, rival: 3 },
-    knowledge: "unknown",
-    openPoints: [
-      "The model didn't recognize either brand with any confidence. The you-first run asked outright for clarification — “Clera and Walnut could refer to a variety of things… could you please provide more information?” — rather than attempting any comparison.",
-      "The them-first run hedged across two entirely different possible categories (“software tools/platforms” vs. “locations/products”) without settling on what either Walnut or Clera actually is.",
-      "At 5 of 10, this is one of the closest results on the page — not because the model has a real view on Walnut's chat-to-trade feature, but because it's about as unsure of Walnut's name as it is of Clera's.",
-    ],
-    openCites: "No citations — the model never identified Walnut as the AI investing app it actually is in either run.",
-  },
-  Magnifi: {
-    you: { blvd: 5, rival: 0 }, them: { blvd: 2, rival: 3 },
-    knowledge: "unknown",
-    openPoints: [
-      "Mixed and hedged both times. The you-first run guessed “Magnifi is often associated with technology platforms, particularly in the realm of finance… I'll assume it's the finance-related platform” — a tentative, caveated guess rather than real knowledge — while misreading Clera as “a company in the window and door industry” (Clera Windows + Doors again).",
-      "The them-first run dropped even that partial guess, describing Magnifi only in generic terms (“likely designed for a specific purpose such as financial management, investment analysis, or similar applications”).",
-      "The order split (5-0 you-first vs. 2-3 them-first) tracks which brand confusion got anchored first in each run, not a real comparison of either product.",
-    ],
-    openCites: "No citations — Magnifi's actual AI-chat/brokerage-connection features never come up in either run.",
-  },
-  Composer: {
-    you: { blvd: 5, rival: 0 }, them: { blvd: 2, rival: 3 },
-    knowledge: "confused",
-    openPoints: [
-      "The clearest brand collision on this page: the them-first run confidently and correctly describes Composer as \"a dependency management tool for PHP\" — the real, much more famous open-source project — and never once considers the investing app of the same name.",
-      "The you-first run hedges toward the same confusion, noting Composer \"might refer to different tools in different industries (such as music composition software or a dependency manager for PHP).\"",
-      "Both runs also misread Clera in generic, non-financial terms. This is a genuine name collision for Composer, not mere unfamiliarity — the model has specific, confident, wrong knowledge about what Composer is.",
-    ],
-    openCites: "No citations — the them-first answer describes the PHP tool's actual features (dependency declaration, autoloading, versioning) in place of the investing app's.",
-  },
+  "Jack & Jill": { you: { blvd: 5, rival: 0 }, them: { blvd: 4, rival: 1 }, knowledge: "unknown" },
+  Wellfound: { you: { blvd: 0, rival: 5 }, them: { blvd: 0, rival: 5 }, knowledge: "unknown" },
+  "Jobright AI": { you: { blvd: 0, rival: 5 }, them: { blvd: 1, rival: 4 }, knowledge: "confused" },
+  Hunter: { you: { blvd: 0, rival: 5 }, them: { blvd: 4, rival: 1 }, knowledge: "confused" },
+  JobCopilot: { you: { blvd: 0, rival: 5 }, them: { blvd: 1, rival: 4 }, knowledge: "unknown" },
+  WonsultingAI: { you: { blvd: 0, rival: 5 }, them: { blvd: 1, rival: 4 }, knowledge: "confused" },
 };
 const RIV = Object.keys(H2H);
 
 // Plain-language read of each matchup's open-comparison answers (gpt-4o, one run per name order).
-// The model never recognized Clera as an investing app, so most "Clera" lists say so.
 const SUM = {
-  "Public.com": {
-    why: ["Dead even: each side is picked 5 of 10 times.", "The model said \"Clera\" might be a typo or confusion with another name, and gave no description of it.", "It did describe Public.com correctly. The tie reflects uncertainty about the names, not a real comparison."],
-    rival: ["Social investing app", "Commission-free trades", "Community feed"],
-    you: ["Not identified: the model suspected a typo"],
+  "Jack & Jill": {
+    why: ["Clera is picked 9 of 10 times: 5 of 5 when named first, 4 of 5 when Jack & Jill is.", "The model knew neither name. It asked for more context and gave a generic checklist.", "A lopsided result with no real knowledge behind it."],
+    rival: ["Not identified: the model asked what it is"],
+    you: ["Not identified: the model asked what it is"],
   },
-  Titan: {
-    why: ["Titan is picked 8 of 10 times. Clera wins 2 of 10, and 0 of 5 when Titan is named first.", "In one run the model took Clera to be Clera Windows and Doors, an unrelated home-improvement brand.", "In the other it listed windows, tech, healthcare and cars as possible industries and asked for more context."],
-    rival: ["Not described: the model never said what Titan does"],
-    you: ["Mistaken for Clera Windows and Doors in one run"],
+  Wellfound: {
+    why: ["Wellfound is picked 10 of 10 times, whichever name comes first.", "The model knew Wellfound: a job platform for startups and tech companies.", "It called Clera \"not as well-known\" and couldn't say what it does."],
+    rival: ["Job platform for startups and tech companies (formerly AngelList Talent)", "Salary and equity shown in listings", "Apply directly to companies", "Connects job seekers with founders and hiring managers"],
+    you: ["Not identified: described as \"not as well-known\""],
   },
-  Walnut: {
-    why: ["Dead even: each side is picked 5 of 10 times.", "In one run the model asked for more information. In the other it listed several possible meanings for both names.", "It couldn't say what either Walnut or Clera is, so this isn't a real comparison."],
-    rival: ["Not identified as an AI investing app"],
-    you: ["Not identified"],
+  "Jobright AI": {
+    why: ["Jobright AI is picked 9 of 10 times.", "The model guessed Jobright is for job search and recruitment, and guessed Clera is a customer-management or data-analysis tool.", "It judged Clera to solve a different problem, so it picked the one it understood."],
+    rival: ["Guessed to be for job search, recruitment or job matching"],
+    you: ["Mistaken for a customer-management or data-analysis tool"],
   },
-  Magnifi: {
-    why: ["Clera is picked 7 of 10 times: 5 of 5 when named first, 2 of 5 when Magnifi is.", "The model only guessed Magnifi was a finance platform (\"I'll assume\"), and took Clera for a window and door company.", "The result follows whichever name the model anchored on first, not a real comparison."],
-    rival: ["Guessed to be a finance platform", "Described only in general terms: financial management or investment analysis"],
-    you: ["Mistaken for a window and door company"],
+  Hunter: {
+    why: ["Order-driven: Clera is picked 4 of 10 times, 0 of 5 when named first and 4 of 5 when Hunter is.", "In one run the model took both names to be window brands. In the other it asked for more context.", "The big swing by name order suggests the model is guessing."],
+    rival: ["Mistaken for Hunter Douglas, a window blinds brand"],
+    you: ["Mistaken for Clera Windows + Doors"],
   },
-  Composer: {
-    why: ["Clera is picked 7 of 10 times: 5 of 5 when named first, 2 of 5 when Composer is.", "The model described Composer as the well-known PHP software tool, not the investing app.", "It also read Clera in non-financial terms, so it was wrong about both names."],
-    rival: ["Described as a PHP dependency-management tool (the wrong Composer)", "Also guessed to be music composition software"],
-    you: ["Not identified: described in non-financial terms"],
+  JobCopilot: {
+    why: ["JobCopilot is picked 9 of 10 times.", "The model guessed JobCopilot helps with job searching. Its guesses for Clera were hiring tools in one run and career coaching in the other.", "Clera's actual product was never identified."],
+    rival: ["Guessed to be a job-search tool (one run described it as an HR dashboard)"],
+    you: ["Guessed: AI hiring tools in one run, career coaching in the other"],
+  },
+  WonsultingAI: {
+    why: ["WonsultingAI is picked 9 of 10 times.", "The model described WonsultingAI as career and job-search help, and Clera as a business-operations or data-analysis tool.", "It judged Clera a different kind of tool, so it picked the one it understood."],
+    rival: ["Career development and job-search help", "Resume, interview and LinkedIn tips (guessed)", "Aimed at individual job seekers"],
+    you: ["Mistaken for a business-operations or data-analysis tool"],
   },
 };
 
-// Consistent weaknesses: how many of the 5 matchups show each problem. No strengths: the model never described what Clera does.
+// Consistent weaknesses: how many of the 6 matchups show each problem. No strengths: the model never described what Clera does.
 const SWTAB = "__sw";
 const SW = {
   strengths: [],
   weaknesses: [
-    ["The model didn't recognize Clera as an investing app", ["Public.com", "Titan", "Walnut", "Magnifi", "Composer"]],
-    ["The model said it didn't know the name, or asked for more context", ["Public.com", "Titan", "Walnut"]],
-    ["The model described Clera as an unrelated, non-investing business", ["Titan", "Magnifi", "Composer"]],
+    ["The model didn't recognize Clera as an AI talent agent", ["Jack & Jill", "Wellfound", "Jobright AI", "Hunter", "JobCopilot", "WonsultingAI"]],
+    ["The model understood the rival as a job-search tool and picked it", ["Wellfound", "Jobright AI", "JobCopilot", "WonsultingAI"]],
+    ["The model guessed Clera was a different kind of product", ["Jobright AI", "Hunter", "WonsultingAI"]],
   ],
 };
 
-// What's actually checkable here: not pricing claims (none were made with real citations about Clera),
-// but whether the model could identify Clera at all in each matchup.
+// What's actually checkable here: whether the model could identify Clera at all in each matchup.
 const FACTS = [
-  ["Public.com", "Model flagged Clera as possibly a typo or name confusion; closest forced-pick result in the set (5 of 10)", "Unknown"],
-  ["Titan", "Model misidentified Clera as “Clera Windows and Doors,” an unrelated home-improvement brand", "Confused"],
-  ["Walnut", "Model couldn't confidently identify either Walnut or Clera; asked for clarification outright in one run", "Unknown"],
-  ["Magnifi", "Model only tentatively guessed Magnifi was finance-related (\"I'll assume\"), with no confirmed knowledge", "Unknown"],
-  ["Composer", "Model confidently and incorrectly identified Composer as the unrelated PHP dependency-management tool", "Confused"],
+  ["Jack & Jill", "Neither name recognized; the model asked for more context", "Unknown"],
+  ["Wellfound", "Model knew Wellfound (startup job platform) but called Clera \"not as well-known\"", "Unknown"],
+  ["Jobright AI", "Model guessed Clera was a customer-management or data-analysis tool", "Confused"],
+  ["Hunter", "Model took Clera for Clera Windows + Doors, and Hunter for Hunter Douglas", "Confused"],
+  ["JobCopilot", "Model only guessed Clera offers AI hiring tools or career coaching, with nothing confirmed", "Unknown"],
+  ["WonsultingAI", "Model guessed Clera was a business-operations or data-analysis tool", "Confused"],
 ];
 
 function pct(obj) { const t = obj.blvd + obj.rival; return t ? Math.round((obj.blvd / t) * 100) : 0; }
@@ -453,8 +413,8 @@ function stability(r) {
 
 function renderHead() {
   const wins = RIV.filter((r) => total(r).blvd > total(r).rival);
-  $("#headline").innerHTML = `<h1 class="title">${YOU} wins <mark class="hl you">${wins.length} of ${RIV.length}</mark> forced-pick head-to-heads — and that number means nothing.</h1>
-  <p class="facts">The model has no brand recognition of ${esc(YOU)}: it never recognized ${esc(YOU)} as an investing app in any of the 5 comparisons. The results reflect name confusion, not a real comparison.</p>`;
+  $("#headline").innerHTML = `<h1 class="title">${YOU} wins <mark class="hl you">${wins.length} of ${RIV.length}</mark> forced-pick head-to-heads — and the model doesn't know who ${YOU} is.</h1>
+  <p class="facts">The model never recognized ${esc(YOU)} as an AI talent agent in any of the ${RIV.length} comparisons. It guessed windows and doors, CRM or data analysis instead. The picks reflect that brand gap, not a real comparison.</p>`;
 }
 
 function renderBoard() {
@@ -502,7 +462,7 @@ function renderSW() {
   const byCount = (a, b) => b[1].length - a[1].length;
   $("#cpanel").innerHTML = `<div class="cp"><div class="swcard">
       <h3>Consistent strengths</h3><p class="swsub">What the model keeps crediting ${YOU} for</p>
-      <div class="swempty"><b>None: 0 of ${RIV.length} matchups</b>The model never said what ${YOU} does, so there is nothing to credit. ${YOU} is picked more often in ${RIV.filter((r) => total(r).blvd > total(r).rival).length} of ${RIV.length} matchups and tied in ${RIV.filter((r) => total(r).blvd === total(r).rival).length}, but that comes from name confusion, not strengths.</div>
+      <div class="swempty"><b>None: 0 of ${RIV.length} matchups</b>The model never said what ${YOU} does, so there is nothing to credit. ${YOU} is picked more often in ${RIV.filter((r) => total(r).blvd > total(r).rival).length} of ${RIV.length} matchups, but that comes from name confusion, not strengths.</div>
     </div><div class="swcard w">
       <h3>Consistent weaknesses</h3><p class="swsub">Where the model fell short on ${YOU}</p>
       ${[...SW.weaknesses].sort(byCount).map(row).join("")}
@@ -517,16 +477,18 @@ function renderFacts() {
 
 // Real source answers (from the single open-comparison run per rival/order, OpenAI API gpt-4o).
 const RAW = {
-  "Public.com|you": "Clera: “may not be a widely recognized platform, and it might be a typo or confusion with another similar name” — the model asks the reader to confirm the right platform, offering no real features. Public.com: correctly described as a social investing app — stocks/ETFs/crypto, social feed to follow other investors and share insights, commission-free trading, educational and community-driven approach, broad appeal especially among millennials and Gen Z.",
-  "Public.com|them": "Public.com: social investing platform — social interaction/community following, commission-free stock and ETF trades, curated investment themes and insights, transparency around removing Payment for Order Flow, fractional shares. Clera: “I am not directly aware of a financial platform specifically named 'Clera'” — suggests it might be a different company or a typo for another known entity, and asks for clarification; lists only generic due-diligence considerations (reviews, fees, security, ease of use, support).",
-  "Titan|you": "Opens by reframing the question entirely: “depends on what specific products or services you're referring to… If you're referring to windows and doors, Clera Windows and Doors is known for manufacturing and installing energy-efficient windows and doors, while Titan could refer to another company or product line altogether.” The model never identifies Clera as an investing app at all — it defaults to an unrelated home-improvement brand of the same name and gives only generic buying advice (quality, price, reviews, professional recommendations, after-sales service).",
-  "Titan|them": "Lists several equally plausible industries for both names — windows and doors, technology/software, healthcare/pharmaceuticals, automotive/machinery — and gives generic advice (research, needs analysis, expert reviews, cost vs. value, customer support) for whichever context applies. Explicitly asks for more detail: “If you can provide more context or specific information about what you're comparing… I might be able to offer more targeted advice.” Neither name is ever identified as an investing app in this run.",
-  "Walnut|you": "Choosing between Clera and Walnut would depend on the context of your decision. Clera and Walnut could refer to a variety of things, such as different types of products, services, or even materials. Could you please provide more information? Are you referring to windows, technologies, materials, or perhaps another category altogether? The model declines to compare anything and asks the reader to clarify both names.",
-  "Walnut|them": "Since you haven't specified what Walnut and Clera refer to, I'll consider a couple of common scenarios where they might be relevant: software tools and personal choices like locations or products. The model then lists generic evaluation criteria for each hypothetical category (purpose/features, ease of use, integration, support, pricing for software; purpose/needs, reviews, cost, amenities for locations/products) without ever settling on what either Walnut or Clera actually is.",
-  "Magnifi|you": "Clera: “typically, Clera refers to a company in the window and door industry, specifically Clera Windows + Doors” — customization, energy efficiency, installation services. Magnifi: “often associated with technology platforms, particularly in the realm of finance and investment or advanced imaging technology. For the sake of this comparison, I'll assume it's the finance-related platform” — investment tools, AI/machine learning for insights, user-friendly interface. A tentative, explicitly-caveated guess on Magnifi, and the Windows+Doors misidentification on Clera.",
-  "Magnifi|them": "Magnifi: “if Magnifi is a tool you're considering, it's likely designed for a specific purpose such as financial management, investment analysis, or similar applications” — hedged, generic, no confirmed features. Clera: “Clera might be more suitable for other specific tasks… such as customer relationship management (CRM), communication tools, or any other domain-specific functionalities” — a different, equally ungrounded guess than the you-first run's windows-and-doors answer, showing the model has no stable picture of either brand.",
-  "Composer|you": "Choosing between Clera and Composer depends on your specific needs and context, as these are likely to be different products or tools from varied domains... Composer might refer to different tools in different industries (such as music composition software or a dependency manager for PHP). The model never settles on the investing app for either name, listing only generic evaluation criteria (purpose, use case, ease of use, integration, cost, reviews).",
-  "Composer|them": "The choice between Composer and Clera will depend on your specific needs, as they serve different functions. Composer: “a dependency management tool for PHP. It allows you to declare the libraries your project depends on and manages (installs/updates) them for you” — essential for Laravel/Symfony-style projects, handles autoloading and package versioning. Clera: “If you meant Clarity or another tool that sounds similar, please provide more context, as 'Clera' might not refer to a well-known tool or technology in programming or development.” The model confidently and correctly describes the wrong Composer, and doesn't recognize Clera at all.",
+  "Jack & Jill|you": "Doesn't identify either name. Frames them as possible “products, services, or organizations” and gives a generic checklist (purpose, reviews, quality, pricing, support), using windows or doors as an example category.",
+  "Jack & Jill|them": "Asks outright for more context — “are they products, services, brands, or perhaps something else entirely?” — and describes neither.",
+  "Wellfound|you": "Treats both as unknown platforms: “determine what Clera offers… identify what Wellfound specializes in”, then lists generic comparison criteria (usability, features, cost, integration, support).",
+  "Wellfound|them": "Wellfound: formerly AngelList Talent; connects job seekers with startups and tech companies; salary and equity often in listings; apply directly; networking with founders and hiring managers. Clera: “not as well-known or widely referenced”; could be a niche platform or tool; can't compare without more context.",
+  "Jobright AI|you": "Clera: “might be an AI tool focusing on customer relationship management, process automation, or data analysis.” Jobright AI: “could be tailored towards recruitment, job matching, or HR management.” Concludes they serve different purposes.",
+  "Jobright AI|them": "Jobright AI: “if it focuses on job search, recruitment, or career development tools…” Clera: “if its primary function is different, such as task management, sales automation, or customer relationship management.” Otherwise generic criteria.",
+  "Hunter|you": "Reads both as window brands: Clera Windows + Doors (energy-efficient windows and doors) and Hunter, “potentially… Hunter Douglas” (blinds, shades, shutters). Compares them on reviews, cost and availability.",
+  "Hunter|them": "Says it's “difficult to give a specific recommendation” without context and offers generic decision steps (define criteria, research, pros and cons, trial). Describes neither.",
+  "JobCopilot|you": "Treats both as business tools: Clera “might offer cutting-edge tools that leverage AI to streamline hiring processes”; JobCopilot “known for… a centralized view of recruitment processes.” Hedged with “might” throughout, plus generic pros and cons.",
+  "JobCopilot|them": "Assumes both are job-search tools: asks whether JobCopilot offers job recommendations and resume optimization, and whether Clera provides “career coaching, networking opportunities, or skills assessment.” No confirmed facts about either.",
+  "WonsultingAI|you": "Clera: “focused on providing AI-driven solutions, particularly in enhancing business operations and efficiency.” WonsultingAI: “geared towards helping individuals enhance their career prospects and find job opportunities.” Recommends Clera for businesses and WonsultingAI for individuals.",
+  "WonsultingAI|them": "WonsultingAI: “likely designed to assist with career development, job searching, and professional networking”, with resume and interview tools. Clera: “might be oriented more towards AI-driven data analysis, business intelligence, or personal analytics.”",
 };
 const F = { r: "", o: "", run: false };
 function renderFind() {
