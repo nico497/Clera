@@ -1,3 +1,46 @@
 {
- "weeks": []
+ "weeks": [
+  {
+   "week": "2026-W45",
+   "date": "2026-11-04T03:14:31+00:00",
+   "sites": {
+    "Clera": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 12
+    },
+    "Jack & Jill": {
+     "new": 1,
+     "updated": 0,
+     "removed": 0,
+     "pages": 86
+    },
+    "Wellfound": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 85
+    },
+    "Jobright AI": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 61
+    },
+    "JobCopilot": {
+     "new": 1,
+     "updated": 0,
+     "removed": 0,
+     "pages": 133
+    },
+    "WonsultingAI": {
+     "new": 1,
+     "updated": 0,
+     "removed": 0,
+     "pages": 239
+    }
+   }
+  }
+ ]
 }

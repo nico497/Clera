@@ -1,10 +1,10 @@
 {
  "meta": {
   "title": "Bottom-of-funnel content tracker",
-  "niche": "Conversational AI financial advisor apps — chat-based stock picks and AI-assisted trade execution",
+  "niche": "AI talent agents and job-search tools that help startup job seekers get hired",
   "you": "Clera",
-  "generated": "2026-11-02T16:15:00+00:00",
-  "state_updated": "2026-10-20T02:24:25+00:00",
+  "generated": "2026-11-04T03:18:20+00:00",
+  "state_updated": "2026-11-04T03:14:31+00:00",
   "repo": "nico497/Clera"
  },
  "types": [
@@ -40,203 +40,173 @@
  "sites": [
   {
    "name": "Clera",
-   "tracked": 1,
-   "considered": 1,
-   "own_pricing": "https://askclera.com/pricing",
+   "tracked": 12,
+   "considered": 12,
+   "own_pricing": "https://www.getclera.com/pricing",
    "hubs": []
   },
   {
-   "name": "Public.com",
-   "tracked": 521,
-   "considered": 517,
-   "own_pricing": null,
+   "name": "Jack & Jill",
+   "tracked": 443,
+   "considered": 86,
+   "own_pricing": "https://www.jackandjill.ai/pricing",
+   "hubs": [
+    "https://www.jackandjill.ai/customers"
+   ]
+  },
+  {
+   "name": "Wellfound",
+   "tracked": 85,
+   "considered": 85,
+   "own_pricing": "https://wellfound.com/recruit/pricing",
    "hubs": []
   },
   {
-   "name": "Titan",
-   "tracked": 0,
-   "considered": 0,
-   "own_pricing": null,
+   "name": "Jobright AI",
+   "tracked": 61,
+   "considered": 61,
+   "own_pricing": "https://jobright.ai/employers/pricing",
    "hubs": []
   },
   {
-   "name": "Walnut",
-   "tracked": 14400,
-   "considered": 804,
-   "own_pricing": null,
-   "hubs": []
+   "name": "JobCopilot",
+   "tracked": 133,
+   "considered": 133,
+   "own_pricing": "https://jobcopilot.com/pricing/",
+   "hubs": [
+    "https://jobcopilot.com/reviews/"
+   ]
   },
   {
-   "name": "Magnifi",
-   "tracked": 269,
-   "considered": 269,
-   "own_pricing": null,
-   "hubs": []
-  },
-  {
-   "name": "Composer",
-   "tracked": 4972,
-   "considered": 211,
-   "own_pricing": "https://www.composer.trade/pricing",
+   "name": "WonsultingAI",
+   "tracked": 383,
+   "considered": 238,
+   "own_pricing": "https://www.wonsulting.com/pricing",
    "hubs": []
   }
  ],
  "vendors": [
-  "Public.com",
-  "Titan",
-  "Walnut",
-  "Magnifi",
-  "Composer",
+  "Jack & Jill",
+  "Wellfound",
+  "Jobright AI",
+  "JobCopilot",
+  "WonsultingAI",
   "Clera",
-  "Robinhood",
-  "Acorns",
-  "Fidelity Go",
-  "Schwab Intelligent Portfolios",
-  "Vanguard Digital Advisor",
-  "Ellevest",
-  "Stash",
-  "Webull",
-  "E*TRADE"
+  "LinkedIn",
+  "Indeed",
+  "Teal",
+  "Simplify"
  ],
  "excluded": {
-  "webinars, glossary, events and category pages": 4,
-  "templated pages": 18357
+  "templated pages": 501,
+  "webinars, glossary, events and category pages": 1
  },
  "pages": [
   {
-   "site": "Walnut",
-   "url": "https://walnutinvest.com/resources/acorns-alternatives",
-   "path": "/resources/acorns-alternatives",
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/blog/linkedin-recruiter-alternatives-the-complete-2026-guide",
+   "path": "/blog/linkedin-recruiter-alternatives-the-complete-2026-guide",
    "type": "alt",
    "targets": [
-    "Acorns"
+    "LinkedIn"
    ]
   },
   {
-   "site": "Walnut",
-   "url": "https://walnutinvest.com/resources/composer-alternatives",
-   "path": "/resources/composer-alternatives",
-   "type": "alt",
-   "targets": [
-    "Composer"
-   ]
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/customers/anima",
+   "path": "/customers/anima",
+   "type": "case",
+   "targets": []
   },
   {
-   "site": "Walnut",
-   "url": "https://walnutinvest.com/resources/fidelity-go-alternatives",
-   "path": "/resources/fidelity-go-alternatives",
-   "type": "alt",
-   "targets": [
-    "Fidelity Go"
-   ]
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/customers/attio",
+   "path": "/customers/attio",
+   "type": "case",
+   "targets": []
   },
   {
-   "site": "Walnut",
-   "url": "https://walnutinvest.com/resources/magnifi-alternatives",
-   "path": "/resources/magnifi-alternatives",
-   "type": "alt",
-   "targets": [
-    "Magnifi"
-   ]
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/customers/evervault",
+   "path": "/customers/evervault",
+   "type": "case",
+   "targets": []
   },
   {
-   "site": "Walnut",
-   "url": "https://walnutinvest.com/resources/schwab-intelligent-portfolios-alternatives",
-   "path": "/resources/schwab-intelligent-portfolios-alternatives",
-   "type": "alt",
-   "targets": [
-    "Schwab Intelligent Portfolios"
-   ]
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/customers/penelope-health",
+   "path": "/customers/penelope-health",
+   "type": "case",
+   "targets": []
   },
   {
-   "site": "Walnut",
-   "url": "https://walnutinvest.com/resources/vanguard-digital-advisor-alternatives",
-   "path": "/resources/vanguard-digital-advisor-alternatives",
-   "type": "alt",
-   "targets": [
-    "Vanguard Digital Advisor"
-   ]
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/customers/promptmates",
+   "path": "/customers/promptmates",
+   "type": "case",
+   "targets": []
   },
   {
-   "site": "Walnut",
-   "url": "https://walnutinvest.com/resources/acorns-pricing",
-   "path": "/resources/acorns-pricing",
-   "type": "pricing",
-   "targets": [
-    "Acorns"
-   ]
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/customers/rig",
+   "path": "/customers/rig",
+   "type": "case",
+   "targets": []
   },
   {
-   "site": "Walnut",
-   "url": "https://walnutinvest.com/resources/composer-pricing",
-   "path": "/resources/composer-pricing",
-   "type": "pricing",
-   "targets": [
-    "Composer"
-   ]
-  },
-  {
-   "site": "Walnut",
-   "url": "https://walnutinvest.com/resources/ellevest-pricing",
-   "path": "/resources/ellevest-pricing",
-   "type": "pricing",
-   "targets": [
-    "Ellevest"
-   ]
-  },
-  {
-   "site": "Walnut",
-   "url": "https://walnutinvest.com/resources/etrade-core-portfolios-pricing",
-   "path": "/resources/etrade-core-portfolios-pricing",
-   "type": "pricing",
-   "targets": [
-    "E*TRADE"
-   ]
-  },
-  {
-   "site": "Walnut",
-   "url": "https://walnutinvest.com/resources/fidelity-go-pricing",
-   "path": "/resources/fidelity-go-pricing",
-   "type": "pricing",
-   "targets": [
-    "Fidelity Go"
-   ]
-  },
-  {
-   "site": "Walnut",
-   "url": "https://walnutinvest.com/resources/magnifi-pricing",
-   "path": "/resources/magnifi-pricing",
-   "type": "pricing",
-   "targets": [
-    "Magnifi"
-   ]
-  },
-  {
-   "site": "Walnut",
-   "url": "https://walnutinvest.com/resources/schwab-intelligent-portfolios-pricing",
-   "path": "/resources/schwab-intelligent-portfolios-pricing",
-   "type": "pricing",
-   "targets": [
-    "Schwab Intelligent Portfolios"
-   ]
-  },
-  {
-   "site": "Walnut",
-   "url": "https://walnutinvest.com/resources/vanguard-digital-advisor-pricing",
-   "path": "/resources/vanguard-digital-advisor-pricing",
-   "type": "pricing",
-   "targets": [
-    "Vanguard Digital Advisor"
-   ]
-  },
-  {
-   "site": "Composer",
-   "url": "https://www.composer.trade/learn/composer-vs-m1-finance-vs-robinhood",
-   "path": "/learn/composer-vs-m1-finance-vs-robinhood",
+   "site": "Jobright AI",
+   "url": "https://jobright.ai/compare/jobcopilot",
+   "path": "/compare/jobcopilot",
    "type": "vs_you",
    "targets": [
-    "Robinhood"
+    "JobCopilot"
    ]
+  },
+  {
+   "site": "Jobright AI",
+   "url": "https://jobright.ai/compare/teal",
+   "path": "/compare/teal",
+   "type": "vs_you",
+   "targets": [
+    "Teal"
+   ]
+  },
+  {
+   "site": "JobCopilot",
+   "url": "https://jobcopilot.com/jobright-best-alternative/",
+   "path": "/jobright-best-alternative",
+   "type": "alt",
+   "targets": [
+    "Jobright AI"
+   ]
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/case-studies/drexel-university",
+   "path": "/case-studies/drexel-university",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/case-studies/san-francisco-state-university",
+   "path": "/case-studies/san-francisco-state-university",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/case-studies/university-of-michigan-alumni-association",
+   "path": "/case-studies/university-of-michigan-alumni-association",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/case-studies/university-of-washington-informatics",
+   "path": "/case-studies/university-of-washington-informatics",
+   "type": "case",
+   "targets": []
   }
  ]
 }
