@@ -199,6 +199,24 @@ table.nums tr.you td.h { background: color-mix(in srgb, var(--rival) calc(var(--
 .ctypes button:hover { border-color: var(--navy); }
 .cp { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 20px; }
 .cp > div { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 24px; box-shadow: var(--shadow); }
+.cp ul.pts { list-style: disc; padding-left: 20px; color: var(--ink-2); } .cp ul.pts li { padding: 4px 0; }
+.cp .ph { margin: 0 0 6px; color: var(--navy); font-weight: 700; }
+.cp .cn .ph + ul.pts { margin-bottom: 16px; }
+.cp .swcard { border-top: 4px solid var(--you); }
+.cp .swcard.w { border-top-color: var(--navy); }
+.swcard h3 { margin: 0 0 4px; color: var(--navy); font: 800 24px/1.2 var(--sans); font-stretch: 106%; }
+.swcard .swsub { margin: 0 0 8px; color: var(--ink-3); font-size: 14px; }
+.swrow { padding: 14px 0; border-top: 1px solid var(--line); }
+.swrow:first-of-type { border-top: 0; }
+.swrow p { margin: 0 0 9px; color: var(--ink); font-size: 15px; font-weight: 600; line-height: 1.35; }
+.swbar { display: flex; align-items: center; gap: 12px; }
+.swtrack { flex: 1; height: 8px; border-radius: 999px; background: var(--mark); overflow: hidden; }
+.swfill { display: block; height: 100%; border-radius: 999px; background: var(--you); }
+.swcard.w .swfill { background: var(--navy); }
+.swpct { min-width: 44px; text-align: right; color: var(--navy); font: 800 17px/1 var(--sans); font-variant-numeric: tabular-nums; }
+.swn { min-width: 92px; color: var(--ink-3); font-size: 13px; }
+.swempty { margin: 12px 0 0; padding: 16px; border-radius: 10px; background: var(--panel); color: var(--ink-2); font-size: 15px; }
+.swempty b { display: block; margin-bottom: 4px; color: var(--navy); }
 .cp .cn { background: var(--panel); border-color: transparent; }
 .cp .cn h3 { margin: 0 0 12px; color: var(--navy); font: 700 20px/1.25 var(--sans); font-stretch: 106%; }
 .cp ul { margin: 0; padding: 0; list-style: none; font-size: 15px; } .cp li { padding: 5px 0; overflow-wrap: anywhere; } .cp .ty { font-size: 13px; color: var(--ink-3); }
@@ -269,8 +287,6 @@ ul.how { margin: 0; padding-left: 20px; color: var(--ink-2); max-width: 62em; } 
     <nav class="nav" aria-label="Tools"><svg width="24" height="24" viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="17" width="7" height="11" rx="2" fill="#3a547a"/><rect x="12.5" y="10" width="7" height="18" rx="2" fill="#3a547a"/><rect x="21" y="3" width="7" height="25" rx="2" fill="#0aa8bf"/></svg><a href="./">Competitor Radar</a><a href="funnel.html">Funnel Gap Radar</a><a href="headtohead.html" aria-current="page">Head-to-Head Radar</a></nav>
     <span class="stamp">OpenAI API (gpt-4o) · Oct 2026</span>
   </header>
-  <p class="mockbar"><b>Real data, and a total knowledge gap — read this before the scoreboard.</b> All 50 forced-pick answers and all 10 open-comparison answers came from the OpenAI API (gpt-4o) directly, no browsing, against 5 rivals chosen for actually matching Clera's pitch — chat-based AI stock picks and trade execution, not generic robo-advising. The model did not recognize Clera as an investing app in <b>any</b> of the 5 rivals compared — it repeatedly said "Clera" wasn't a widely recognized financial platform, and in one run confused it with "Clera Windows and Doors," an unrelated home-improvement brand. Every number on this page reflects that blind spot, not a judged comparison.</p>
-
   <section id="headline"></section>
 
   <section class="sec">
@@ -308,7 +324,7 @@ ul.how { margin: 0; padding-left: 20px; color: var(--ink-2); max-width: 62em; } 
       <li>Open comparison question: "Clera vs. {rival}: which should I choose?" Asked once per order (10 answers), no system prompt — this is where the reasoning notes above come from. It is <b>not</b> repeated, so a single odd answer could be noise. The API route has no browsing, so none of these answers carry citations.</li>
       <li><b>Rival list, tightened:</b> this page compares Clera against the apps that actually share its pitch — chat-based AI stock picks and trade execution (Titan, Public.com's Alpha, Walnut, Magnifi, Composer's Trade with AI) — not generic robo-advisors like Wealthfront or Betterment, which manage portfolios algorithmically with no conversational AI front end. A tighter, honest list beats a longer, loosely-related one.</li>
       <li><b>The headline finding: there is still no real competitive signal here.</b> In every one of the 10 open-comparison runs, the model never once correctly identified Clera — it repeatedly hedged with phrasing like "not a widely recognized financial service," and in one run (vs. Titan) it defaulted to describing an entirely unrelated company, Clera Windows and Doors. Several rivals fared little better: Walnut got a total hedge in both runs, and Composer was confused with the unrelated (and far better-known) PHP dependency-management tool of the same name in one run. This is a page of brand-recognition artifacts, not a judged comparison.</li>
-      <li>Walnut and Public.com land closest to even (5 of 10 each) — both are smaller brands the model is also uncertain about, so an unrecognized Clera doesn't automatically lose. Magnifi and Composer each won 7 of 10, and Titan won 8 of 10 — in every case because the rival's name resolved the model's uncertainty more decisively than Clera's did, not because of any real feature comparison.</li>
+      <li>Walnut and Public.com land closest to even (5 of 10 each) — both are smaller brands the model is also uncertain about, so an unrecognized Clera doesn't automatically lose. Clera was picked 7 of 10 times against both Magnifi and Composer, and only 2 of 10 against Titan — in each case because of how the model resolved the names, not because of any real feature comparison.</li>
       <li>Not yet covered: pricing, integrations, onboarding, setup and support as separate scored dimensions — the open-comparison answers made almost no specific, checkable claims about Clera itself (since the model didn't recognize it), so there isn't a real "worth checking" fact sheet for this project. Also not covered: any run through the ChatGPT web app, or any run while logged in.</li>
     </ul>
   </section>
@@ -375,6 +391,47 @@ const H2H = {
 };
 const RIV = Object.keys(H2H);
 
+// Plain-language read of each matchup's open-comparison answers (gpt-4o, one run per name order).
+// The model never recognized Clera as an investing app, so most "Clera" lists say so.
+const SUM = {
+  "Public.com": {
+    why: ["Dead even: each side is picked 5 of 10 times.", "The model said \"Clera\" might be a typo or confusion with another name, and gave no description of it.", "It did describe Public.com correctly. The tie reflects uncertainty about the names, not a real comparison."],
+    rival: ["Social investing app", "Commission-free trades", "Community feed"],
+    you: ["Not identified: the model suspected a typo"],
+  },
+  Titan: {
+    why: ["Titan is picked 8 of 10 times. Clera wins 2 of 10, and 0 of 5 when Titan is named first.", "In one run the model took Clera to be Clera Windows and Doors, an unrelated home-improvement brand.", "In the other it listed windows, tech, healthcare and cars as possible industries and asked for more context."],
+    rival: ["Not described: the model never said what Titan does"],
+    you: ["Mistaken for Clera Windows and Doors in one run"],
+  },
+  Walnut: {
+    why: ["Dead even: each side is picked 5 of 10 times.", "In one run the model asked for more information. In the other it listed several possible meanings for both names.", "It couldn't say what either Walnut or Clera is, so this isn't a real comparison."],
+    rival: ["Not identified as an AI investing app"],
+    you: ["Not identified"],
+  },
+  Magnifi: {
+    why: ["Clera is picked 7 of 10 times: 5 of 5 when named first, 2 of 5 when Magnifi is.", "The model only guessed Magnifi was a finance platform (\"I'll assume\"), and took Clera for a window and door company.", "The result follows whichever name the model anchored on first, not a real comparison."],
+    rival: ["Guessed to be a finance platform", "Described only in general terms: financial management or investment analysis"],
+    you: ["Mistaken for a window and door company"],
+  },
+  Composer: {
+    why: ["Clera is picked 7 of 10 times: 5 of 5 when named first, 2 of 5 when Composer is.", "The model described Composer as the well-known PHP software tool, not the investing app.", "It also read Clera in non-financial terms, so it was wrong about both names."],
+    rival: ["Described as a PHP dependency-management tool (the wrong Composer)", "Also guessed to be music composition software"],
+    you: ["Not identified: described in non-financial terms"],
+  },
+};
+
+// Consistent weaknesses: how many of the 5 matchups show each problem. No strengths: the model never described what Clera does.
+const SWTAB = "__sw";
+const SW = {
+  strengths: [],
+  weaknesses: [
+    ["The model didn't recognize Clera as an investing app", ["Public.com", "Titan", "Walnut", "Magnifi", "Composer"]],
+    ["The model said it didn't know the name, or asked for more context", ["Public.com", "Titan", "Walnut"]],
+    ["The model described Clera as an unrelated, non-investing business", ["Titan", "Magnifi", "Composer"]],
+  ],
+};
+
 // What's actually checkable here: not pricing claims (none were made with real citations about Clera),
 // but whether the model could identify Clera at all in each matchup.
 const FACTS = [
@@ -397,7 +454,7 @@ function stability(r) {
 function renderHead() {
   const wins = RIV.filter((r) => total(r).blvd > total(r).rival);
   $("#headline").innerHTML = `<h1 class="title">${YOU} wins <mark class="hl you">${wins.length} of ${RIV.length}</mark> forced-pick head-to-heads — and that number means nothing.</h1>
-  <p class="facts">The model did not recognize ${esc(YOU)} as a real investing app in <b>any</b> of the 5 comparisons — not even once. It came close to even against Walnut and Public.com (both smaller, also-uncertain brands), and lost more decisively against Magnifi, Composer and Titan — a pattern driven by how confidently the model resolved each rival's own name, not by anything about ${esc(YOU)}. Composer is a special case: the model confused it with an unrelated, far more famous PHP tool of the same name. Read "Did it even know Clera?" below before trusting the scoreboard.</p>`;
+  <p class="facts">The model did not recognize ${esc(YOU)} as a real investing app in <b>any</b> of the 5 comparisons — not even once. It came close to even against Walnut and Public.com (both smaller, also-uncertain brands), and was picked over Magnifi and Composer (7 of 10 each) but lost to Titan (2 of 10) — a pattern driven by how the model resolved each name, not by anything about ${esc(YOU)}. Composer is a special case: the model confused it with an unrelated, far more famous PHP tool of the same name. Read "Did it even know Clera?" below before trusting the scoreboard.</p>`;
 }
 
 function renderBoard() {
@@ -418,24 +475,39 @@ function renderBoard() {
   });
 }
 
-let CS = "Titan";
+let CS = SWTAB;
 function renderComp() {
-  $("#ctabs").innerHTML = `<span class="tabslabel">${YOU} vs.</span>` + RIV.map((r) => `<button type="button" data-r="${esc(r)}" aria-pressed="${r === CS}">${esc(r)}</button>`).join("");
+  $("#ctabs").innerHTML = `<button type="button" data-r="${SWTAB}" aria-pressed="${CS === SWTAB}">Strengths &amp; weaknesses</button><span class="tabslabel" aria-hidden="true">|</span><span class="tabslabel">${YOU} vs.</span>` + RIV.map((r) => `<button type="button" data-r="${esc(r)}" aria-pressed="${r === CS}">${esc(r)}</button>`).join("");
   $("#ctabs").querySelectorAll("button").forEach((b) => b.addEventListener("click", () => { CS = b.dataset.r; renderComp(); }));
-  const m = H2H[CS], t = total(CS);
-  const vtxt = t.blvd > t.rival ? `${YOU} wins ${t.blvd} of 10 forced-pick runs vs. ${esc(CS)}.` : t.blvd < t.rival ? `${esc(CS)} wins ${t.rival} of 10 forced-pick runs.` : `Dead even across 10 runs.`;
+  if (CS === SWTAB) return renderSW();
+  const m = H2H[CS], t = total(CS), x = SUM[CS];
+  const vtxt = t.blvd > t.rival ? `${YOU} is picked in ${t.blvd} of 10 forced-pick runs.` : t.blvd < t.rival ? `The model picks ${esc(CS)} in ${t.rival} of 10 forced-pick runs.` : `Dead even across 10 runs.`;
   const kBadge = m.knowledge === "accurate" ? `<span class="chip" style="background:#e3f6ea;border-color:#bfe3cc;color:#14633a">Model knows this product</span>`
     : `<span class="chip" style="background:#fdecec;border-color:#f3c6c6;color:#9b1c1c">Model ${m.knowledge === "confused" ? "misidentified Clera" : "didn't recognize Clera"}</span>`;
+  const pts = (a) => `<ul class="pts">${a.map((p) => `<li>${esc(p)}</li>`).join("")}</ul>`;
   $("#cpanel").innerHTML = `<div class="cp"><div>
       <p class="verdict">${vtxt}</p>
-      <div class="ord"><span>${YOU} named first: <b>${m.you.blvd} of 5</b> for ${YOU}</span><span>${esc(CS)} named first: <b>${m.them.blvd} of 5</b> for ${YOU}</span></div>
+      <div class="ord"><span>When ${YOU} is named first: ${YOU} picked <b>${m.you.blvd} of 5</b> times</span><span>When ${esc(CS)} is named first: ${YOU} picked <b>${m.them.blvd} of 5</b> times</span></div>
       <p style="margin:0 0 14px">${kBadge}</p>
-      <p class="dim" style="margin:0 0 6px;font-weight:700;color:var(--navy)">Open comparison (single run, not repeated)</p>
-      <ul class="how">${m.openPoints.map((p) => `<li>${esc(p)}</li>`).join("")}</ul>
-    </div><div class="cn"><h3>What the open comparison cited</h3>
-      <p class="insight">${esc(m.openCites)}</p>
-      <p class="insight">This is from one run per order (2 total), not the 10 forced-pick runs above — treat it as a data point, not a trend.</p>
+      <p class="ph">Why the model picked this way</p>
+      ${pts(x.why)}
+    </div><div class="cn"><h3>What the model said about each side</h3>
+      <p class="ph">${esc(CS)}</p>${pts(x.rival)}
+      <p class="ph">${YOU}</p>${pts(x.you)}
     </div></div>`;
+}
+
+function renderSW() {
+  const row = ([t, rs]) => { const pc = Math.round((rs.length / RIV.length) * 100); return `<div class="swrow"><p>${esc(t)}</p><div class="swbar"><span class="swtrack"><span class="swfill" style="width:${pc}%"></span></span><span class="swpct">${pc}%</span><span class="swn">${rs.length} of ${RIV.length} matchups</span></div></div>`; };
+  const byCount = (a, b) => b[1].length - a[1].length;
+  $("#cpanel").innerHTML = `<div class="cp"><div class="swcard">
+      <h3>Consistent strengths</h3><p class="swsub">What the model keeps crediting ${YOU} for</p>
+      <div class="swempty"><b>None: 0 of ${RIV.length} matchups</b>The model never said what ${YOU} does, so there is nothing to credit. ${YOU} is picked more often in ${RIV.filter((r) => total(r).blvd > total(r).rival).length} of ${RIV.length} matchups and tied in ${RIV.filter((r) => total(r).blvd === total(r).rival).length}, but that comes from name confusion, not strengths.</div>
+    </div><div class="swcard w">
+      <h3>Consistent weaknesses</h3><p class="swsub">Where the model fell short on ${YOU}</p>
+      ${[...SW.weaknesses].sort(byCount).map(row).join("")}
+    </div></div>
+    <p class="note">Percentage = how many of the ${RIV.length} matchups show the problem. Based on one open answer per name order from gpt-4o with no web browsing, so treat it as a guide, not verified fact.</p>`;
 }
 
 function renderFacts() {
