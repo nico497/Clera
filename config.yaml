@@ -7,8 +7,8 @@
 title: Competitor Radar
 
 # Used to tailor the analysis.
-niche: Conversational AI financial advisor apps — chat-based stock picks and AI-assisted trade execution
-audience: Clera's marketing team, retail investors evaluating conversational AI investing and trading apps
+niche: AI talent agents and job-search tools that help startup job seekers get hired (matching, introductions to hiring managers, auto-apply)
+audience: Clera's marketing team, startup job seekers and startup hiring teams evaluating AI recruiting and job-search tools
 
 window_days: 30          # the dashboard compares the last 30 days with the 30 before
 first_run_days: 60       # on the first run, classify pages dated within this many days
@@ -21,7 +21,7 @@ models:
 # Optional: your own site, shown as the first row so gaps are relative to you.
 you:
   name: Clera
-  site: https://www.askclera.com
+  site: https://www.getclera.com
 
 # ------------------------------------------------------------------
 # Competitors. Each needs a name and a site. The radar finds the sitemap
@@ -33,17 +33,17 @@ you:
 #   exclude_pattern: /docs/     ignore URLs matching this regex
 # ------------------------------------------------------------------
 competitors:
-  - name: Public.com
-    site: https://public.com
+  - name: Jack & Jill
+    site: https://jackandjill.ai
 
-  - name: Titan
-    site: https://www.titan.com
+  - name: Wellfound
+    site: https://wellfound.com
 
-  - name: Walnut
-    site: https://walnutinvest.com
+  - name: Jobright AI
+    site: https://jobright.ai
 
-  - name: Magnifi
-    site: https://magnifi.com
+  - name: JobCopilot
+    site: https://www.jobcopilot.com
 
-  - name: Composer
-    site: https://composer.trade
+  - name: WonsultingAI
+    site: https://www.wonsulting.com

@@ -1,51 +1,106 @@
 {
   "title": "Bottom-of-funnel content tracker",
-  "niche": "Conversational AI financial advisor apps — chat-based stock picks and AI-assisted trade execution",
+  "niche": "AI talent agents and job-search tools that help startup job seekers get hired",
   "you": "Clera",
   "competitors": [
-    "Public.com",
-    "Titan",
-    "Walnut",
-    "Magnifi",
-    "Composer"
+    "Jack & Jill",
+    "Wellfound",
+    "Jobright AI",
+    "JobCopilot",
+    "WonsultingAI"
   ],
   "vendors": {
-    "Public.com": "public\\.com|\\bpublic app\\b",
-    "Titan": "\\btitan\\b(?! ?submarine)",
-    "Walnut": "\\bwalnut\\b(?! ?street)",
-    "Magnifi": "\\bmagnifi\\b",
-    "Composer": "\\bcomposer\\b(?! ?(php|packagist|dependency))",
-    "Clera": "\\bclera\\b|askclera",
-    "Robinhood": "robinhood",
-    "Acorns": "acorns",
-    "Fidelity Go": "fidelity go",
-    "Schwab Intelligent Portfolios": "schwab intelligent portfolios",
-    "Vanguard Digital Advisor": "vanguard digital advisor",
-    "Ellevest": "ellevest",
-    "Stash": "\\bstash\\b(?! ?house)",
-    "Webull": "webull",
-    "E*TRADE": "e.?trade"
+    "Jack & Jill": "jackandjill|jack (?:and|&) jill ai",
+    "Wellfound": "wellfound|angellist talent",
+    "Jobright AI": "jobright",
+    "JobCopilot": "job ?copilot",
+    "WonsultingAI": "wonsulting",
+    "Clera": "\\bclera\\b|getclera",
+    "LinkedIn": "linkedin",
+    "Indeed": "\\bindeed\\b",
+    "Teal": "\\bteal(?:hq)?\\b(?! ?color)",
+    "Simplify": "simplify\\.jobs|\\bsimplify (?:jobs|copilot)\\b"
   },
   "audiences": [
-    ["AI-powered investing", "ai.?powered invest|ai investment"],
-    ["Robo-advisor", "robo.?advisor"],
-    ["Automated portfolio management", "automated portfolio|auto.?invest"],
-    ["Tax-loss harvesting", "tax.?loss harvest"],
-    ["Retirement accounts", "\\bira\\b|retirement account|401\\(k\\)"],
-    ["Fractional shares", "fractional share"],
-    ["Investment fees and pricing", "advisory fee|management fee|pricing"],
-    ["Portfolio diversification", "diversif"],
-    ["Beginner investing", "beginner invest|getting started invest"],
-    ["Financial advice and planning", "financial plan|financial advice|financial advisor"],
-    ["ETFs and index funds", "\\betf\\b|index fund"],
-    ["Cash management and savings", "cash management|high.?yield savings"],
-    ["Crypto investing", "crypto(currency)? invest"],
-    ["Market commentary and research", "market commentary|market research|market outlook"],
-    ["Security and regulation", "\\bsipc\\b|\\bsec\\b|regulat"],
-    ["Mobile investing app", "mobile (investing|trading) app"],
-    ["Comparisons and alternatives", "alternative|vs\\.|comparison"],
-    ["Account minimums and onboarding", "account minimum|open an account|sign up"],
-    ["Customer stories and reviews", "customer review|testimonial|case study"],
-    ["Product updates and releases", "product update|new feature|launch"]
+    [
+      "AI job search",
+      "ai.?powered job|ai job search"
+    ],
+    [
+      "Auto-apply to jobs",
+      "auto.?appl|apply to jobs"
+    ],
+    [
+      "Startup jobs",
+      "startup job|work at a startup|startup role"
+    ],
+    [
+      "Resume and CV help",
+      "resume|\\bcv\\b"
+    ],
+    [
+      "Salary and negotiation",
+      "salary|negotiat|equity"
+    ],
+    [
+      "Interview preparation",
+      "interview prep|interview question"
+    ],
+    [
+      "Networking and referrals",
+      "networking|referral"
+    ],
+    [
+      "Hiring manager outreach",
+      "hiring manager|cold email|recruiter outreach"
+    ],
+    [
+      "AI recruiter / talent agent",
+      "talent agent|ai recruiter"
+    ],
+    [
+      "Job matching",
+      "job match|matched with"
+    ],
+    [
+      "Remote jobs",
+      "remote job|remote work"
+    ],
+    [
+      "Career change",
+      "career change|switch careers"
+    ],
+    [
+      "Entry-level and new grad",
+      "entry.?level|new grad|internship"
+    ],
+    [
+      "Hiring for startups",
+      "startup hiring|hiring for startups|recruit(?:ing)? engineers"
+    ],
+    [
+      "Applicant tracking and hiring tools",
+      "applicant tracking|\\bats\\b"
+    ],
+    [
+      "Job board comparisons",
+      "job board|alternative|vs\\.|comparison"
+    ],
+    [
+      "Pricing and free plans",
+      "pricing|free plan|premium"
+    ],
+    [
+      "Customer stories and reviews",
+      "testimonial|case study|success stor"
+    ],
+    [
+      "Career advice and coaching",
+      "career advice|career coach"
+    ],
+    [
+      "Product updates and releases",
+      "product update|new feature|launch"
+    ]
   ]
 }
