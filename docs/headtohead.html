@@ -454,7 +454,7 @@ function stability(r) {
 function renderHead() {
   const wins = RIV.filter((r) => total(r).blvd > total(r).rival);
   $("#headline").innerHTML = `<h1 class="title">${YOU} wins <mark class="hl you">${wins.length} of ${RIV.length}</mark> forced-pick head-to-heads — and that number means nothing.</h1>
-  <p class="facts">The model did not recognize ${esc(YOU)} as a real investing app in <b>any</b> of the 5 comparisons — not even once. It came close to even against Walnut and Public.com (both smaller, also-uncertain brands), and was picked over Magnifi and Composer (7 of 10 each) but lost to Titan (2 of 10) — a pattern driven by how the model resolved each name, not by anything about ${esc(YOU)}. Composer is a special case: the model confused it with an unrelated, far more famous PHP tool of the same name. Read "Did it even know Clera?" below before trusting the scoreboard.</p>`;
+  <p class="facts">The model has no brand recognition of ${esc(YOU)}: it never recognized ${esc(YOU)} as an investing app in any of the 5 comparisons. The results reflect name confusion, not a real comparison.</p>`;
 }
 
 function renderBoard() {
