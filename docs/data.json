@@ -2,16 +2,16 @@
  "meta": {
   "title": "Competitor Radar",
   "niche": "AI talent agents and job-search tools that help startup job seekers get hired (matching, introductions to hiring managers, auto-apply)",
-  "updated": "2026-11-04T03:14:31+00:00",
+  "updated": "2026-11-09T16:31:44+00:00",
   "window_days": 30,
   "repo": "nico497/Clera",
-  "first_run": true,
+  "first_run": false,
   "errors": [],
-  "pending": 38,
+  "pending": 5,
   "analysis_stale": false,
   "per_run": 200,
   "tracking_since": "2026-11-04T03:14:31+00:00",
-  "tracking_days": 0
+  "tracking_days": 5
  },
  "types": [
   [
@@ -48,67 +48,63 @@
   ]
  ],
  "analysis": {
-  "summary": "Most rivals publish little new content. JobCopilot is the most active, with how-tos and lists for broad job seekers, while Jack & Jill uses case studies aimed at hiring teams.",
+  "summary": "WonsultingAI and JobCopilot publish the most, mostly job-seeker how-to guides. Jack & Jill aims at hiring teams. Clera, Wellfound and Jobright AI show no new activity in 30 days.",
   "points": [
    {
-    "text": "JobCopilot published 4 new pages and updated 2, mostly how-tos for general job seekers, not startup-focused.",
+    "text": "WonsultingAI shipped 22 new pages and 7 updates, mostly newsletter-style advice for job seekers, so it is the busiest content rival.",
     "names": [
-     "JobCopilot"
+     "WonsultingAI"
     ]
    },
    {
-    "text": "Jack & Jill shows buyer-facing proof with 2 new case studies, including one on how Attio reaches engineers.",
+    "text": "Jack & Jill's 5 new pages all target hiring teams, with city-specific hiring guides and customer stories. Few rivals do this.",
     "names": [
      "Jack & Jill"
     ]
    },
    {
-    "text": "Clera has 12 pages and no activity in 30 days, while Jack & Jill has 443 pages and WonsultingAI 383.",
+    "text": "Clera, Wellfound and Jobright AI published nothing new in 30 days, so the startup-focused space is quiet.",
     "names": [
      "Clera",
-     "Jack & Jill",
-     "WonsultingAI"
+     "Wellfound",
+     "Jobright AI"
     ]
    }
   ],
   "plays": {
    "Jack & Jill": {
-    "play": "Case studies on two-sided AI hiring, plus 357 company pages for scale.",
-    "aimed": "Startup hiring teams buying tools"
+    "play": "Hiring guides for hard-to-fill engineering roles, plus customer stories and company-context pages.",
+    "aimed": "Startup hiring teams"
    },
    "Wellfound": {
-    "play": "One new blog hub page on startup jobs, hiring and AI recruiting tools.",
-    "aimed": "Startup job seekers and employers"
+    "play": "No new or updated pages in 30 days, so no visible play.",
+    "aimed": "Unclear"
    },
    "Jobright AI": {
-    "play": "No new or updated pages in the last 30 days.",
-    "aimed": "n/a"
+    "play": "No new or updated pages in 30 days, so no visible play.",
+    "aimed": "Unclear"
    },
    "JobCopilot": {
-    "play": "Auto-apply how-tos, tool lists and a review, with two refreshed pages.",
-    "aimed": "General job seekers comparing tools"
+    "play": "Search-friendly how-tos, tool roundups and free templates to draw job seekers to auto-apply.",
+    "aimed": "General job seekers, early researchers"
    },
    "WonsultingAI": {
-    "play": "Career advice and a results story, backed by 144 job-search hub pages.",
-    "aimed": "Job seekers learning and early buyers"
-   },
-   "Clera": {
-    "play": "No activity in the last 30 days and only 12 pages.",
-    "aimed": "n/a"
+    "play": "High-volume advice newsletters feeding coaching and job-search program pages, plus a refresh of service pages.",
+    "aimed": "Job seekers, students, career changers"
    }
   },
   "shared": [
    {
-    "title": "Proof stories",
-    "text": "Jack & Jill and WonsultingAI each published a case study of results. Both show outcomes, such as replies from engineers or interviews won, to build trust before buying.",
+    "title": "Job-seeker how-to guides",
+    "text": "JobCopilot (7 how-tos) and WonsultingAI (16) lead with advice on networking, cold outreach and applications. Clera can expect rivals to own broad job-search tips.",
     "names": [
-     "Jack & Jill",
+     "JobCopilot",
      "WonsultingAI"
     ]
    },
    {
-    "title": "Big templated sections",
-    "text": "Jack & Jill (357 company pages) and WonsultingAI (144 hub pages) use templated pages to build size. Clera can't match that count soon, so it needs sharper content.",
+    "title": "Customer proof stories",
+    "text": "Jack & Jill (2 cases) and WonsultingAI (2 cases) show real hiring or interview results. Small numbers, but proof stories are how rivals show outcomes.",
     "names": [
      "Jack & Jill",
      "WonsultingAI"
@@ -117,24 +113,24 @@
   ],
   "gaps": [
    {
-    "title": "Startup-only auto-apply safety",
-    "text": "JobCopilot covers safe auto-apply for everyone. Nobody covers it for startup roles, where founders and small teams read applications differently."
+    "title": "Startup-specific job seeker guides",
+    "text": "Rivals write general career advice. Nobody covers how to get hired at startups, such as founder outreach or early-stage roles."
    },
    {
-    "title": "Candidate-side case studies",
-    "text": "Jack & Jill's case study is for hiring teams, and Wonsulting's is a single newsletter story. Clera could publish startup hires from intro to offer."
+    "title": "AI matching vs auto-apply explained",
+    "text": "Only JobCopilot touches auto-apply safety. Nobody explains how introductions and matching differ from mass applying."
    },
    {
-    "title": "Honest AI job tool comparisons",
-    "text": "Only JobCopilot has a tools list and a review, and it's a vendor ranking itself. A startup-focused comparison that includes Clera is open."
+    "title": "Startup hiring guides by role",
+    "text": "Only Jack & Jill writes role and city hiring guides, and only for engineers. Other startup roles are open."
    }
   ],
   "versus": {
-   "Jack & Jill": "Far larger and active, with buyer case studies. Clera has no recent output to match it.",
-   "Wellfound": "Publishes a broad startup blog with one new page. Clera has not published in 30 days.",
-   "Jobright AI": "Also quiet, with 61 pages and no recent activity, so Clera isn't behind it on pace.",
-   "JobCopilot": "Publishes and refreshes pages steadily for broad job seekers. Clera has published nothing in the same period.",
-   "WonsultingAI": "Mixes career advice with a results story and a large hub. Clera has far fewer pages and no new ones."
+   "Jack & Jill": "Publishes 5 new pages a month aimed at hiring teams, while Clera has 12 pages and no new activity.",
+   "Wellfound": "Has 85 pages against Clera's 12, but like Clera shows no new or updated pages in 30 days.",
+   "Jobright AI": "Has 61 pages against Clera's 12, and neither published or updated anything in 30 days.",
+   "JobCopilot": "Publishes 8 new pages and 2 updates, mostly search-style guides for job seekers; Clera published none.",
+   "WonsultingAI": "Far ahead on volume with 22 new pages, 7 updates and a 144-page job-search hub; Clera is silent."
   }
  },
  "sites": [
@@ -184,65 +180,68 @@
    "name": "Jack & Jill",
    "site": "https://jackandjill.ai",
    "you": false,
-   "n": 2,
-   "site_pages": 443,
+   "n": 5,
+   "site_pages": 501,
    "n_prev": 12,
    "refreshed": 0,
    "mix": {
     "compare": 0,
-    "howto": 0,
+    "howto": 2,
     "list": 0,
     "research": 0,
     "case": 2,
     "opinion": 0,
     "news": 0,
-    "landing": 0
+    "landing": 1
    },
    "stages": {
     "learning": 0,
     "comparing": 0,
-    "buying": 2,
+    "buying": 5,
     "customers": 0
    },
    "topics": [
     "hiring and job-seeking with ai",
-    "ai hiring reaches ambitious engineers"
+    "ai hiring reaches ambitious engineers",
+    "hiring ai engineers in london",
+    "how to hire forward deployed engineers",
+    "company background context for hiring"
    ],
    "unclassified": 0,
    "removed": 0,
    "removed_titles": [],
-   "new": 2,
+   "new": 5,
    "updated": 0,
    "bulk": [],
    "programmatic": [
     {
      "section": "companies",
-     "pages": 357,
-     "new": 0
+     "pages": 363,
+     "new": 55
     }
    ],
    "ok": true,
    "error": null,
    "method": "sitemap",
    "url": "https://www.jackandjill.ai/sitemap.xml",
-   "pages": 443,
-   "undated": 443,
-   "new_urls": 0,
-   "play": "Case studies on two-sided AI hiring, plus 357 company pages for scale.",
-   "aimed": "Startup hiring teams buying tools"
+   "pages": 452,
+   "undated": 452,
+   "new_urls": 58,
+   "play": "Hiring guides for hard-to-fill engineering roles, plus customer stories and company-context pages.",
+   "aimed": "Startup hiring teams"
   },
   {
    "name": "Wellfound",
    "site": "https://wellfound.com",
    "you": false,
-   "n": 1,
+   "n": 0,
    "site_pages": 85,
-   "n_prev": 0,
+   "n_prev": 1,
    "refreshed": 0,
    "mix": {
     "compare": 0,
     "howto": 0,
-    "list": 1,
+    "list": 0,
     "research": 0,
     "case": 0,
     "opinion": 0,
@@ -250,18 +249,16 @@
     "landing": 0
    },
    "stages": {
-    "learning": 1,
+    "learning": 0,
     "comparing": 0,
     "buying": 0,
     "customers": 0
    },
-   "topics": [
-    "ai recruiting and hiring tools"
-   ],
+   "topics": [],
    "unclassified": 0,
    "removed": 0,
    "removed_titles": [],
-   "new": 1,
+   "new": 0,
    "updated": 0,
    "bulk": [],
    "programmatic": [],
@@ -272,8 +269,8 @@
    "pages": 85,
    "undated": 85,
    "new_urls": 0,
-   "play": "One new blog hub page on startup jobs, hiring and AI recruiting tools.",
-   "aimed": "Startup job seekers and employers"
+   "play": "No new or updated pages in 30 days, so no visible play.",
+   "aimed": "Unclear"
   },
   {
    "name": "Jobright AI",
@@ -314,31 +311,31 @@
    "pages": 61,
    "undated": 17,
    "new_urls": 0,
-   "play": "No new or updated pages in the last 30 days.",
-   "aimed": "n/a"
+   "play": "No new or updated pages in 30 days, so no visible play.",
+   "aimed": "Unclear"
   },
   {
    "name": "JobCopilot",
    "site": "https://www.jobcopilot.com",
    "you": false,
-   "n": 6,
-   "site_pages": 133,
+   "n": 10,
+   "site_pages": 137,
    "n_prev": 8,
    "refreshed": 3,
    "mix": {
     "compare": 1,
-    "howto": 4,
+    "howto": 7,
     "list": 1,
     "research": 0,
     "case": 0,
     "opinion": 0,
     "news": 0,
-    "landing": 0
+    "landing": 1
    },
    "stages": {
-    "learning": 4,
+    "learning": 6,
     "comparing": 2,
-    "buying": 0,
+    "buying": 2,
     "customers": 0
    },
    "topics": [
@@ -351,7 +348,7 @@
    "unclassified": 0,
    "removed": 0,
    "removed_titles": [],
-   "new": 4,
+   "new": 8,
    "updated": 2,
    "bulk": [],
    "programmatic": [],
@@ -359,45 +356,48 @@
    "error": null,
    "method": "sitemap",
    "url": "https://jobcopilot.com/sitemap_index.xml",
-   "pages": 133,
+   "pages": 137,
    "undated": 0,
-   "new_urls": 0,
-   "play": "Auto-apply how-tos, tool lists and a review, with two refreshed pages.",
-   "aimed": "General job seekers comparing tools"
+   "new_urls": 4,
+   "play": "Search-friendly how-tos, tool roundups and free templates to draw job seekers to auto-apply.",
+   "aimed": "General job seekers, early researchers"
   },
   {
    "name": "WonsultingAI",
    "site": "https://www.wonsulting.com",
    "you": false,
-   "n": 2,
-   "site_pages": 383,
-   "n_prev": 12,
-   "refreshed": 0,
+   "n": 29,
+   "site_pages": 401,
+   "n_prev": 1,
+   "refreshed": 8,
    "mix": {
     "compare": 0,
-    "howto": 1,
+    "howto": 16,
     "list": 0,
-    "research": 0,
-    "case": 1,
-    "opinion": 0,
-    "news": 0,
-    "landing": 0
+    "research": 1,
+    "case": 2,
+    "opinion": 1,
+    "news": 1,
+    "landing": 6
    },
    "stages": {
-    "learning": 1,
+    "learning": 19,
     "comparing": 0,
-    "buying": 1,
-    "customers": 0
+    "buying": 7,
+    "customers": 1
    },
    "topics": [
-    "is product design a good career",
-    "job search results success stories"
+    "career coaching and job search services",
+    "ai job search tool release notes",
+    "career coaching for experienced professionals",
+    "early career coaching and job placement",
+    "career coaching for recent graduates"
    ],
-   "unclassified": 26,
+   "unclassified": 6,
    "removed": 0,
    "removed_titles": [],
-   "new": 2,
-   "updated": 0,
+   "new": 22,
+   "updated": 7,
    "bulk": [],
    "programmatic": [
     {
@@ -410,11 +410,11 @@
    "error": null,
    "method": "sitemap",
    "url": "https://www.wonsulting.com/sitemap.xml",
-   "pages": 383,
+   "pages": 401,
    "undated": 0,
-   "new_urls": 0,
-   "play": "Career advice and a results story, backed by 144 job-search hub pages.",
-   "aimed": "Job seekers learning and early buyers"
+   "new_urls": 18,
+   "play": "High-volume advice newsletters feeding coaching and job-search program pages, plus a refresh of service pages.",
+   "aimed": "Job seekers, students, career changers"
   }
  ],
  "pages": [
@@ -422,8 +422,8 @@
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/services",
    "title": "Career Consulting Services at Wonsulting - Find A Job You Love!",
-   "date": "2026-11-03T09:17:11+00:00",
-   "kind": "unknown",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "updated",
    "published": null,
    "first_seen": "2026-11-04T03:14:31+00:00",
    "type": "landing",
@@ -434,10 +434,24 @@
   },
   {
    "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/wonsultingai-releases",
+   "title": "WonsultingAI Releases | Wonsulting",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "updated",
+   "published": "2026-02-11T00:00:00+00:00",
+   "first_seen": "2026-11-04T03:14:31+00:00",
+   "type": "news",
+   "stage": "customers",
+   "topic": "AI job search tool release notes",
+   "search": "WonsultingAI new features updates",
+   "why": "Keeps users informed of platform improvements and new features."
+  },
+  {
+   "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/professional-services",
    "title": "Career Coaching for Experienced Professionals | Wonsulting",
-   "date": "2026-11-03T09:13:19+00:00",
-   "kind": "unknown",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "updated",
    "published": null,
    "first_seen": "2026-11-04T03:14:31+00:00",
    "type": "landing",
@@ -450,8 +464,8 @@
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/early-career-services",
    "title": "Early Career Coaching for Professionals | Land More Interviews | Wonsulting",
-   "date": "2026-11-03T09:09:02+00:00",
-   "kind": "unknown",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "updated",
    "published": null,
    "first_seen": "2026-11-04T03:14:31+00:00",
    "type": "landing",
@@ -459,6 +473,398 @@
    "topic": "Early career coaching and job placement",
    "search": "career coaching early career professionals",
    "why": "Converts job seekers stuck in applications into paying coaching clients with guaranteed offer."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/student-services",
+   "title": "Career Coaching for Students and New Grads | Wonsulting",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "updated",
+   "published": null,
+   "first_seen": "2026-11-04T03:14:31+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Career coaching for recent graduates",
+   "search": "career coaching for recent graduates job search",
+   "why": "Converts early-career job seekers with a money-back guarantee offer and testimonials."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/job-search-program",
+   "title": "Wonsulting - Job Search Program",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "updated",
+   "published": null,
+   "first_seen": "2026-11-04T03:14:31+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI job search coaching program",
+   "search": "job search coaching guaranteed job offer",
+   "why": "Converts job seekers ready to buy their premium coaching program with guarantees and proof."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/program",
+   "title": "Job Search Program at Wonsulting - Find A Job You Love!",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "updated",
+   "published": null,
+   "first_seen": "2026-11-04T03:14:31+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Job search program and career coaching",
+   "search": "job search program career coaching",
+   "why": "Converts job seekers ready to pay for structured job search and interview prep support."
+  },
+  {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/roles/ai-engineer/london",
+   "title": "How to hire an AI engineer in London",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "new",
+   "published": "2026-11-04T00:00:00+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "type": "howto",
+   "stage": "buying",
+   "topic": "Hiring AI engineers in London",
+   "search": "how to hire AI engineer London",
+   "why": "Attracts hiring managers searching for recruitment guidance with proprietary talent market data."
+  },
+  {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/roles/forward-deployed-engineer/san-francisco",
+   "title": "How to hire a forward deployed engineer in San Francisco",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "new",
+   "published": "2026-11-04T00:00:00+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "type": "howto",
+   "stage": "buying",
+   "topic": "How to hire forward deployed engineers",
+   "search": "how to hire forward deployed engineer",
+   "why": "Helps hiring managers fill FDE roles with market data and recruitment strategies."
+  },
+  {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/blog/company-insights",
+   "title": "Company Insights: Know the company behind every candidate",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "new",
+   "published": "2026-11-04T00:00:00+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Company background context for hiring",
+   "search": "how to assess startup candidate experience",
+   "why": "Demonstrates feature value to hiring managers evaluating candidates for startup roles."
+  },
+  {
+   "site": "JobCopilot",
+   "url": "https://jobcopilot.com/job-application-tracker-spreadsheet/",
+   "title": "Job Application Tracker Spreadsheet (Free Template + How to Use It)",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "new",
+   "published": "2026-11-04T15:16:21+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Job application tracking spreadsheet",
+   "search": "free job application tracker spreadsheet",
+   "why": "Educates job seekers on tracking applications, then positions their paid tool as the upgrade."
+  },
+  {
+   "site": "JobCopilot",
+   "url": "https://jobcopilot.com/how-to-negotiate-job-offer-salary/",
+   "title": "How to Negotiate Your Job Offer Salary: Scripts and Counteroffers - JobCopilot",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "new",
+   "published": "2026-11-05T10:17:52+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "type": "howto",
+   "stage": "buying",
+   "topic": "job offer salary negotiation",
+   "search": "how to negotiate job offer salary",
+   "why": "Guides job seekers through offer negotiation to build trust before matching service."
+  },
+  {
+   "site": "JobCopilot",
+   "url": "https://jobcopilot.com/ask-informational-interview/",
+   "title": "How to Ask for an Informational Interview That Leads to Referrals",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "new",
+   "published": "2026-11-04T14:22:27+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Informational interviews job referrals",
+   "search": "how to ask for informational interview",
+   "why": "Teaches job seekers relationship-building skills that unlock referrals and networking opportunities."
+  },
+  {
+   "site": "JobCopilot",
+   "url": "https://jobcopilot.com/jobcopilot-white-label-program/",
+   "title": "Monetize your website users with JobCopilot white-label",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "new",
+   "published": "2026-11-04T09:20:08+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "White-label AI job application assistant",
+   "search": "white-label job assistant for job sites",
+   "why": "Converts job board operators into partners earning recurring revenue."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/ai-skills-on-your-resume",
+   "title": "Recruiters Don't Want Your AI Skills. They Want Proof. - Wonsulting Newsletter",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "new",
+   "published": "2026-11-06T10:02:35+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "type": "research",
+   "stage": "learning",
+   "topic": "AI skills on job resumes",
+   "search": "how to list AI skills on resume",
+   "why": "Builds authority through original research that guides job seekers' resume strategies."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/applications-but-no-interviews",
+   "title": "30 Applications, 0 Interviews? Fix Conversion, Not Volume - Wonsulting Newsletter",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "new",
+   "published": "2026-11-06T10:03:07+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Job search conversion optimization strategy",
+   "search": "why no interviews after applying jobs",
+   "why": "Educates job seekers on prioritizing resume/positioning over application volume to improve conversion rates."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/apply-to-jobs-early",
+   "title": "Apply to Jobs Early: Why Listings Go Stale Fast - Wonsulting Newsletter",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "new",
+   "published": "2026-11-06T10:02:35+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Job search strategy early applications",
+   "search": "why apply to jobs early",
+   "why": "Establishes job-search expertise, builds newsletter audience, drives qualified leads."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/career-change-reposition-your-experience",
+   "title": "Career Changer? Your Experience Just Needs the Right Adapter - Wonsulting Newsletter",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "new",
+   "published": "2026-11-06T10:03:07+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Career change positioning experience",
+   "search": "how to change careers successfully",
+   "why": "Builds trust with career changers and self-taught job seekers early in search."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/employed-but-want-a-new-job",
+   "title": "Employed but want a new job",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "new",
+   "published": "2026-11-06T10:03:07+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "switching jobs while employed",
+   "search": "how to find new job while employed",
+   "why": "Educates job seekers on career transitions to build trust and authority."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/find-your-real-market-value",
+   "title": "Find your real market value",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "new",
+   "published": "2026-11-06T10:03:07+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Calculate your market salary value",
+   "search": "how to find your market value salary",
+   "why": "Attracts early-stage job seekers researching their compensation expectations."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/get-hired-with-no-network",
+   "title": "No Network? How to Get Hired When You Know Nobody - Wonsulting Newsletter",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "new",
+   "published": "2026-11-06T10:03:07+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Get hired without network connections",
+   "search": "how to get job without network connections",
+   "why": "Educates job seekers on alternative strategies when lacking industry connections."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/get-recruiters-to-reach-out",
+   "title": "How Tesla and Amazon Reached Out Without Him Applying - Wonsulting Newsletter",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "new",
+   "published": "2026-11-06T10:03:07+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "type": "case",
+   "stage": "learning",
+   "topic": "positioning strategy attract recruiters",
+   "search": "how to get recruiters to reach out",
+   "why": "Demonstrates job search strategy effectiveness through real candidate success story."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/job-search-while-employed",
+   "title": "How to Job Search While Employed (Without Burning Out) - Wonsulting Newsletter",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "new",
+   "published": "2026-11-06T10:03:07+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "job search while employed",
+   "search": "how to job search while employed",
+   "why": "Educates employed job seekers on strategic search tactics, positioning company's guidance as the solution."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/jobs-filled-before-posted",
+   "title": "Why Jobs Are Filled Before They're Posted (and What to Do) - Wonsulting Newsletter",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "new",
+   "published": "2026-11-06T10:03:07+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "finding hidden job opportunities",
+   "search": "how to find jobs before posted",
+   "why": "Educates job seekers on hidden job market to build trust and newsletter engagement."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/networking-cold-messages-follow-ups",
+   "title": "Networking That Works: Who to Contact and How to Follow Up - Wonsulting Newsletter",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "new",
+   "published": "2026-11-06T10:03:07+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "networking cold messages follow-ups",
+   "search": "how to write cold messages networking",
+   "why": "Builds trust with job seekers early in search, establishes expertise."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/referral-but-no-response",
+   "title": "Got a Referral but Heard Nothing? Here's Why - Wonsulting Newsletter",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "new",
+   "published": "2026-11-06T10:03:07+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Getting response from referrals",
+   "search": "why referral no response after",
+   "why": "Teaches job seekers why referrals fail and positions Wonsulting's coaching as the solution."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/resume-bullets-show-impact",
+   "title": "Resume Bullets That Show Impact, Not Just Duties - Wonsulting Newsletter",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "new",
+   "published": "2026-11-06T10:02:35+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Resume bullets showing impact",
+   "search": "how to write impactful resume bullets",
+   "why": "Attracts job seekers early in their search process with free resume-writing advice."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/resume-not-reaching-recruiters-ats",
+   "title": "Why Your Resume Isn't Reaching a Human (ATS Explained) - Wonsulting Newsletter",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "new",
+   "published": "2026-11-06T10:02:35+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "ATS resume screening keywords",
+   "search": "how to get resume past ATS",
+   "why": "Educates early-stage job seekers on ATS mechanics to build confidence in their search process."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/stop-mass-applying-easy-apply",
+   "title": "Stop Mass Applying: The 60-Second Job Listing Test - Wonsulting Newsletter",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "new",
+   "published": "2026-11-06T10:02:35+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Job search filtering technique",
+   "search": "how to filter job listings when applying",
+   "why": "Teaches job seekers an efficient filtering method to maximize application ROI."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/switching-careers-reposition-experience",
+   "title": "Switching Careers? How to Reposition Your Experience - Wonsulting Newsletter",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "new",
+   "published": "2026-11-06T10:03:07+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Repositioning experience for career change",
+   "search": "how to reposition experience switching careers",
+   "why": "Builds authority with job seekers considering career changes, a key audience segment."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/why-hiring-managers-choose-one-candidate",
+   "title": "Why Hiring Managers Pick One Candidate Over Another - Wonsulting Newsletter",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "new",
+   "published": "2026-11-06T10:03:07+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "type": "opinion",
+   "stage": "learning",
+   "topic": "hiring manager decision-making psychology",
+   "search": "why do hiring managers choose certain candidates",
+   "why": "Builds credibility with job seekers by revealing insider hiring secrets and psychology."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/why-linkedin-messages-get-ignored",
+   "title": "Why Your LinkedIn Messages Get Ignored (and Who to Skip) - Wonsulting Newsletter",
+   "date": "2026-11-09T16:31:44+00:00",
+   "kind": "new",
+   "published": "2026-11-06T10:02:35+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "LinkedIn messaging strategy for job seekers",
+   "search": "why LinkedIn messages get ignored",
+   "why": "Establishes expertise in job search networking to build audience trust."
   },
   {
    "site": "Jack & Jill",
@@ -543,20 +949,6 @@
    "topic": "Resume templates from top companies",
    "search": "resume templates that got hired Google",
    "why": "Builds brand authority and captures early-stage job seekers into email funnel."
-  },
-  {
-   "site": "WonsultingAI",
-   "url": "https://www.wonsulting.com/job-search-program",
-   "title": "Wonsulting - Job Search Program",
-   "date": "2026-10-30T09:59:42+00:00",
-   "kind": "unknown",
-   "published": null,
-   "first_seen": "2026-11-04T03:14:31+00:00",
-   "type": "landing",
-   "stage": "buying",
-   "topic": "AI job search coaching program",
-   "search": "job search coaching guaranteed job offer",
-   "why": "Converts job seekers ready to buy their premium coaching program with guarantees and proof."
   },
   {
    "site": "WonsultingAI",
@@ -671,20 +1063,6 @@
    "why": "Attracts early-career job seekers exploring data analyst roles with guidance and job listings."
   },
   {
-   "site": "WonsultingAI",
-   "url": "https://www.wonsulting.com/program",
-   "title": "Job Search Program at Wonsulting - Find A Job You Love!",
-   "date": "2026-10-29T17:04:46+00:00",
-   "kind": "unknown",
-   "published": null,
-   "first_seen": "2026-11-04T03:14:31+00:00",
-   "type": "landing",
-   "stage": "buying",
-   "topic": "Job search program and career coaching",
-   "search": "job search program career coaching",
-   "why": "Converts job seekers ready to pay for structured job search and interview prep support."
-  },
-  {
    "site": "JobCopilot",
    "url": "https://jobcopilot.com/cold-email-recruiters-on-linkedin/",
    "title": "How to Cold Email Recruiters on LinkedIn for Hidden Jobs",
@@ -711,20 +1089,6 @@
    "topic": "AutoApply automated job applications",
    "search": "automate job applications AI",
    "why": "Converts job seekers ready to apply faster using their AI automation tool."
-  },
-  {
-   "site": "WonsultingAI",
-   "url": "https://www.wonsulting.com/student-services",
-   "title": "Career Coaching for Students and New Grads | Wonsulting",
-   "date": "2026-10-29T08:55:03+00:00",
-   "kind": "unknown",
-   "published": null,
-   "first_seen": "2026-11-04T03:14:31+00:00",
-   "type": "landing",
-   "stage": "buying",
-   "topic": "Career coaching for recent graduates",
-   "search": "career coaching for recent graduates job search",
-   "why": "Converts early-career job seekers with a money-back guarantee offer and testimonials."
   },
   {
    "site": "JobCopilot",
@@ -895,6 +1259,146 @@
    "why": "Catches job seekers evaluating resume builders against competitors like Zety and LiveCareer."
   },
   {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/resumai",
+   "title": "ResumAI by Wonsulting - Free AI Resume Builder & Bulletpoint Generator at WonsultingAI",
+   "date": "2026-10-20T09:26:05+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-11-04T03:14:31+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI resume builder and job search",
+   "search": "free AI resume builder for job seekers",
+   "why": "Converts job seekers ready to improve resumes into users of core product."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/success-stories",
+   "title": "Wonsulting - Success Stories | Wonsulting Reviews",
+   "date": "2026-10-20T08:59:36+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-11-04T03:14:31+00:00",
+   "type": "case",
+   "stage": "buying",
+   "topic": "Success stories job offers hiring",
+   "search": "job search success stories testimonials",
+   "why": "Demonstrates social proof and outcomes to convince buyers their service delivers results."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/interviewai",
+   "title": "InterviewAI by Wonsulting - Your AI Interviewer from WonsultingAI",
+   "date": "2026-10-20T08:59:36+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-11-04T03:14:31+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI interview prep tool for job seekers",
+   "search": "AI mock interview practice tool",
+   "why": "Showcases core product features to convince job seekers to sign up and practice interviews."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/jobboardai",
+   "title": "JobBoardAI by Wonsulting - Find Your Next Job Powered by our AI Job Board at WonsultingAI",
+   "date": "2026-10-20T08:59:36+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-11-04T03:14:31+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "AI job board matching recommendations",
+   "search": "AI job board matching recommendations",
+   "why": "Converts job seekers to free signup with AI matching, resume tailoring, and cover letter tools."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/resume-share",
+   "title": "Resume Share by Wonsulting - Browse Resumes That Got Hired at WonsultingAI",
+   "date": "2026-10-20T08:59:36+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-11-04T03:14:31+00:00",
+   "type": "landing",
+   "stage": "learning",
+   "topic": "Real resumes that got hired",
+   "search": "resume examples that got interviews",
+   "why": "Establishes trust through social proof of successful resumes and hiring outcomes."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/case-studies/san-francisco-state-university",
+   "title": "WonsultingAI by Wonsulting - Case Study: San Francisco State University",
+   "date": "2026-10-20T08:59:36+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-11-04T03:14:31+00:00",
+   "type": "case",
+   "stage": "buying",
+   "topic": "AI job search tool for university students",
+   "search": "how WonsultingAI helps college students get hired",
+   "why": "Demonstrates impact on real institution to convince other universities to adopt their platform."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/case-studies/university-of-washington-informatics",
+   "title": "WonsultingAI by Wonsulting - Case Study: University of Washington - Informatics",
+   "date": "2026-10-20T08:59:36+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-11-04T03:14:31+00:00",
+   "type": "case",
+   "stage": "customers",
+   "topic": "University of Washington career services partnership",
+   "search": "university career services hiring graduates job placement",
+   "why": "Showcases student job outcomes to attract similar university partnerships."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/case-studies/drexel-university",
+   "title": "WonsultingAI - Case Study: Drexel University",
+   "date": "2026-10-20T08:59:36+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-11-04T03:14:31+00:00",
+   "type": "case",
+   "stage": "buying",
+   "topic": "WonsultingAI case study Drexel University",
+   "search": "how WonsultingAI helps universities scale career services",
+   "why": "Demonstrates ROI and impact to persuade institutional buyers and universities to adopt."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/case-studies/university-of-michigan-alumni-association",
+   "title": "WonsultingAI by Wonsulting - Case Study: University of Michigan - Alumni Association",
+   "date": "2026-10-20T08:59:36+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-11-04T03:14:31+00:00",
+   "type": "case",
+   "stage": "buying",
+   "topic": "AI job search solution for alumni",
+   "search": "AI job search tool for students",
+   "why": "Demonstrates results with prestigious university to win institutional buyers and job seekers."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/virtual-webinar",
+   "title": "Virtual Webinar with Jonathan Javier - Wonsulting",
+   "date": "2026-10-20T08:59:36+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-11-04T03:14:31+00:00",
+   "type": "landing",
+   "stage": "learning",
+   "topic": "Remote job search strategies international",
+   "search": "how to get remote US jobs international",
+   "why": "Attracts job seekers learning remote work strategies; builds email list cheaply."
+  },
+  {
    "site": "JobCopilot",
    "url": "https://jobcopilot.com/how-to-auto-apply-for-jobs-safely/",
    "title": "How to Auto Apply for Jobs Safely in 2026",
@@ -1025,7 +1529,7 @@
    "url": "https://www.jackandjill.ai/customers/evervault",
    "title": "The hardest part of hiring is finding great engineers who are excited by what you’re building. With Jill, I knew that before our first call.",
    "date": "2026-09-22T00:00:00+00:00",
-   "kind": "new",
+   "kind": "unknown",
    "published": "2026-09-22T00:00:00+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "type": "case",
@@ -1039,7 +1543,7 @@
    "url": "https://www.jackandjill.ai/customers/penelope-health",
    "title": "Penelope Health hired half its founding team with Jill",
    "date": "2026-09-22T00:00:00+00:00",
-   "kind": "new",
+   "kind": "unknown",
    "published": "2026-09-22T00:00:00+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "type": "case",
@@ -1053,7 +1557,7 @@
    "url": "https://www.jackandjill.ai/customers/rig",
    "title": "Rig went from starting the search to making an offer in a month",
    "date": "2026-09-22T00:00:00+00:00",
-   "kind": "new",
+   "kind": "unknown",
    "published": "2026-09-22T00:00:00+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "type": "case",
@@ -1218,17 +1722,31 @@
   },
   {
    "site": "WonsultingAI",
-   "url": "https://www.wonsulting.com/wonsultingai-releases",
-   "title": "WonsultingAI Releases | Wonsulting",
-   "date": "2026-02-11T00:00:00+00:00",
+   "url": "https://www.wonsulting.com/job-search-hub-networking",
+   "title": "Wonsulting - Job Search Hub - Networking",
+   "date": "2025-12-02T00:00:00+00:00",
    "kind": "unknown",
-   "published": "2026-02-11T00:00:00+00:00",
+   "published": "2025-12-02T00:00:00+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "type": "news",
-   "stage": "customers",
-   "topic": "AI job search tool release notes",
-   "search": "WonsultingAI new features updates",
-   "why": "Keeps users informed of platform improvements and new features."
+   "type": "howto",
+   "stage": "learning",
+   "topic": "networking for job search",
+   "search": "how to network for jobs",
+   "why": "Establishes networking expertise while showcasing NetworkAI product capabilities to early-stage job seekers."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/job-search-hub-job-search",
+   "title": "Wonsulting - Job Search Hub - Job Search",
+   "date": "2025-12-01T00:00:00+00:00",
+   "kind": "unknown",
+   "published": "2025-12-01T00:00:00+00:00",
+   "first_seen": "2026-11-04T03:14:31+00:00",
+   "type": "landing",
+   "stage": "learning",
+   "topic": "Job search strategies and career coaching",
+   "search": "how to run an effective job search",
+   "why": "Establishes expertise in job search fundamentals to attract early-stage seekers."
   },
   {
    "site": "WonsultingAI",
@@ -1246,6 +1764,20 @@
   },
   {
    "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/job-search-hub-interview",
+   "title": "Wonsulting - Job Search Hub - Interview",
+   "date": "2025-11-28T00:00:00+00:00",
+   "kind": "unknown",
+   "published": "2025-11-28T00:00:00+00:00",
+   "first_seen": "2026-11-04T03:14:31+00:00",
+   "type": "howto",
+   "stage": "comparing",
+   "topic": "Interview preparation and common questions",
+   "search": "how to answer interview questions",
+   "why": "Attracts job seekers researching interview prep before using their AI agent service."
+  },
+  {
+   "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/job-search-hub-resume",
    "title": "Wonsulting - Job Search Hub - Resume",
    "date": "2025-11-26T00:00:00+00:00",
@@ -1257,6 +1789,48 @@
    "topic": "Master resume writing with AI tools",
    "search": "how to write resume that gets interviews",
    "why": "Educates job seekers on resume best practices, establishing authority and trust for their paid resume service."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/job-search-hub-careers",
+   "title": "Wonsulting - Job Search Hub - Careers",
+   "date": "2025-11-20T00:00:00+00:00",
+   "kind": "unknown",
+   "published": "2025-11-20T00:00:00+00:00",
+   "first_seen": "2026-11-04T03:14:31+00:00",
+   "type": "list",
+   "stage": "learning",
+   "topic": "Career growth and job search strategies",
+   "search": "how to manage up career advice",
+   "why": "Attracts early-stage job seekers researching career development and advancement techniques."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/job-search-hub-cover-letter",
+   "title": "Wonsulting -Job Search Hub - Cover Letter",
+   "date": "2025-10-31T00:00:00+00:00",
+   "kind": "unknown",
+   "published": "2025-10-31T00:00:00+00:00",
+   "first_seen": "2026-11-04T03:14:31+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Cover letter writing tips and templates",
+   "search": "how to write a cover letter",
+   "why": "Attract job seekers at early research stage learning cover letter fundamentals."
+  },
+  {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/job-search-hub-applying-to-jobs",
+   "title": "Wonsulting - Job Search Hub - Applying to Jobs",
+   "date": "2025-10-13T00:00:00+00:00",
+   "kind": "unknown",
+   "published": "2025-10-13T00:00:00+00:00",
+   "first_seen": "2026-11-04T03:14:31+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Job application strategies and process",
+   "search": "how to apply to jobs effectively",
+   "why": "Builds trust with job seekers researching application best practices and techniques."
   }
  ],
  "history": [
@@ -1299,6 +1873,48 @@
      "updated": 0,
      "removed": 0,
      "pages": 239
+    }
+   }
+  },
+  {
+   "week": "2026-W46",
+   "date": "2026-11-09T16:31:44+00:00",
+   "sites": {
+    "Clera": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 12
+    },
+    "Jack & Jill": {
+     "new": 3,
+     "updated": 0,
+     "removed": 0,
+     "pages": 89
+    },
+    "Wellfound": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 85
+    },
+    "Jobright AI": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 61
+    },
+    "JobCopilot": {
+     "new": 4,
+     "updated": 1,
+     "removed": 0,
+     "pages": 137
+    },
+    "WonsultingAI": {
+     "new": 20,
+     "updated": 8,
+     "removed": 0,
+     "pages": 257
     }
    }
   }

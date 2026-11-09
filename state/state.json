@@ -1449,7 +1449,7 @@
    "mod": "2026-09-22T00:00:00+00:00",
    "fp": "8534eded6e0dbd40",
    "dates_checked": "2026-11-04T03:14:31+00:00",
-   "kind": "new",
+   "kind": "unknown",
    "event": "2026-09-22T00:00:00+00:00",
    "bulk_pub": false,
    "bulk_mod": false
@@ -1475,7 +1475,7 @@
    "mod": "2026-09-22T00:00:00+00:00",
    "fp": "29272d5c07a74c4c",
    "dates_checked": "2026-11-04T03:14:31+00:00",
-   "kind": "new",
+   "kind": "unknown",
    "event": "2026-09-22T00:00:00+00:00",
    "bulk_pub": false,
    "bulk_mod": false
@@ -1501,7 +1501,7 @@
    "mod": "2026-09-22T00:00:00+00:00",
    "fp": "22ffaab4dc496cb8",
    "dates_checked": "2026-11-04T03:14:31+00:00",
-   "kind": "new",
+   "kind": "unknown",
    "event": "2026-09-22T00:00:00+00:00",
    "bulk_pub": false,
    "bulk_mod": false
@@ -1593,7 +1593,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/adamo": {
    "site": "Jack & Jill",
@@ -1703,7 +1704,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/alaro": {
    "site": "Jack & Jill",
@@ -1714,7 +1716,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/alchemy-springs": {
    "site": "Jack & Jill",
@@ -1758,7 +1761,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/ama": {
    "site": "Jack & Jill",
@@ -1879,7 +1883,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/ask-tax-international-inc": {
    "site": "Jack & Jill",
@@ -1901,7 +1906,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/assembled": {
    "site": "Jack & Jill",
@@ -2077,7 +2083,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/brainfood-inc": {
    "site": "Jack & Jill",
@@ -2242,7 +2249,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/caribou": {
    "site": "Jack & Jill",
@@ -2374,7 +2382,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/claimsorted": {
    "site": "Jack & Jill",
@@ -2429,7 +2438,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/companion": {
    "site": "Jack & Jill",
@@ -2638,7 +2648,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/dwelly": {
    "site": "Jack & Jill",
@@ -2671,7 +2682,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/eec-irrigation": {
    "site": "Jack & Jill",
@@ -2715,7 +2727,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/elyos-ai": {
    "site": "Jack & Jill",
@@ -2781,7 +2794,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/enhanced-telecommunications-corporation": {
    "site": "Jack & Jill",
@@ -2891,7 +2905,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/firstmotion": {
    "site": "Jack & Jill",
@@ -3078,7 +3093,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/godiligent": {
    "site": "Jack & Jill",
@@ -3309,7 +3325,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/infact": {
    "site": "Jack & Jill",
@@ -3386,7 +3403,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/iris-os": {
    "site": "Jack & Jill",
@@ -3397,7 +3415,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/ivo-ai-inc": {
    "site": "Jack & Jill",
@@ -3408,7 +3427,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/jarmin": {
    "site": "Jack & Jill",
@@ -3474,7 +3494,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/kalibr-labs": {
    "site": "Jack & Jill",
@@ -3485,7 +3506,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/katana-electronics-llc": {
    "site": "Jack & Jill",
@@ -3672,7 +3694,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/marklo-ai-inc": {
    "site": "Jack & Jill",
@@ -3760,7 +3783,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/mochacare-yc-w26": {
    "site": "Jack & Jill",
@@ -3837,7 +3861,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/my-emissions": {
    "site": "Jack & Jill",
@@ -3881,7 +3906,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/nesti": {
    "site": "Jack & Jill",
@@ -3892,7 +3918,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/nexcade-ai": {
    "site": "Jack & Jill",
@@ -3936,7 +3963,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/noon": {
    "site": "Jack & Jill",
@@ -4079,7 +4107,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/ophelos-ltd": {
    "site": "Jack & Jill",
@@ -4178,7 +4207,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/parsewise": {
    "site": "Jack & Jill",
@@ -4277,7 +4307,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/plinth": {
    "site": "Jack & Jill",
@@ -4310,7 +4341,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/post-brothers": {
    "site": "Jack & Jill",
@@ -4354,7 +4386,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/prosapient": {
    "site": "Jack & Jill",
@@ -4453,7 +4486,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/refold-ai": {
    "site": "Jack & Jill",
@@ -4508,7 +4542,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/river": {
    "site": "Jack & Jill",
@@ -4563,7 +4598,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/saturnos": {
    "site": "Jack & Jill",
@@ -4618,7 +4654,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/secure-energy-project": {
    "site": "Jack & Jill",
@@ -4673,7 +4710,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/shepherd": {
    "site": "Jack & Jill",
@@ -4739,7 +4777,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/smarkets-limited": {
    "site": "Jack & Jill",
@@ -4761,7 +4800,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/socratix-ai": {
    "site": "Jack & Jill",
@@ -4783,7 +4823,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/solveai": {
    "site": "Jack & Jill",
@@ -4849,7 +4890,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/south-fork-clinic": {
    "site": "Jack & Jill",
@@ -4882,7 +4924,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/speechmatics": {
    "site": "Jack & Jill",
@@ -4893,7 +4936,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/spektr": {
    "site": "Jack & Jill",
@@ -5003,7 +5047,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/tab": {
    "site": "Jack & Jill",
@@ -5058,7 +5103,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/teton": {
    "site": "Jack & Jill",
@@ -5234,7 +5280,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/upriver": {
    "site": "Jack & Jill",
@@ -5267,7 +5314,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/valen-labs": {
    "site": "Jack & Jill",
@@ -5421,7 +5469,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-09T16:31:44+00:00"
   },
   "jackandjill.ai/companies/workyard": {
    "site": "Jack & Jill",
@@ -9366,7 +9415,7 @@
    "url": "https://jobcopilot.com/white-label/",
    "title": "Monetize your website users with JobCopilot white-label",
    "date": "2026-10-14T00:26:28+00:00",
-   "lastmod": "2026-10-14T00:26:28+00:00",
+   "lastmod": "2026-11-09T03:57:57+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": {
     "is_content": false,
@@ -9380,12 +9429,13 @@
    "prog": null,
    "pub": "2024-03-05T14:01:24+00:00",
    "mod": "2026-10-14T00:26:28+00:00",
-   "fp": "a4652814d726abc8",
-   "dates_checked": "2026-11-04T03:14:31+00:00",
+   "fp": "40f1181c29adfbf5",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
    "kind": "updated",
-   "event": "2026-10-14T00:26:28+00:00",
+   "event": "2026-11-09T16:31:44+00:00",
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "fp_verified": true
   },
   "wonsulting.com/about-us": {
    "site": "WonsultingAI",
@@ -9561,7 +9611,7 @@
    "url": "https://www.wonsulting.com/networkai",
    "title": "NetworkAI by Wonsulting - AI in Networking for LinkedIn & Cold Emailing at WonsultingAI",
    "date": "2026-10-30T08:31:13+00:00",
-   "lastmod": "2026-10-30T08:31:13+00:00",
+   "lastmod": "2026-11-09T14:46:48+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": {
     "is_content": true,
@@ -9576,7 +9626,7 @@
    "pub": null,
    "mod": null,
    "fp": "33095cd4f7c70b71",
-   "dates_checked": "2026-11-04T03:14:31+00:00",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
    "kind": "unknown",
    "event": "2026-10-30T08:31:13+00:00",
    "bulk_pub": false,
@@ -9598,28 +9648,54 @@
   "wonsulting.com/press": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/press",
-   "title": "Press",
+   "title": "Wonsulting - Press",
    "date": "2026-10-20T08:59:36+00:00",
    "lastmod": "2026-10-20T08:59:36+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": false,
+    "type": "news",
+    "stage": "learning",
+    "topic": "Press coverage and media mentions",
+    "search": "",
+    "why": "Builds credibility and social proof through third-party media mentions."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": null,
+   "mod": null,
+   "fp": "3a031ac39c9ac1b0",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "unknown",
+   "event": "2026-10-20T08:59:36+00:00"
   },
   "wonsulting.com/privacy-policy": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/privacy-policy",
-   "title": "Privacy policy",
+   "title": "Wonsulting - Privacy Policy",
    "date": "2026-10-20T08:59:36+00:00",
    "lastmod": "2026-10-20T08:59:36+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": false,
+    "type": "landing",
+    "stage": "customers",
+    "topic": "Privacy policy legal compliance",
+    "search": "",
+    "why": "Legal requirement to disclose data handling and user privacy rights."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": null,
+   "mod": null,
+   "fp": "118c2be20590b016",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "unknown",
+   "event": "2026-10-20T08:59:36+00:00"
   },
   "wonsulting.com/resources": {
    "site": "WonsultingAI",
@@ -9650,22 +9726,35 @@
   "wonsulting.com/resumai": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/resumai",
-   "title": "Resumai",
+   "title": "ResumAI by Wonsulting - Free AI Resume Builder & Bulletpoint Generator at WonsultingAI",
    "date": "2026-10-20T09:26:05+00:00",
-   "lastmod": "2026-10-20T09:26:05+00:00",
+   "lastmod": "2026-11-09T13:58:07+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "AI resume builder and job search",
+    "search": "free AI resume builder for job seekers",
+    "why": "Converts job seekers ready to improve resumes into users of core product."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": null,
+   "mod": null,
+   "fp": "27ddb09deacdce8d",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "unknown",
+   "event": "2026-10-20T09:26:05+00:00"
   },
   "wonsulting.com/services": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/services",
    "title": "Career Consulting Services at Wonsulting - Find A Job You Love!",
    "date": "2026-11-03T09:17:11+00:00",
-   "lastmod": "2026-11-03T09:17:11+00:00",
+   "lastmod": "2026-11-09T13:22:08+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": {
     "is_content": true,
@@ -9679,25 +9768,39 @@
    "prog": null,
    "pub": null,
    "mod": null,
-   "fp": "6bb7b4373b2131ef",
-   "dates_checked": "2026-11-04T03:14:31+00:00",
-   "kind": "unknown",
-   "event": "2026-11-03T09:17:11+00:00",
+   "fp": "4229746f17e3e32d",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "updated",
+   "event": "2026-11-09T16:31:44+00:00",
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "fp_verified": true
   },
   "wonsulting.com/success-stories": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/success-stories",
-   "title": "Success stories",
+   "title": "Wonsulting - Success Stories | Wonsulting Reviews",
    "date": "2026-10-20T08:59:36+00:00",
    "lastmod": "2026-10-20T08:59:36+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "case",
+    "stage": "buying",
+    "topic": "Success stories job offers hiring",
+    "search": "job search success stories testimonials",
+    "why": "Demonstrates social proof and outcomes to convince buyers their service delivers results."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": null,
+   "mod": null,
+   "fp": "d9f0a75a002cd9fc",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "unknown",
+   "event": "2026-10-20T08:59:36+00:00"
   },
   "wonsulting.com/terms-and-conditions": {
    "site": "WonsultingAI",
@@ -9730,7 +9833,7 @@
    "url": "https://www.wonsulting.com/wonsultingai",
    "title": "WonsultingAI by Wonsulting - AI for Job Search that Gets You Hired!",
    "date": "2026-10-30T07:50:28+00:00",
-   "lastmod": "2026-10-30T07:50:28+00:00",
+   "lastmod": "2026-11-09T13:36:06+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": {
     "is_content": true,
@@ -9745,7 +9848,7 @@
    "pub": null,
    "mod": null,
    "fp": "87163509f018958b",
-   "dates_checked": "2026-11-04T03:14:31+00:00",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
    "kind": "unknown",
    "event": "2026-10-30T07:50:28+00:00",
    "bulk_pub": false,
@@ -9754,15 +9857,28 @@
   "wonsulting.com/interviewai": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/interviewai",
-   "title": "Interviewai",
+   "title": "InterviewAI by Wonsulting - Your AI Interviewer from WonsultingAI",
    "date": "2026-10-20T08:59:36+00:00",
    "lastmod": "2026-10-20T08:59:36+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "AI interview prep tool for job seekers",
+    "search": "AI mock interview practice tool",
+    "why": "Showcases core product features to convince job seekers to sign up and practice interviews."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": null,
+   "mod": null,
+   "fp": "28cba91bbc0d82d2",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "unknown",
+   "event": "2026-10-20T08:59:36+00:00"
   },
   "wonsulting.com/free-resume-templates": {
    "site": "WonsultingAI",
@@ -9793,54 +9909,106 @@
   "wonsulting.com/jobboardai": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/jobboardai",
-   "title": "Jobboardai",
+   "title": "JobBoardAI by Wonsulting - Find Your Next Job Powered by our AI Job Board at WonsultingAI",
    "date": "2026-10-20T08:59:36+00:00",
    "lastmod": "2026-10-20T08:59:36+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "AI job board matching recommendations",
+    "search": "AI job board matching recommendations",
+    "why": "Converts job seekers to free signup with AI matching, resume tailoring, and cover letter tools."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": null,
+   "mod": null,
+   "fp": "0002f21c23d62293",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "unknown",
+   "event": "2026-10-20T08:59:36+00:00"
   },
   "wonsulting.com/jobtrackerai": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/jobtrackerai",
-   "title": "Jobtrackerai",
+   "title": "JobTrackerAI by Wonsulting - AI Job Application Tracker from WonsultingAI",
    "date": "2026-10-20T08:59:36+00:00",
    "lastmod": "2026-10-20T08:59:36+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": false,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "AI job application tracker",
+    "search": "best job application tracker tool",
+    "why": "Converts job seekers ready to organize applications into product users with guarantee."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": null,
+   "mod": null,
+   "fp": "7f37bc65cad253d6",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "unknown",
+   "event": "2026-10-20T08:59:36+00:00"
   },
   "wonsulting.com/employers": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/employers",
-   "title": "Employers",
+   "title": "Streamline Your Recruitment & Hiring Process with Wonsulting",
    "date": "2026-10-20T08:59:36+00:00",
    "lastmod": "2026-10-20T08:59:36+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": false,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "AI recruitment and hiring solutions",
+    "search": "AI recruitment hiring platform",
+    "why": "Attracts employers seeking AI-powered candidate sourcing and streamlined hiring."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": null,
+   "mod": null,
+   "fp": "6d802ea12e1bc88d",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "unknown",
+   "event": "2026-10-20T08:59:36+00:00"
   },
   "wonsulting.com/legal-notice": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/legal-notice",
-   "title": "Legal notice",
+   "title": "Legal Notice",
    "date": "2026-10-20T08:59:36+00:00",
    "lastmod": "2026-10-20T08:59:36+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": false,
+    "type": "landing",
+    "stage": "customers",
+    "topic": "Legal notice and company details",
+    "search": "",
+    "why": "Required legal disclosure of business registration and regulatory compliance information."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": null,
+   "mod": "2025-06-13T00:00:00+00:00",
+   "fp": "8969e9f866741345",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "unknown",
+   "event": "2025-06-13T00:00:00+00:00"
   },
   "wonsulting.com/job-search-hub": {
    "site": "WonsultingAI",
@@ -9882,87 +10050,165 @@
   "wonsulting.com/job-search-hub-cover-letter": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/job-search-hub-cover-letter",
-   "title": "Job search hub cover letter",
+   "title": "Wonsulting -Job Search Hub - Cover Letter",
    "date": "2026-10-20T08:59:36+00:00",
    "lastmod": "2026-10-20T08:59:36+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "learning",
+    "topic": "Cover letter writing tips and templates",
+    "search": "how to write a cover letter",
+    "why": "Attract job seekers at early research stage learning cover letter fundamentals."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": "2025-10-31T00:00:00+00:00",
+   "mod": null,
+   "fp": "0ac6c53360781907",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "unknown",
+   "event": "2025-10-31T00:00:00+00:00"
   },
   "wonsulting.com/job-search-hub-networking": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/job-search-hub-networking",
-   "title": "Job search hub networking",
+   "title": "Wonsulting - Job Search Hub - Networking",
    "date": "2026-10-20T08:59:36+00:00",
    "lastmod": "2026-10-20T08:59:36+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "learning",
+    "topic": "networking for job search",
+    "search": "how to network for jobs",
+    "why": "Establishes networking expertise while showcasing NetworkAI product capabilities to early-stage job seekers."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": "2025-12-02T00:00:00+00:00",
+   "mod": null,
+   "fp": "f6408153b26745b4",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "unknown",
+   "event": "2025-12-02T00:00:00+00:00"
   },
   "wonsulting.com/job-search-hub-job-search": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/job-search-hub-job-search",
-   "title": "Job search hub job search",
+   "title": "Wonsulting - Job Search Hub - Job Search",
    "date": "2026-10-20T08:59:36+00:00",
    "lastmod": "2026-10-20T08:59:36+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "learning",
+    "topic": "Job search strategies and career coaching",
+    "search": "how to run an effective job search",
+    "why": "Establishes expertise in job search fundamentals to attract early-stage seekers."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": "2025-12-01T00:00:00+00:00",
+   "mod": null,
+   "fp": "f2796cdb3bd8dfe0",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "unknown",
+   "event": "2025-12-01T00:00:00+00:00"
   },
   "wonsulting.com/job-search-hub-careers": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/job-search-hub-careers",
-   "title": "Job search hub careers",
+   "title": "Wonsulting - Job Search Hub - Careers",
    "date": "2026-10-20T08:59:36+00:00",
-   "lastmod": "2026-10-20T08:59:36+00:00",
+   "lastmod": "2026-11-06T09:17:22+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "list",
+    "stage": "learning",
+    "topic": "Career growth and job search strategies",
+    "search": "how to manage up career advice",
+    "why": "Attracts early-stage job seekers researching career development and advancement techniques."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": "2025-11-20T00:00:00+00:00",
+   "mod": null,
+   "fp": "39049265aedc36a6",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "unknown",
+   "event": "2025-11-20T00:00:00+00:00"
   },
   "wonsulting.com/job-search-hub-applying-to-jobs": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/job-search-hub-applying-to-jobs",
-   "title": "Job search hub applying to jobs",
+   "title": "Wonsulting - Job Search Hub - Applying to Jobs",
    "date": "2026-10-20T08:59:36+00:00",
    "lastmod": "2026-10-20T08:59:36+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "learning",
+    "topic": "Job application strategies and process",
+    "search": "how to apply to jobs effectively",
+    "why": "Builds trust with job seekers researching application best practices and techniques."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": "2025-10-13T00:00:00+00:00",
+   "mod": null,
+   "fp": "608226e22a8e7eac",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "unknown",
+   "event": "2025-10-13T00:00:00+00:00"
   },
   "wonsulting.com/job-search-hub-interview": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/job-search-hub-interview",
-   "title": "Job search hub interview",
+   "title": "Wonsulting - Job Search Hub - Interview",
    "date": "2026-10-20T08:59:36+00:00",
    "lastmod": "2026-10-20T08:59:36+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "comparing",
+    "topic": "Interview preparation and common questions",
+    "search": "how to answer interview questions",
+    "why": "Attracts job seekers researching interview prep before using their AI agent service."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": "2025-11-28T00:00:00+00:00",
+   "mod": null,
+   "fp": "f2da821be3bd0558",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "unknown",
+   "event": "2025-11-28T00:00:00+00:00"
   },
   "wonsulting.com/ultimate-bundle": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/ultimate-bundle",
    "title": "Wonsulting - Ultimate Bundle Service Guarantee",
    "date": "2026-10-28T11:26:00+00:00",
-   "lastmod": "2026-10-28T11:26:00+00:00",
+   "lastmod": "2026-11-09T13:35:45+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": {
     "is_content": false,
@@ -9976,19 +10222,20 @@
    "prog": null,
    "pub": null,
    "mod": null,
-   "fp": "28e98adb8a65663e",
-   "dates_checked": "2026-11-04T03:14:31+00:00",
-   "kind": "unknown",
-   "event": "2026-10-28T11:26:00+00:00",
+   "fp": "88668a7a0e0071df",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "updated",
+   "event": "2026-11-09T16:31:44+00:00",
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "fp_verified": true
   },
   "wonsulting.com/guarantee": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/guarantee",
    "title": "Free Strategy Call - Wonsulting",
    "date": "2026-10-30T10:02:25+00:00",
-   "lastmod": "2026-10-30T10:02:25+00:00",
+   "lastmod": "2026-11-09T13:30:39+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": {
     "is_content": false,
@@ -10003,7 +10250,7 @@
    "pub": null,
    "mod": null,
    "fp": "1f5e332fe06bb587",
-   "dates_checked": "2026-11-04T03:14:31+00:00",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
    "kind": "unknown",
    "event": "2026-10-30T10:02:25+00:00",
    "bulk_pub": false,
@@ -10012,15 +10259,28 @@
   "wonsulting.com/resume-share": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/resume-share",
-   "title": "Resume share",
+   "title": "Resume Share by Wonsulting - Browse Resumes That Got Hired at WonsultingAI",
    "date": "2026-10-20T08:59:36+00:00",
    "lastmod": "2026-10-20T08:59:36+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "learning",
+    "topic": "Real resumes that got hired",
+    "search": "resume examples that got interviews",
+    "why": "Establishes trust through social proof of successful resumes and hiring outcomes."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": null,
+   "mod": null,
+   "fp": "c5d090afe23e5679",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "unknown",
+   "event": "2026-10-20T08:59:36+00:00"
   },
   "wonsulting.com/pricing": {
    "site": "WonsultingAI",
@@ -10077,67 +10337,132 @@
   "wonsulting.com/google-user-data-policy": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/google-user-data-policy",
-   "title": "Google user data policy",
+   "title": "WonsultingAI by Wonsulting - Google User Data Policy",
    "date": "2026-10-20T08:59:36+00:00",
    "lastmod": "2026-10-20T08:59:36+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": false,
+    "type": "landing",
+    "stage": "customers",
+    "topic": "Google User Data Policy",
+    "search": "",
+    "why": "Transparency and compliance with Google API Services User Data Policy requirements."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": null,
+   "mod": null,
+   "fp": "ea3a875c6f4a2664",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "unknown",
+   "event": "2026-10-20T08:59:36+00:00"
   },
   "wonsulting.com/case-studies/san-francisco-state-university": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/case-studies/san-francisco-state-university",
-   "title": "San francisco state university",
+   "title": "WonsultingAI by Wonsulting - Case Study: San Francisco State University",
    "date": "2026-10-20T08:59:36+00:00",
    "lastmod": "2026-10-20T08:59:36+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "case",
+    "stage": "buying",
+    "topic": "AI job search tool for university students",
+    "search": "how WonsultingAI helps college students get hired",
+    "why": "Demonstrates impact on real institution to convince other universities to adopt their platform."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": null,
+   "mod": null,
+   "fp": "823b5be574fa5596",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "unknown",
+   "event": "2026-10-20T08:59:36+00:00"
   },
   "wonsulting.com/case-studies/university-of-washington-informatics": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/case-studies/university-of-washington-informatics",
-   "title": "University of washington informatics",
+   "title": "WonsultingAI by Wonsulting - Case Study: University of Washington - Informatics",
    "date": "2026-10-20T08:59:36+00:00",
    "lastmod": "2026-10-20T08:59:36+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "case",
+    "stage": "customers",
+    "topic": "University of Washington career services partnership",
+    "search": "university career services hiring graduates job placement",
+    "why": "Showcases student job outcomes to attract similar university partnerships."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": null,
+   "mod": null,
+   "fp": "0856807ae190a458",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "unknown",
+   "event": "2026-10-20T08:59:36+00:00"
   },
   "wonsulting.com/case-studies/drexel-university": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/case-studies/drexel-university",
-   "title": "Drexel university",
+   "title": "WonsultingAI - Case Study: Drexel University",
    "date": "2026-10-20T08:59:36+00:00",
    "lastmod": "2026-10-20T08:59:36+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "case",
+    "stage": "buying",
+    "topic": "WonsultingAI case study Drexel University",
+    "search": "how WonsultingAI helps universities scale career services",
+    "why": "Demonstrates ROI and impact to persuade institutional buyers and universities to adopt."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": null,
+   "mod": null,
+   "fp": "60eba5dc67e03a35",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "unknown",
+   "event": "2026-10-20T08:59:36+00:00"
   },
   "wonsulting.com/case-studies/university-of-michigan-alumni-association": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/case-studies/university-of-michigan-alumni-association",
-   "title": "University of michigan alumni association",
+   "title": "WonsultingAI by Wonsulting - Case Study: University of Michigan - Alumni Association",
    "date": "2026-10-20T08:59:36+00:00",
    "lastmod": "2026-10-20T08:59:36+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "case",
+    "stage": "buying",
+    "topic": "AI job search solution for alumni",
+    "search": "AI job search tool for students",
+    "why": "Demonstrates results with prestigious university to win institutional buyers and job seekers."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": null,
+   "mod": null,
+   "fp": "86662f0ef8b891bd",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "unknown",
+   "event": "2026-10-20T08:59:36+00:00"
   },
   "wonsulting.com/ugc-creators": {
    "site": "WonsultingAI",
@@ -10170,7 +10495,7 @@
    "url": "https://www.wonsulting.com/wonsultingai-releases",
    "title": "WonsultingAI Releases | Wonsulting",
    "date": "2026-10-28T09:19:49+00:00",
-   "lastmod": "2026-10-28T09:19:49+00:00",
+   "lastmod": "2026-11-09T08:00:28+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": {
     "is_content": true,
@@ -10184,12 +10509,13 @@
    "prog": null,
    "pub": "2026-02-11T00:00:00+00:00",
    "mod": null,
-   "fp": "6272b070bb603ac7",
-   "dates_checked": "2026-11-04T03:14:31+00:00",
-   "kind": "unknown",
-   "event": "2026-02-11T00:00:00+00:00",
+   "fp": "6651fe449ca69c81",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "updated",
+   "event": "2026-11-09T16:31:44+00:00",
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "fp_verified": true
   },
   "wonsulting.com/autoapply": {
    "site": "WonsultingAI",
@@ -10222,7 +10548,7 @@
    "url": "https://www.wonsulting.com/professional-services",
    "title": "Career Coaching for Experienced Professionals | Wonsulting",
    "date": "2026-11-03T09:13:19+00:00",
-   "lastmod": "2026-11-03T09:13:19+00:00",
+   "lastmod": "2026-11-09T11:29:50+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": {
     "is_content": true,
@@ -10236,19 +10562,20 @@
    "prog": null,
    "pub": null,
    "mod": null,
-   "fp": "04de2070c9340424",
-   "dates_checked": "2026-11-04T03:14:31+00:00",
-   "kind": "unknown",
-   "event": "2026-11-03T09:13:19+00:00",
+   "fp": "8215a2cfeeea55f7",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "updated",
+   "event": "2026-11-09T16:31:44+00:00",
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "fp_verified": true
   },
   "wonsulting.com/early-career-services": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/early-career-services",
    "title": "Early Career Coaching for Professionals | Land More Interviews | Wonsulting",
    "date": "2026-11-03T09:09:02+00:00",
-   "lastmod": "2026-11-03T09:09:02+00:00",
+   "lastmod": "2026-11-09T11:25:12+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": {
     "is_content": true,
@@ -10262,19 +10589,20 @@
    "prog": null,
    "pub": null,
    "mod": null,
-   "fp": "e5a45f6c047dbfdc",
-   "dates_checked": "2026-11-04T03:14:31+00:00",
-   "kind": "unknown",
-   "event": "2026-11-03T09:09:02+00:00",
+   "fp": "edee9ba1978f69fc",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "updated",
+   "event": "2026-11-09T16:31:44+00:00",
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "fp_verified": true
   },
   "wonsulting.com/resume-guide": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/resume-guide",
    "title": "Resume Guide - Wonsulting",
    "date": "2026-10-30T10:02:04+00:00",
-   "lastmod": "2026-10-30T10:02:04+00:00",
+   "lastmod": "2026-11-09T13:30:28+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": {
     "is_content": true,
@@ -10289,7 +10617,7 @@
    "pub": null,
    "mod": null,
    "fp": "572ab865e17f99c0",
-   "dates_checked": "2026-11-04T03:14:31+00:00",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
    "kind": "unknown",
    "event": "2026-10-30T10:02:04+00:00",
    "bulk_pub": false,
@@ -10300,7 +10628,7 @@
    "url": "https://www.wonsulting.com/student-services",
    "title": "Career Coaching for Students and New Grads | Wonsulting",
    "date": "2026-10-29T08:55:03+00:00",
-   "lastmod": "2026-10-29T08:55:03+00:00",
+   "lastmod": "2026-11-06T09:14:31+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": {
     "is_content": true,
@@ -10314,12 +10642,13 @@
    "prog": null,
    "pub": null,
    "mod": null,
-   "fp": "b3a0796c8b758e53",
-   "dates_checked": "2026-11-04T03:14:31+00:00",
-   "kind": "unknown",
-   "event": "2026-10-29T08:55:03+00:00",
+   "fp": "a34f9fc65ccc33b5",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "updated",
+   "event": "2026-11-09T16:31:44+00:00",
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "fp_verified": true
   },
   "wonsulting.com/newsletter": {
    "site": "WonsultingAI",
@@ -10350,22 +10679,35 @@
   "wonsulting.com/virtual-webinar": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/virtual-webinar",
-   "title": "Virtual webinar",
+   "title": "Virtual Webinar with Jonathan Javier - Wonsulting",
    "date": "2026-10-20T08:59:36+00:00",
    "lastmod": "2026-10-20T08:59:36+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "learning",
+    "topic": "Remote job search strategies international",
+    "search": "how to get remote US jobs international",
+    "why": "Attracts job seekers learning remote work strategies; builds email list cheaply."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": null,
+   "mod": null,
+   "fp": "da39a3ee5e6b4b0d",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "unknown",
+   "event": "2026-10-20T08:59:36+00:00"
   },
   "wonsulting.com/job-search-program": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/job-search-program",
    "title": "Wonsulting - Job Search Program",
    "date": "2026-10-30T09:59:42+00:00",
-   "lastmod": "2026-10-30T09:59:42+00:00",
+   "lastmod": "2026-11-06T09:12:49+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": {
     "is_content": true,
@@ -10379,19 +10721,20 @@
    "prog": null,
    "pub": null,
    "mod": null,
-   "fp": "245423e71bbb6e82",
-   "dates_checked": "2026-11-04T03:14:31+00:00",
-   "kind": "unknown",
-   "event": "2026-10-30T09:59:42+00:00",
+   "fp": "4a7079ac7c1a57be",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "updated",
+   "event": "2026-11-09T16:31:44+00:00",
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "fp_verified": true
   },
   "wonsulting.com/program": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/program",
    "title": "Job Search Program at Wonsulting - Find A Job You Love!",
    "date": "2026-10-29T17:04:46+00:00",
-   "lastmod": "2026-10-29T17:04:46+00:00",
+   "lastmod": "2026-11-06T09:10:57+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": {
     "is_content": true,
@@ -10405,19 +10748,20 @@
    "prog": null,
    "pub": null,
    "mod": null,
-   "fp": "f98ff30bb01883ec",
-   "dates_checked": "2026-11-04T03:14:31+00:00",
-   "kind": "unknown",
-   "event": "2026-10-29T17:04:46+00:00",
+   "fp": "9ac9595967c37021",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "updated",
+   "event": "2026-11-09T16:31:44+00:00",
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "fp_verified": true
   },
   "wonsulting.com/godmode": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/godmode",
    "title": "Wonsulting's God Mode at WonsultingAI",
    "date": "2026-10-30T10:05:30+00:00",
-   "lastmod": "2026-10-30T10:05:30+00:00",
+   "lastmod": "2026-11-09T13:53:04+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": {
     "is_content": true,
@@ -10432,7 +10776,7 @@
    "pub": null,
    "mod": null,
    "fp": "bf16b37cc42c6547",
-   "dates_checked": "2026-11-04T03:14:31+00:00",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
    "kind": "unknown",
    "event": "2026-10-30T10:05:30+00:00",
    "bulk_pub": false,
@@ -12652,14 +12996,20 @@
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/resources/data-engineer-resume-template",
    "title": "Data engineer resume template",
-   "date": "2025-02-10T16:44:16+00:00",
-   "lastmod": "2025-02-10T16:44:16+00:00",
+   "date": "2026-11-09T10:51:44+00:00",
+   "lastmod": "2026-11-09T10:51:44+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": "2026-11-09T10:51:44+00:00",
+   "mod": "2026-11-09T10:21:19+00:00",
+   "fp": "3f07b64cdd9465fc",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "new",
+   "event": "2026-11-09T10:51:44+00:00"
   },
   "wonsulting.com/resources/data-scientist-resume": {
    "site": "WonsultingAI",
@@ -12990,21 +13340,27 @@
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/resources/wonsulting-resume-template",
    "title": "Wonsulting resume template",
-   "date": "2025-02-10T16:44:16+00:00",
-   "lastmod": "2025-02-10T16:44:16+00:00",
+   "date": "2026-11-09T10:51:44+00:00",
+   "lastmod": "2026-11-09T10:51:44+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": "2026-11-09T10:51:44+00:00",
+   "mod": "2026-11-09T10:22:43+00:00",
+   "fp": "9bf844403f8bd58b",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "kind": "new",
+   "event": "2026-11-09T10:51:44+00:00"
   },
   "wonsulting.com/newsletter/19-interviews-from-129-applications-and-the-first-one-came-day-one": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/newsletter/19-interviews-from-129-applications-and-the-first-one-came-day-one",
    "title": "19 interviews from 129 applications (and the first one came day one) - Wonsulting Newsletter",
    "date": "2026-10-27T11:14:38+00:00",
-   "lastmod": "2026-10-27T11:14:38+00:00",
+   "lastmod": "2026-11-06T10:02:35+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": {
     "is_content": true,
@@ -13019,7 +13375,7 @@
    "pub": "2026-10-27T11:14:38+00:00",
    "mod": "2026-10-27T11:10:57+00:00",
    "fp": "d3c8dfe1bcb0f815",
-   "dates_checked": "2026-11-04T03:14:31+00:00",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
    "kind": "new",
    "event": "2026-10-27T11:14:38+00:00",
    "bulk_pub": false,
@@ -14597,6 +14953,1373 @@
    "cls": null,
    "baseline": true,
    "prog": "job-search-hub"
+  },
+  "jackandjill.ai/roles/ai-engineer/london": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/roles/ai-engineer/london",
+   "title": "How to hire an AI engineer in London",
+   "date": "2026-11-04T00:00:00+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "buying",
+    "topic": "Hiring AI engineers in London",
+    "search": "how to hire AI engineer London",
+    "why": "Attracts hiring managers searching for recruitment guidance with proprietary talent market data."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": null,
+   "pub": "2026-11-04T00:00:00+00:00",
+   "mod": "2026-11-04T00:00:00+00:00",
+   "fp": "7216233af96cae5f",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "jackandjill.ai/roles/forward-deployed-engineer/san-francisco": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/roles/forward-deployed-engineer/san-francisco",
+   "title": "How to hire a forward deployed engineer in San Francisco",
+   "date": "2026-11-04T00:00:00+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "buying",
+    "topic": "How to hire forward deployed engineers",
+    "search": "how to hire forward deployed engineer",
+    "why": "Helps hiring managers fill FDE roles with market data and recruitment strategies."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": null,
+   "pub": "2026-11-04T00:00:00+00:00",
+   "mod": "2026-11-04T00:00:00+00:00",
+   "fp": "ca947f88b16c5299",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "jackandjill.ai/blog/company-insights": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/blog/company-insights",
+   "title": "Company Insights: Know the company behind every candidate",
+   "date": "2026-11-04T00:00:00+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "Company background context for hiring",
+    "search": "how to assess startup candidate experience",
+    "why": "Demonstrates feature value to hiring managers evaluating candidates for startup roles."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": null,
+   "pub": "2026-11-04T00:00:00+00:00",
+   "mod": "2026-11-04T00:00:00+00:00",
+   "fp": "0385d80472efd24f",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "jackandjill.ai/companies/01health": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/01health",
+   "title": "01health",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/9fin": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/9fin",
+   "title": "9fin",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/accurx": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/accurx",
+   "title": "Accurx",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/ai-security-bootcamp": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/ai-security-bootcamp",
+   "title": "Ai security bootcamp",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/anima": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/anima",
+   "title": "Anima",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/apollo-io": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/apollo-io",
+   "title": "Apollo io",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/assort-health": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/assort-health",
+   "title": "Assort health",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/baseten": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/baseten",
+   "title": "Baseten",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/beam": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/beam",
+   "title": "Beam",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/berkshire-hathaway-homeservices-commonwealth-real-estate": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/berkshire-hathaway-homeservices-commonwealth-real-estate",
+   "title": "Berkshire hathaway homeservices commonwealth real estate",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/biocide-systems": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/biocide-systems",
+   "title": "Biocide systems",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/board-intelligence": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/board-intelligence",
+   "title": "Board intelligence",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/centuro-global": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/centuro-global",
+   "title": "Centuro global",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/cohere": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/cohere",
+   "title": "Cohere",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/corevitals": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/corevitals",
+   "title": "Corevitals",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/counsel-health": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/counsel-health",
+   "title": "Counsel health",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/decagon": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/decagon",
+   "title": "Decagon",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/deepgram": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/deepgram",
+   "title": "Deepgram",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/distyl-ai": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/distyl-ai",
+   "title": "Distyl ai",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/dualentry": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/dualentry",
+   "title": "Dualentry",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/edra": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/edra",
+   "title": "Edra",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/elevenlabs": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/elevenlabs",
+   "title": "Elevenlabs",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/encord": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/encord",
+   "title": "Encord",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/farsight-ai": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/farsight-ai",
+   "title": "Farsight ai",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/fireworks-ai": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/fireworks-ai",
+   "title": "Fireworks ai",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/fuse-energy": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/fuse-energy",
+   "title": "Fuse energy",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/happyrobot-inc": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/happyrobot-inc",
+   "title": "Happyrobot inc",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/hearth": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/hearth",
+   "title": "Hearth",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/heidi-health": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/heidi-health",
+   "title": "Heidi health",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/incident-io": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/incident-io",
+   "title": "Incident io",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/itilite-inc": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/itilite-inc",
+   "title": "Itilite inc",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/langchain": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/langchain",
+   "title": "Langchain",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/legora-ab": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/legora-ab",
+   "title": "Legora ab",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/lovable": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/lovable",
+   "title": "Lovable",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/macroscope": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/macroscope",
+   "title": "Macroscope",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/metric-robotics": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/metric-robotics",
+   "title": "Metric robotics",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/metro-grease-service-llc": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/metro-grease-service-llc",
+   "title": "Metro grease service llc",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/moring-ai": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/moring-ai",
+   "title": "Moring ai",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/n8n": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/n8n",
+   "title": "N8n",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/neko-health": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/neko-health",
+   "title": "Neko health",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/permutable": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/permutable",
+   "title": "Permutable",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/perplexity": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/perplexity",
+   "title": "Perplexity",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/primerica-inc": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/primerica-inc",
+   "title": "Primerica inc",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/profound": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/profound",
+   "title": "Profound",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/prolific": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/prolific",
+   "title": "Prolific",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/qd-sbg-construction-wll": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/qd-sbg-construction-wll",
+   "title": "Qd sbg construction wll",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/rainmaker": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/rainmaker",
+   "title": "Rainmaker",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/render": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/render",
+   "title": "Render",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/solved": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/solved",
+   "title": "Solved",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/swiggy": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/swiggy",
+   "title": "Swiggy",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/teya": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/teya",
+   "title": "Teya",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/thought-machine": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/thought-machine",
+   "title": "Thought machine",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/tooth-fairy-healthcare-ltd": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/tooth-fairy-healthcare-ltd",
+   "title": "Tooth fairy healthcare ltd",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/writer": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/writer",
+   "title": "Writer",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/xapien": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/xapien",
+   "title": "Xapien",
+   "date": "2026-11-09T16:31:44+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": "companies"
+  },
+  "jobcopilot.com/job-application-tracker-spreadsheet": {
+   "site": "JobCopilot",
+   "url": "https://jobcopilot.com/job-application-tracker-spreadsheet/",
+   "title": "Job Application Tracker Spreadsheet (Free Template + How to Use It)",
+   "date": "2026-11-09T08:34:30+00:00",
+   "lastmod": "2026-11-09T08:34:30+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "learning",
+    "topic": "Job application tracking spreadsheet",
+    "search": "free job application tracker spreadsheet",
+    "why": "Educates job seekers on tracking applications, then positions their paid tool as the upgrade."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": null,
+   "pub": "2026-11-04T15:16:21+00:00",
+   "mod": "2026-11-09T08:34:30+00:00",
+   "fp": "002d3dd4803e5b88",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "jobcopilot.com/how-to-negotiate-job-offer-salary": {
+   "site": "JobCopilot",
+   "url": "https://jobcopilot.com/how-to-negotiate-job-offer-salary/",
+   "title": "How to Negotiate Your Job Offer Salary: Scripts and Counteroffers - JobCopilot",
+   "date": "2026-11-09T08:35:07+00:00",
+   "lastmod": "2026-11-09T08:35:07+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "buying",
+    "topic": "job offer salary negotiation",
+    "search": "how to negotiate job offer salary",
+    "why": "Guides job seekers through offer negotiation to build trust before matching service."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": null,
+   "pub": "2026-11-05T10:17:52+00:00",
+   "mod": "2026-11-09T08:35:07+00:00",
+   "fp": "fb5048fae11e3a05",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "jobcopilot.com/ask-informational-interview": {
+   "site": "JobCopilot",
+   "url": "https://jobcopilot.com/ask-informational-interview/",
+   "title": "How to Ask for an Informational Interview That Leads to Referrals",
+   "date": "2026-11-09T08:46:57+00:00",
+   "lastmod": "2026-11-09T08:46:57+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "learning",
+    "topic": "Informational interviews job referrals",
+    "search": "how to ask for informational interview",
+    "why": "Teaches job seekers relationship-building skills that unlock referrals and networking opportunities."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": null,
+   "pub": "2026-11-04T14:22:27+00:00",
+   "mod": "2026-11-09T08:46:57+00:00",
+   "fp": "6082623780bdae47",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "jobcopilot.com/jobcopilot-white-label-program": {
+   "site": "JobCopilot",
+   "url": "https://jobcopilot.com/jobcopilot-white-label-program/",
+   "title": "Monetize your website users with JobCopilot white-label",
+   "date": "2026-11-04T09:23:03+00:00",
+   "lastmod": "2026-11-04T09:23:03+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "White-label AI job application assistant",
+    "search": "white-label job assistant for job sites",
+    "why": "Converts job board operators into partners earning recurring revenue."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": null,
+   "pub": "2026-11-04T09:20:08+00:00",
+   "mod": "2026-11-04T09:23:03+00:00",
+   "fp": "6c2c9768eb4463cf",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "wonsulting.com/newsletter/ai-skills-on-your-resume": {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/ai-skills-on-your-resume",
+   "title": "Recruiters Don't Want Your AI Skills. They Want Proof. - Wonsulting Newsletter",
+   "date": "2026-11-06T10:02:35+00:00",
+   "lastmod": "2026-11-06T10:02:35+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "research",
+    "stage": "learning",
+    "topic": "AI skills on job resumes",
+    "search": "how to list AI skills on resume",
+    "why": "Builds authority through original research that guides job seekers' resume strategies."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": null,
+   "pub": "2026-11-06T10:02:35+00:00",
+   "mod": "2026-11-06T10:02:35+00:00",
+   "fp": "3f079b861321fb5c",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "wonsulting.com/newsletter/applications-but-no-interviews": {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/applications-but-no-interviews",
+   "title": "30 Applications, 0 Interviews? Fix Conversion, Not Volume - Wonsulting Newsletter",
+   "date": "2026-11-06T10:03:07+00:00",
+   "lastmod": "2026-11-06T10:03:07+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "learning",
+    "topic": "Job search conversion optimization strategy",
+    "search": "why no interviews after applying jobs",
+    "why": "Educates job seekers on prioritizing resume/positioning over application volume to improve conversion rates."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": null,
+   "pub": "2026-11-06T10:03:07+00:00",
+   "mod": "2026-11-06T10:02:35+00:00",
+   "fp": "2064468926eb8989",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "wonsulting.com/newsletter/apply-to-jobs-early": {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/apply-to-jobs-early",
+   "title": "Apply to Jobs Early: Why Listings Go Stale Fast - Wonsulting Newsletter",
+   "date": "2026-11-06T10:02:35+00:00",
+   "lastmod": "2026-11-06T10:02:35+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "learning",
+    "topic": "Job search strategy early applications",
+    "search": "why apply to jobs early",
+    "why": "Establishes job-search expertise, builds newsletter audience, drives qualified leads."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": null,
+   "pub": "2026-11-06T10:02:35+00:00",
+   "mod": "2026-11-06T10:02:35+00:00",
+   "fp": "6546af4769fb506c",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "wonsulting.com/newsletter/career-change-reposition-your-experience": {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/career-change-reposition-your-experience",
+   "title": "Career Changer? Your Experience Just Needs the Right Adapter - Wonsulting Newsletter",
+   "date": "2026-11-06T10:03:07+00:00",
+   "lastmod": "2026-11-06T10:03:07+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "learning",
+    "topic": "Career change positioning experience",
+    "search": "how to change careers successfully",
+    "why": "Builds trust with career changers and self-taught job seekers early in search."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": null,
+   "pub": "2026-11-06T10:03:07+00:00",
+   "mod": "2026-11-06T10:02:35+00:00",
+   "fp": "93411f6523047ec3",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "wonsulting.com/newsletter/employed-but-want-a-new-job": {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/employed-but-want-a-new-job",
+   "title": "Employed but want a new job",
+   "date": "2026-11-06T10:03:07+00:00",
+   "lastmod": "2026-11-06T10:03:07+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "learning",
+    "topic": "switching jobs while employed",
+    "search": "how to find new job while employed",
+    "why": "Educates job seekers on career transitions to build trust and authority."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": null,
+   "read_error": "HTTP 500",
+   "pub": "2026-11-06T10:03:07+00:00",
+   "mod": "2026-11-06T10:02:35+00:00",
+   "fp": "4522daf6c00b27be",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "wonsulting.com/newsletter/find-your-real-market-value": {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/find-your-real-market-value",
+   "title": "Find your real market value",
+   "date": "2026-11-06T10:03:07+00:00",
+   "lastmod": "2026-11-06T10:03:07+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "learning",
+    "topic": "Calculate your market salary value",
+    "search": "how to find your market value salary",
+    "why": "Attracts early-stage job seekers researching their compensation expectations."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": null,
+   "read_error": "HTTP 500",
+   "pub": "2026-11-06T10:03:07+00:00",
+   "mod": "2026-11-06T10:02:35+00:00",
+   "fp": "42cdbf5613ef2409",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "wonsulting.com/newsletter/get-hired-with-no-network": {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/get-hired-with-no-network",
+   "title": "No Network? How to Get Hired When You Know Nobody - Wonsulting Newsletter",
+   "date": "2026-11-06T10:03:07+00:00",
+   "lastmod": "2026-11-06T10:03:07+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "learning",
+    "topic": "Get hired without network connections",
+    "search": "how to get job without network connections",
+    "why": "Educates job seekers on alternative strategies when lacking industry connections."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": null,
+   "pub": "2026-11-06T10:03:07+00:00",
+   "mod": "2026-11-06T10:02:35+00:00",
+   "fp": "a8485d8d3414bb1d",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "wonsulting.com/newsletter/get-recruiters-to-reach-out": {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/get-recruiters-to-reach-out",
+   "title": "How Tesla and Amazon Reached Out Without Him Applying - Wonsulting Newsletter",
+   "date": "2026-11-06T10:03:07+00:00",
+   "lastmod": "2026-11-06T10:03:07+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "case",
+    "stage": "learning",
+    "topic": "positioning strategy attract recruiters",
+    "search": "how to get recruiters to reach out",
+    "why": "Demonstrates job search strategy effectiveness through real candidate success story."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": null,
+   "pub": "2026-11-06T10:03:07+00:00",
+   "mod": "2026-11-06T10:02:35+00:00",
+   "fp": "ab01dbc3f32fdb19",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "wonsulting.com/newsletter/job-search-while-employed": {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/job-search-while-employed",
+   "title": "How to Job Search While Employed (Without Burning Out) - Wonsulting Newsletter",
+   "date": "2026-11-06T10:03:07+00:00",
+   "lastmod": "2026-11-06T10:03:07+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "learning",
+    "topic": "job search while employed",
+    "search": "how to job search while employed",
+    "why": "Educates employed job seekers on strategic search tactics, positioning company's guidance as the solution."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": null,
+   "pub": "2026-11-06T10:03:07+00:00",
+   "mod": "2026-11-06T10:02:35+00:00",
+   "fp": "2bdd741c31a9cd1c",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "wonsulting.com/newsletter/jobs-filled-before-posted": {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/jobs-filled-before-posted",
+   "title": "Why Jobs Are Filled Before They're Posted (and What to Do) - Wonsulting Newsletter",
+   "date": "2026-11-06T10:03:07+00:00",
+   "lastmod": "2026-11-06T10:03:07+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "learning",
+    "topic": "finding hidden job opportunities",
+    "search": "how to find jobs before posted",
+    "why": "Educates job seekers on hidden job market to build trust and newsletter engagement."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": null,
+   "pub": "2026-11-06T10:03:07+00:00",
+   "mod": "2026-11-06T10:02:35+00:00",
+   "fp": "c8bc2dd5e1782e4a",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "wonsulting.com/newsletter/networking-cold-messages-follow-ups": {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/networking-cold-messages-follow-ups",
+   "title": "Networking That Works: Who to Contact and How to Follow Up - Wonsulting Newsletter",
+   "date": "2026-11-06T10:03:07+00:00",
+   "lastmod": "2026-11-06T10:03:07+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "learning",
+    "topic": "networking cold messages follow-ups",
+    "search": "how to write cold messages networking",
+    "why": "Builds trust with job seekers early in search, establishes expertise."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": null,
+   "pub": "2026-11-06T10:03:07+00:00",
+   "mod": "2026-11-06T10:02:35+00:00",
+   "fp": "373379f423e95408",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "wonsulting.com/newsletter/referral-but-no-response": {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/referral-but-no-response",
+   "title": "Got a Referral but Heard Nothing? Here's Why - Wonsulting Newsletter",
+   "date": "2026-11-06T10:03:07+00:00",
+   "lastmod": "2026-11-06T10:03:07+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "learning",
+    "topic": "Getting response from referrals",
+    "search": "why referral no response after",
+    "why": "Teaches job seekers why referrals fail and positions Wonsulting's coaching as the solution."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": null,
+   "pub": "2026-11-06T10:03:07+00:00",
+   "mod": "2026-11-06T10:02:35+00:00",
+   "fp": "bd9f1adc345ba332",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "wonsulting.com/newsletter/resume-bullets-show-impact": {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/resume-bullets-show-impact",
+   "title": "Resume Bullets That Show Impact, Not Just Duties - Wonsulting Newsletter",
+   "date": "2026-11-06T10:02:35+00:00",
+   "lastmod": "2026-11-06T10:02:35+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "learning",
+    "topic": "Resume bullets showing impact",
+    "search": "how to write impactful resume bullets",
+    "why": "Attracts job seekers early in their search process with free resume-writing advice."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": null,
+   "pub": "2026-11-06T10:02:35+00:00",
+   "mod": "2026-11-06T10:02:35+00:00",
+   "fp": "e266358952e0e0c3",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "wonsulting.com/newsletter/resume-not-reaching-recruiters-ats": {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/resume-not-reaching-recruiters-ats",
+   "title": "Why Your Resume Isn't Reaching a Human (ATS Explained) - Wonsulting Newsletter",
+   "date": "2026-11-06T10:02:35+00:00",
+   "lastmod": "2026-11-06T10:02:35+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "learning",
+    "topic": "ATS resume screening keywords",
+    "search": "how to get resume past ATS",
+    "why": "Educates early-stage job seekers on ATS mechanics to build confidence in their search process."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": null,
+   "pub": "2026-11-06T10:02:35+00:00",
+   "mod": "2026-11-06T10:02:35+00:00",
+   "fp": "920ab240c1f0f2fc",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "wonsulting.com/newsletter/stop-mass-applying-easy-apply": {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/stop-mass-applying-easy-apply",
+   "title": "Stop Mass Applying: The 60-Second Job Listing Test - Wonsulting Newsletter",
+   "date": "2026-11-06T10:02:35+00:00",
+   "lastmod": "2026-11-06T10:02:35+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "learning",
+    "topic": "Job search filtering technique",
+    "search": "how to filter job listings when applying",
+    "why": "Teaches job seekers an efficient filtering method to maximize application ROI."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": null,
+   "pub": "2026-11-06T10:02:35+00:00",
+   "mod": "2026-11-06T10:02:35+00:00",
+   "fp": "9605813272f3fab0",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "wonsulting.com/newsletter/switching-careers-reposition-experience": {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/switching-careers-reposition-experience",
+   "title": "Switching Careers? How to Reposition Your Experience - Wonsulting Newsletter",
+   "date": "2026-11-06T10:03:07+00:00",
+   "lastmod": "2026-11-06T10:03:07+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "learning",
+    "topic": "Repositioning experience for career change",
+    "search": "how to reposition experience switching careers",
+    "why": "Builds authority with job seekers considering career changes, a key audience segment."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": null,
+   "pub": "2026-11-06T10:03:07+00:00",
+   "mod": "2026-11-06T10:02:35+00:00",
+   "fp": "9b5ed4bc3d1dbfb6",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "wonsulting.com/newsletter/why-hiring-managers-choose-one-candidate": {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/why-hiring-managers-choose-one-candidate",
+   "title": "Why Hiring Managers Pick One Candidate Over Another - Wonsulting Newsletter",
+   "date": "2026-11-06T10:03:07+00:00",
+   "lastmod": "2026-11-06T10:03:07+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "opinion",
+    "stage": "learning",
+    "topic": "hiring manager decision-making psychology",
+    "search": "why do hiring managers choose certain candidates",
+    "why": "Builds credibility with job seekers by revealing insider hiring secrets and psychology."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": null,
+   "pub": "2026-11-06T10:03:07+00:00",
+   "mod": "2026-11-06T10:02:35+00:00",
+   "fp": "7e0a366039986de6",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "wonsulting.com/newsletter/why-linkedin-messages-get-ignored": {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/newsletter/why-linkedin-messages-get-ignored",
+   "title": "Why Your LinkedIn Messages Get Ignored (and Who to Skip) - Wonsulting Newsletter",
+   "date": "2026-11-06T10:02:35+00:00",
+   "lastmod": "2026-11-06T10:02:35+00:00",
+   "first_seen": "2026-11-09T16:31:44+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "learning",
+    "topic": "LinkedIn messaging strategy for job seekers",
+    "search": "why LinkedIn messages get ignored",
+    "why": "Establishes expertise in job search networking to build audience trust."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-09T16:31:44+00:00",
+   "prog": null,
+   "pub": "2026-11-06T10:02:35+00:00",
+   "mod": "2026-11-06T10:02:35+00:00",
+   "fp": "404d209b93b82bac",
+   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
   }
  },
  "sites": {
@@ -14606,7 +16329,7 @@
   },
   "Jack & Jill": {
    "initialized": true,
-   "count": 443
+   "count": 452
   },
   "Wellfound": {
    "initialized": true,
@@ -14618,11 +16341,11 @@
   },
   "JobCopilot": {
    "initialized": true,
-   "count": 133
+   "count": 137
   },
   "WonsultingAI": {
    "initialized": true,
-   "count": 383
+   "count": 401
   }
  },
  "repo": "nico497/Clera",

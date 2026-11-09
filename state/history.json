@@ -41,6 +41,48 @@
      "pages": 239
     }
    }
+  },
+  {
+   "week": "2026-W46",
+   "date": "2026-11-09T16:31:44+00:00",
+   "sites": {
+    "Clera": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 12
+    },
+    "Jack & Jill": {
+     "new": 3,
+     "updated": 0,
+     "removed": 0,
+     "pages": 89
+    },
+    "Wellfound": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 85
+    },
+    "Jobright AI": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 61
+    },
+    "JobCopilot": {
+     "new": 4,
+     "updated": 1,
+     "removed": 0,
+     "pages": 137
+    },
+    "WonsultingAI": {
+     "new": 20,
+     "updated": 8,
+     "removed": 0,
+     "pages": 257
+    }
+   }
   }
  ]
 }
