@@ -1423,7 +1423,7 @@
    "mod": "2026-10-01T00:00:00+00:00",
    "fp": "5419756f34d9c3b4",
    "dates_checked": "2026-11-04T03:14:31+00:00",
-   "kind": "new",
+   "kind": "unknown",
    "event": "2026-10-01T00:00:00+00:00",
    "bulk_pub": false,
    "bulk_mod": false
@@ -1594,7 +1594,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/adamo": {
    "site": "Jack & Jill",
@@ -1627,7 +1628,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/advisoryai": {
    "site": "Jack & Jill",
@@ -1649,7 +1651,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/afroditi": {
    "site": "Jack & Jill",
@@ -1660,7 +1663,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/aglide": {
    "site": "Jack & Jill",
@@ -1682,7 +1686,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/aios-medical": {
    "site": "Jack & Jill",
@@ -1705,7 +1710,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/alaro": {
    "site": "Jack & Jill",
@@ -1717,7 +1723,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/alchemy-springs": {
    "site": "Jack & Jill",
@@ -1739,7 +1746,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/algosoup": {
    "site": "Jack & Jill",
@@ -1762,7 +1770,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/ama": {
    "site": "Jack & Jill",
@@ -1784,7 +1793,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/ameba": {
    "site": "Jack & Jill",
@@ -1850,7 +1860,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/artificial-societies-ltd": {
    "site": "Jack & Jill",
@@ -1884,7 +1895,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/ask-tax-international-inc": {
    "site": "Jack & Jill",
@@ -1895,7 +1907,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/asksonus": {
    "site": "Jack & Jill",
@@ -1907,7 +1920,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/assembled": {
    "site": "Jack & Jill",
@@ -1918,7 +1932,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/atlantic-access-ltd": {
    "site": "Jack & Jill",
@@ -1962,7 +1977,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/authentic-insurance": {
    "site": "Jack & Jill",
@@ -1984,7 +2000,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/azoma": {
    "site": "Jack & Jill",
@@ -2028,7 +2045,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/bloomsbury-football-foundation": {
    "site": "Jack & Jill",
@@ -2084,7 +2102,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/brainfood-inc": {
    "site": "Jack & Jill",
@@ -2106,7 +2125,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/brasilia-volei": {
    "site": "Jack & Jill",
@@ -2117,7 +2137,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/briefcase": {
    "site": "Jack & Jill",
@@ -2150,7 +2171,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/build-first": {
    "site": "Jack & Jill",
@@ -2194,7 +2216,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/calibre": {
    "site": "Jack & Jill",
@@ -2227,7 +2250,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/capture-energy": {
    "site": "Jack & Jill",
@@ -2250,7 +2274,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/caribou": {
    "site": "Jack & Jill",
@@ -2283,7 +2308,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/catapult": {
    "site": "Jack & Jill",
@@ -2338,7 +2364,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/chargedup": {
    "site": "Jack & Jill",
@@ -2371,7 +2398,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/cimple-limited": {
    "site": "Jack & Jill",
@@ -2383,7 +2411,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/claimsorted": {
    "site": "Jack & Jill",
@@ -2427,7 +2456,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/cognition": {
    "site": "Jack & Jill",
@@ -2439,7 +2469,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/companion": {
    "site": "Jack & Jill",
@@ -2450,7 +2481,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/conduct": {
    "site": "Jack & Jill",
@@ -2527,7 +2559,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/cubitts": {
    "site": "Jack & Jill",
@@ -2549,7 +2582,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/deepscienceventures": {
    "site": "Jack & Jill",
@@ -2571,7 +2605,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/delfa": {
    "site": "Jack & Jill",
@@ -2615,7 +2650,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/dr-raphaela-itzikowitz-specialist-paediatrician": {
    "site": "Jack & Jill",
@@ -2637,7 +2673,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/duna": {
    "site": "Jack & Jill",
@@ -2649,7 +2686,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/dwelly": {
    "site": "Jack & Jill",
@@ -2671,7 +2709,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/eccasion": {
    "site": "Jack & Jill",
@@ -2683,7 +2722,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/eec-irrigation": {
    "site": "Jack & Jill",
@@ -2728,7 +2768,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/elyos-ai": {
    "site": "Jack & Jill",
@@ -2750,7 +2791,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/endor-labs": {
    "site": "Jack & Jill",
@@ -2761,7 +2803,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/enerzyz": {
    "site": "Jack & Jill",
@@ -2795,7 +2838,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/enhanced-telecommunications-corporation": {
    "site": "Jack & Jill",
@@ -2828,7 +2872,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/equals": {
    "site": "Jack & Jill",
@@ -2850,7 +2895,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/faculty": {
    "site": "Jack & Jill",
@@ -2883,7 +2929,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/feebris-ltd": {
    "site": "Jack & Jill",
@@ -2906,7 +2953,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/firstmotion": {
    "site": "Jack & Jill",
@@ -2917,7 +2965,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/flock": {
    "site": "Jack & Jill",
@@ -3049,7 +3098,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/geomiq": {
    "site": "Jack & Jill",
@@ -3094,7 +3144,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/godiligent": {
    "site": "Jack & Jill",
@@ -3105,7 +3156,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/goodley": {
    "site": "Jack & Jill",
@@ -3204,7 +3256,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/harmonic-security-inc": {
    "site": "Jack & Jill",
@@ -3215,7 +3268,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/healink-inc": {
    "site": "Jack & Jill",
@@ -3226,7 +3280,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/healthera": {
    "site": "Jack & Jill",
@@ -3248,7 +3303,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/helmguard": {
    "site": "Jack & Jill",
@@ -3303,7 +3359,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/hyde": {
    "site": "Jack & Jill",
@@ -3314,7 +3371,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/ib-capital": {
    "site": "Jack & Jill",
@@ -3326,7 +3384,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/infact": {
    "site": "Jack & Jill",
@@ -3370,7 +3429,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/ionate": {
    "site": "Jack & Jill",
@@ -3404,7 +3464,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/iris-os": {
    "site": "Jack & Jill",
@@ -3416,7 +3477,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/ivo-ai-inc": {
    "site": "Jack & Jill",
@@ -3428,7 +3490,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/jarmin": {
    "site": "Jack & Jill",
@@ -3450,7 +3513,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/joyous": {
    "site": "Jack & Jill",
@@ -3483,7 +3547,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/juryo": {
    "site": "Jack & Jill",
@@ -3495,7 +3560,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/kalibr-labs": {
    "site": "Jack & Jill",
@@ -3507,7 +3573,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/katana-electronics-llc": {
    "site": "Jack & Jill",
@@ -3584,7 +3651,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/lichenai": {
    "site": "Jack & Jill",
@@ -3606,7 +3674,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/limbic": {
    "site": "Jack & Jill",
@@ -3628,7 +3697,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/loop-ai": {
    "site": "Jack & Jill",
@@ -3695,7 +3765,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/marklo-ai-inc": {
    "site": "Jack & Jill",
@@ -3717,7 +3788,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/match-with-care": {
    "site": "Jack & Jill",
@@ -3761,7 +3833,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/metly": {
    "site": "Jack & Jill",
@@ -3784,7 +3857,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/mochacare-yc-w26": {
    "site": "Jack & Jill",
@@ -3806,7 +3880,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/move": {
    "site": "Jack & Jill",
@@ -3828,7 +3903,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/mtco-communications-inc": {
    "site": "Jack & Jill",
@@ -3862,7 +3938,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/my-emissions": {
    "site": "Jack & Jill",
@@ -3873,7 +3950,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/nakato-limited": {
    "site": "Jack & Jill",
@@ -3907,7 +3985,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/nesti": {
    "site": "Jack & Jill",
@@ -3919,7 +3998,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/nexcade-ai": {
    "site": "Jack & Jill",
@@ -3964,7 +4044,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/noon": {
    "site": "Jack & Jill",
@@ -3986,7 +4067,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/noxus": {
    "site": "Jack & Jill",
@@ -4030,7 +4112,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/ollive-ai": {
    "site": "Jack & Jill",
@@ -4041,7 +4124,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/omnea": {
    "site": "Jack & Jill",
@@ -4074,7 +4158,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/opal-security": {
    "site": "Jack & Jill",
@@ -4085,7 +4170,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/openevidence": {
    "site": "Jack & Jill",
@@ -4096,7 +4182,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/openwhispr": {
    "site": "Jack & Jill",
@@ -4108,7 +4195,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/ophelos-ltd": {
    "site": "Jack & Jill",
@@ -4119,7 +4207,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/optery-inc": {
    "site": "Jack & Jill",
@@ -4130,7 +4219,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/othello": {
    "site": "Jack & Jill",
@@ -4208,7 +4298,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/parsewise": {
    "site": "Jack & Jill",
@@ -4241,7 +4332,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/pax": {
    "site": "Jack & Jill",
@@ -4263,7 +4355,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/percept": {
    "site": "Jack & Jill",
@@ -4285,7 +4378,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/phono-sounds-limited": {
    "site": "Jack & Jill",
@@ -4308,7 +4402,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/plinth": {
    "site": "Jack & Jill",
@@ -4330,7 +4425,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/pomo": {
    "site": "Jack & Jill",
@@ -4342,7 +4438,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/post-brothers": {
    "site": "Jack & Jill",
@@ -4387,7 +4484,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/prosapient": {
    "site": "Jack & Jill",
@@ -4409,7 +4507,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/r-ai": {
    "site": "Jack & Jill",
@@ -4442,7 +4541,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/raw-by-buki-koshoni": {
    "site": "Jack & Jill",
@@ -4464,7 +4564,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/rde-technologies": {
    "site": "Jack & Jill",
@@ -4487,7 +4588,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/refold-ai": {
    "site": "Jack & Jill",
@@ -4498,7 +4600,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/refractal": {
    "site": "Jack & Jill",
@@ -4520,7 +4623,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/replicant": {
    "site": "Jack & Jill",
@@ -4531,7 +4635,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/rig": {
    "site": "Jack & Jill",
@@ -4543,7 +4648,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/river": {
    "site": "Jack & Jill",
@@ -4599,7 +4705,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/saturnos": {
    "site": "Jack & Jill",
@@ -4621,7 +4728,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/scorecard": {
    "site": "Jack & Jill",
@@ -4655,7 +4763,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/secure-energy-project": {
    "site": "Jack & Jill",
@@ -4666,7 +4775,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/seeft": {
    "site": "Jack & Jill",
@@ -4699,7 +4809,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/senpilot-inc": {
    "site": "Jack & Jill",
@@ -4711,7 +4822,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/shepherd": {
    "site": "Jack & Jill",
@@ -4778,7 +4890,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/smarkets-limited": {
    "site": "Jack & Jill",
@@ -4789,7 +4902,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/snapmagic": {
    "site": "Jack & Jill",
@@ -4801,7 +4915,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/socratix-ai": {
    "site": "Jack & Jill",
@@ -4824,7 +4939,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/solveai": {
    "site": "Jack & Jill",
@@ -4891,7 +5007,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/south-fork-clinic": {
    "site": "Jack & Jill",
@@ -4925,7 +5042,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/speechmatics": {
    "site": "Jack & Jill",
@@ -4937,7 +5055,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/spektr": {
    "site": "Jack & Jill",
@@ -4970,7 +5089,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/storable": {
    "site": "Jack & Jill",
@@ -5048,7 +5168,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/tab": {
    "site": "Jack & Jill",
@@ -5104,7 +5225,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/teton": {
    "site": "Jack & Jill",
@@ -5148,7 +5270,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/the-global-opportunity": {
    "site": "Jack & Jill",
@@ -5170,7 +5293,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/the-relationship-company-pbc": {
    "site": "Jack & Jill",
@@ -5281,7 +5405,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/upriver": {
    "site": "Jack & Jill",
@@ -5292,7 +5417,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/uxbridge-nurseries-limited": {
    "site": "Jack & Jill",
@@ -5315,7 +5441,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/valen-labs": {
    "site": "Jack & Jill",
@@ -5337,7 +5464,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/valyu": {
    "site": "Jack & Jill",
@@ -5348,7 +5476,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/vandme": {
    "site": "Jack & Jill",
@@ -5359,7 +5488,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/vertice": {
    "site": "Jack & Jill",
@@ -5458,7 +5588,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/wordware": {
    "site": "Jack & Jill",
@@ -5470,7 +5601,8 @@
    "cls": null,
    "baseline": true,
    "prog": "companies",
-   "missing_since": "2026-11-09T16:31:44+00:00"
+   "missing_since": "2026-11-09T16:31:44+00:00",
+   "removed": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/workyard": {
    "site": "Jack & Jill",
@@ -5481,7 +5613,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/xp-health-inc": {
    "site": "Jack & Jill",
@@ -5503,7 +5636,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/young-giants-education": {
    "site": "Jack & Jill",
@@ -5536,7 +5670,8 @@
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": null,
    "baseline": true,
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/zuba": {
    "site": "Jack & Jill",
@@ -8573,7 +8708,7 @@
    "mod": "2026-10-02T10:14:28+00:00",
    "fp": "9e0fdeeaa6b0a5f7",
    "dates_checked": "2026-11-04T03:14:31+00:00",
-   "kind": "new",
+   "kind": "unknown",
    "event": "2026-10-02T09:45:43+00:00",
    "bulk_pub": false,
    "bulk_mod": false
@@ -8599,7 +8734,7 @@
    "mod": "2026-10-02T10:17:22+00:00",
    "fp": "eb5ca287f520b6e1",
    "dates_checked": "2026-11-04T03:14:31+00:00",
-   "kind": "new",
+   "kind": "unknown",
    "event": "2026-10-02T09:34:48+00:00",
    "bulk_pub": false,
    "bulk_mod": false
@@ -8625,7 +8760,7 @@
    "mod": "2026-10-02T10:19:31+00:00",
    "fp": "39a4140d588b2978",
    "dates_checked": "2026-11-04T03:14:31+00:00",
-   "kind": "new",
+   "kind": "unknown",
    "event": "2026-10-02T09:25:19+00:00",
    "bulk_pub": false,
    "bulk_mod": false
@@ -9466,15 +9601,28 @@
   "wonsulting.com/autoapplyai": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/autoapplyai",
-   "title": "Autoapplyai",
+   "title": "AutoApplyAI by Wonsulting has been integrated into JobBoardAI | WonsultingAI",
    "date": "2026-10-20T08:59:34+00:00",
-   "lastmod": "2026-10-20T08:59:34+00:00",
+   "lastmod": "2026-11-10T09:39:37+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "AI job application automation tool",
+    "search": "auto apply jobs with AI",
+    "why": "Showcases flagship AutoApplyAI feature to convert job seekers into paying customers."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": null,
+   "mod": null,
+   "fp": "59fbb713891538c7",
+   "dates_checked": "2026-11-16T15:59:08+00:00",
+   "kind": "unknown",
+   "event": "2026-10-20T08:59:34+00:00"
   },
   "wonsulting.com/blog": {
    "site": "WonsultingAI",
@@ -9531,15 +9679,28 @@
   "wonsulting.com/contact": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/contact",
-   "title": "Contact",
+   "title": "Wonsulting - Contact",
    "date": "2026-10-20T08:59:34+00:00",
    "lastmod": "2026-10-20T08:59:34+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": false,
+    "type": "landing",
+    "stage": "customers",
+    "topic": "Contact and customer support",
+    "search": "",
+    "why": "Provides customer support contact info and routes existing users to help center."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": null,
+   "mod": null,
+   "fp": "738b64661b3ba77a",
+   "dates_checked": "2026-11-16T15:59:08+00:00",
+   "kind": "unknown",
+   "event": "2026-10-20T08:59:34+00:00"
   },
   "wonsulting.com/learning-hub": {
    "site": "WonsultingAI",
@@ -9570,15 +9731,28 @@
   "wonsulting.com/coverletterai": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/coverletterai",
-   "title": "Coverletterai",
+   "title": "CoverLetterAI by Wonsulting - Free AI Cover Letter Writer from WonsultingAI",
    "date": "2026-10-20T08:59:34+00:00",
-   "lastmod": "2026-10-20T08:59:34+00:00",
+   "lastmod": "2026-11-10T09:23:54+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "AI cover letter generator tool",
+    "search": "free AI cover letter writer",
+    "why": "Converts job seekers ready to apply by showcasing immediate value and social proof."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": null,
+   "mod": null,
+   "fp": "df43b89feb8c184d",
+   "dates_checked": "2026-11-16T15:59:08+00:00",
+   "kind": "unknown",
+   "event": "2026-10-20T08:59:34+00:00"
   },
   "wonsulting.com/free-resume-feedback": {
    "site": "WonsultingAI",
@@ -9611,7 +9785,7 @@
    "url": "https://www.wonsulting.com/networkai",
    "title": "NetworkAI by Wonsulting - AI in Networking for LinkedIn & Cold Emailing at WonsultingAI",
    "date": "2026-10-30T08:31:13+00:00",
-   "lastmod": "2026-11-09T14:46:48+00:00",
+   "lastmod": "2026-11-10T09:30:22+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": {
     "is_content": true,
@@ -9625,25 +9799,39 @@
    "prog": null,
    "pub": null,
    "mod": null,
-   "fp": "33095cd4f7c70b71",
-   "dates_checked": "2026-11-09T16:31:44+00:00",
-   "kind": "unknown",
-   "event": "2026-10-30T08:31:13+00:00",
+   "fp": "65ea8346b959b082",
+   "dates_checked": "2026-11-16T15:59:08+00:00",
+   "kind": "updated",
+   "event": "2026-11-16T15:59:08+00:00",
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "fp_verified": true
   },
   "wonsulting.com/partnerships": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/partnerships",
-   "title": "Partnerships",
+   "title": "Wonsulting - Partnerships",
    "date": "2026-10-20T08:59:34+00:00",
    "lastmod": "2026-10-20T08:59:34+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": false,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "Partnership opportunities for job search",
+    "search": "partner with wonsulting ai job seekers",
+    "why": "Sells partnership programs to companies wanting to reach their large job seeker audience."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": null,
+   "mod": null,
+   "fp": "d072cc4d0b63b063",
+   "dates_checked": "2026-11-16T15:59:08+00:00",
+   "kind": "unknown",
+   "event": "2026-10-20T08:59:34+00:00"
   },
   "wonsulting.com/press": {
    "site": "WonsultingAI",
@@ -9754,7 +9942,7 @@
    "url": "https://www.wonsulting.com/services",
    "title": "Career Consulting Services at Wonsulting - Find A Job You Love!",
    "date": "2026-11-03T09:17:11+00:00",
-   "lastmod": "2026-11-09T13:22:08+00:00",
+   "lastmod": "2026-11-10T10:16:03+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": {
     "is_content": true,
@@ -9768,10 +9956,10 @@
    "prog": null,
    "pub": null,
    "mod": null,
-   "fp": "4229746f17e3e32d",
-   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "fp": "962bf5d9ef1ce1ca",
+   "dates_checked": "2026-11-16T15:59:08+00:00",
    "kind": "updated",
-   "event": "2026-11-09T16:31:44+00:00",
+   "event": "2026-11-16T15:59:08+00:00",
    "bulk_pub": false,
    "bulk_mod": false,
    "fp_verified": true
@@ -9859,7 +10047,7 @@
    "url": "https://www.wonsulting.com/interviewai",
    "title": "InterviewAI by Wonsulting - Your AI Interviewer from WonsultingAI",
    "date": "2026-10-20T08:59:36+00:00",
-   "lastmod": "2026-10-20T08:59:36+00:00",
+   "lastmod": "2026-11-10T09:39:05+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": {
     "is_content": true,
@@ -9875,10 +10063,11 @@
    "bulk_mod": false,
    "pub": null,
    "mod": null,
-   "fp": "28cba91bbc0d82d2",
-   "dates_checked": "2026-11-09T16:31:44+00:00",
-   "kind": "unknown",
-   "event": "2026-10-20T08:59:36+00:00"
+   "fp": "6f3445984e49ad53",
+   "dates_checked": "2026-11-16T15:59:08+00:00",
+   "kind": "updated",
+   "event": "2026-11-16T15:59:08+00:00",
+   "fp_verified": true
   },
   "wonsulting.com/free-resume-templates": {
    "site": "WonsultingAI",
@@ -9911,7 +10100,7 @@
    "url": "https://www.wonsulting.com/jobboardai",
    "title": "JobBoardAI by Wonsulting - Find Your Next Job Powered by our AI Job Board at WonsultingAI",
    "date": "2026-10-20T08:59:36+00:00",
-   "lastmod": "2026-10-20T08:59:36+00:00",
+   "lastmod": "2026-11-10T09:39:37+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": {
     "is_content": true,
@@ -9927,17 +10116,18 @@
    "bulk_mod": false,
    "pub": null,
    "mod": null,
-   "fp": "0002f21c23d62293",
-   "dates_checked": "2026-11-09T16:31:44+00:00",
-   "kind": "unknown",
-   "event": "2026-10-20T08:59:36+00:00"
+   "fp": "76b3f7158ad70390",
+   "dates_checked": "2026-11-16T15:59:08+00:00",
+   "kind": "updated",
+   "event": "2026-11-16T15:59:08+00:00",
+   "fp_verified": true
   },
   "wonsulting.com/jobtrackerai": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/jobtrackerai",
    "title": "JobTrackerAI by Wonsulting - AI Job Application Tracker from WonsultingAI",
    "date": "2026-10-20T08:59:36+00:00",
-   "lastmod": "2026-10-20T08:59:36+00:00",
+   "lastmod": "2026-11-10T09:39:26+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": {
     "is_content": false,
@@ -9953,10 +10143,11 @@
    "bulk_mod": false,
    "pub": null,
    "mod": null,
-   "fp": "7f37bc65cad253d6",
-   "dates_checked": "2026-11-09T16:31:44+00:00",
-   "kind": "unknown",
-   "event": "2026-10-20T08:59:36+00:00"
+   "fp": "bc41737532c20f59",
+   "dates_checked": "2026-11-16T15:59:08+00:00",
+   "kind": "updated",
+   "event": "2026-11-16T15:59:08+00:00",
+   "fp_verified": true
   },
   "wonsulting.com/employers": {
    "site": "WonsultingAI",
@@ -10261,7 +10452,7 @@
    "url": "https://www.wonsulting.com/resume-share",
    "title": "Resume Share by Wonsulting - Browse Resumes That Got Hired at WonsultingAI",
    "date": "2026-10-20T08:59:36+00:00",
-   "lastmod": "2026-10-20T08:59:36+00:00",
+   "lastmod": "2026-11-10T09:59:07+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": {
     "is_content": true,
@@ -10277,10 +10468,11 @@
    "bulk_mod": false,
    "pub": null,
    "mod": null,
-   "fp": "c5d090afe23e5679",
-   "dates_checked": "2026-11-09T16:31:44+00:00",
-   "kind": "unknown",
-   "event": "2026-10-20T08:59:36+00:00"
+   "fp": "b9b1b05f87d06266",
+   "dates_checked": "2026-11-16T15:59:08+00:00",
+   "kind": "updated",
+   "event": "2026-11-16T15:59:08+00:00",
+   "fp_verified": true
   },
   "wonsulting.com/pricing": {
    "site": "WonsultingAI",
@@ -10522,7 +10714,7 @@
    "url": "https://www.wonsulting.com/autoapply",
    "title": "AutoApply - Automate Your Job Applications in JobBoardAI  | WonsultingAI",
    "date": "2026-10-29T10:13:09+00:00",
-   "lastmod": "2026-10-29T10:13:09+00:00",
+   "lastmod": "2026-11-10T09:41:41+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": {
     "is_content": true,
@@ -10536,12 +10728,13 @@
    "prog": null,
    "pub": null,
    "mod": null,
-   "fp": "14eb3f82501e0fcf",
-   "dates_checked": "2026-11-04T03:14:31+00:00",
-   "kind": "unknown",
-   "event": "2026-10-29T10:13:09+00:00",
+   "fp": "845d504e6595b2dd",
+   "dates_checked": "2026-11-16T15:59:08+00:00",
+   "kind": "updated",
+   "event": "2026-11-16T15:59:08+00:00",
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "fp_verified": true
   },
   "wonsulting.com/professional-services": {
    "site": "WonsultingAI",
@@ -10734,7 +10927,7 @@
    "url": "https://www.wonsulting.com/program",
    "title": "Job Search Program at Wonsulting - Find A Job You Love!",
    "date": "2026-10-29T17:04:46+00:00",
-   "lastmod": "2026-11-06T09:10:57+00:00",
+   "lastmod": "2026-11-10T10:10:18+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": {
     "is_content": true,
@@ -10749,7 +10942,7 @@
    "pub": null,
    "mod": null,
    "fp": "9ac9595967c37021",
-   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "dates_checked": "2026-11-16T15:59:08+00:00",
    "kind": "updated",
    "event": "2026-11-09T16:31:44+00:00",
    "bulk_pub": false,
@@ -10787,7 +10980,7 @@
    "url": "https://www.wonsulting.com/free-live-training-wonsulting",
    "title": "Free Live Training Wonsulting",
    "date": "2026-10-30T10:26:29+00:00",
-   "lastmod": "2026-10-30T10:26:29+00:00",
+   "lastmod": "2026-11-13T14:50:33+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": {
     "is_content": true,
@@ -10802,7 +10995,7 @@
    "pub": null,
    "mod": null,
    "fp": "42b868c7cbee14e5",
-   "dates_checked": "2026-11-04T03:14:31+00:00",
+   "dates_checked": "2026-11-16T15:59:08+00:00",
    "kind": "unknown",
    "event": "2026-10-30T10:26:29+00:00",
    "bulk_pub": false,
@@ -11175,15 +11368,28 @@
   "wonsulting.com/team/justin-carl-d": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/team/justin-carl-d",
-   "title": "Justin carl d",
+   "title": "Wonsulting - Justin Carl D.",
    "date": "2026-10-02T10:28:10+00:00",
    "lastmod": "2026-10-02T10:28:10+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": false,
+    "type": "landing",
+    "stage": "customers",
+    "topic": "Team member profile",
+    "search": "",
+    "why": "Establishes credibility and expertise of team member supporting core service."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "pub": "2026-10-02T10:28:10+00:00",
+   "mod": "2026-10-02T10:28:10+00:00",
+   "fp": "f04f65344ccd8f70",
+   "dates_checked": "2026-11-16T15:59:08+00:00",
+   "kind": "unknown",
+   "event": "2026-10-02T10:28:10+00:00"
   },
   "wonsulting.com/team/kaye-correche": {
    "site": "WonsultingAI",
@@ -11294,7 +11500,7 @@
    "url": "https://www.wonsulting.com/team/stephon-fields",
    "title": "Wonsulting - Stephon Fields",
    "date": "2026-10-23T07:47:44+00:00",
-   "lastmod": "2026-10-23T07:47:44+00:00",
+   "lastmod": "2026-11-10T08:17:14+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
    "cls": {
     "is_content": false,
@@ -11308,12 +11514,13 @@
    "prog": null,
    "pub": "2026-10-23T07:47:44+00:00",
    "mod": "2026-10-23T07:21:14+00:00",
-   "fp": "db3c2474561e89dc",
-   "dates_checked": "2026-11-04T03:14:31+00:00",
-   "kind": "new",
-   "event": "2026-10-23T07:47:44+00:00",
+   "fp": "e57f0fc7e0586420",
+   "dates_checked": "2026-11-16T15:59:08+00:00",
+   "kind": "updated",
+   "event": "2026-11-16T15:59:08+00:00",
    "bulk_pub": false,
-   "bulk_mod": false
+   "bulk_mod": false,
+   "fp_verified": true
   },
   "wonsulting.com/team/valentina-gillespie": {
    "site": "WonsultingAI",
@@ -12995,19 +13202,26 @@
   "wonsulting.com/resources/data-engineer-resume-template": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/resources/data-engineer-resume-template",
-   "title": "Data engineer resume template",
+   "title": "Wonsulting - Data Engineer Resume Template",
    "date": "2026-11-09T10:51:44+00:00",
    "lastmod": "2026-11-09T10:51:44+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "learning",
+    "topic": "Data engineer resume template",
+    "search": "data engineer resume template",
+    "why": "Captures job seekers building resumes, offers free template to convert to paid coaching."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
    "bulk_mod": false,
    "pub": "2026-11-09T10:51:44+00:00",
    "mod": "2026-11-09T10:21:19+00:00",
-   "fp": "3f07b64cdd9465fc",
-   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "fp": "0774834559ee3acc",
+   "dates_checked": "2026-11-16T15:59:08+00:00",
    "kind": "new",
    "event": "2026-11-09T10:51:44+00:00"
   },
@@ -13339,19 +13553,26 @@
   "wonsulting.com/resources/wonsulting-resume-template": {
    "site": "WonsultingAI",
    "url": "https://www.wonsulting.com/resources/wonsulting-resume-template",
-   "title": "Wonsulting resume template",
+   "title": "Wonsulting - Free resume template",
    "date": "2026-11-09T10:51:44+00:00",
    "lastmod": "2026-11-09T10:51:44+00:00",
    "first_seen": "2026-11-04T03:14:31+00:00",
-   "cls": null,
+   "cls": {
+    "is_content": true,
+    "type": "landing",
+    "stage": "learning",
+    "topic": "Free resume template download",
+    "search": "free resume template download",
+    "why": "Captures job seekers early in research; offers free resource to build email list."
+   },
    "baseline": true,
    "prog": null,
    "bulk_pub": false,
    "bulk_mod": false,
    "pub": "2026-11-09T10:51:44+00:00",
    "mod": "2026-11-09T10:22:43+00:00",
-   "fp": "9bf844403f8bd58b",
-   "dates_checked": "2026-11-09T16:31:44+00:00",
+   "fp": "04f81a45d0877475",
+   "dates_checked": "2026-11-16T15:59:08+00:00",
    "kind": "new",
    "event": "2026-11-09T10:51:44+00:00"
   },
@@ -15641,7 +15862,8 @@
    "baseline": false,
    "kind": "new",
    "event": "2026-11-09T16:31:44+00:00",
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/render": {
    "site": "Jack & Jill",
@@ -15680,7 +15902,8 @@
    "baseline": false,
    "kind": "new",
    "event": "2026-11-09T16:31:44+00:00",
-   "prog": "companies"
+   "prog": "companies",
+   "missing_since": "2026-11-16T15:59:08+00:00"
   },
   "jackandjill.ai/companies/teya": {
    "site": "Jack & Jill",
@@ -16320,6 +16543,513 @@
    "dates_checked": "2026-11-09T16:31:44+00:00",
    "bulk_pub": false,
    "bulk_mod": false
+  },
+  "jackandjill.ai/jill/state-of-hiring": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/jill/state-of-hiring",
+   "title": "The State of Startup Hiring 2026 · Jack & Jill",
+   "date": "2026-11-11T00:00:00+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "research",
+    "stage": "learning",
+    "topic": "startup hiring trends data report",
+    "search": "startup hiring trends 2026",
+    "why": "Establishes Jack & Jill as data authority on candidate and employer behavior in startup hiring market."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": null,
+   "pub": "2026-11-11T00:00:00+00:00",
+   "mod": "2026-11-11T00:00:00+00:00",
+   "fp": "f9f982fad89dd8ac",
+   "dates_checked": "2026-11-16T15:59:08+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "jackandjill.ai/golden-ticket-terms-v2": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/golden-ticket-terms-v2",
+   "title": "Golden Ticket Terms | Jack & Jill",
+   "date": "2026-11-11T00:00:00+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": {
+    "is_content": false,
+    "type": "landing",
+    "stage": "buying",
+    "topic": "Golden Ticket terms and conditions",
+    "search": "",
+    "why": "Legal documentation for a promotional offer given to qualified customers."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": null,
+   "pub": "2026-11-11T00:00:00+00:00",
+   "mod": null,
+   "fp": "6a7f9ed4fecd1369",
+   "dates_checked": "2026-11-16T15:59:08+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "jackandjill.ai/companies/androlabs": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/androlabs",
+   "title": "Androlabs",
+   "date": "2026-11-16T15:59:08+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/aspire-project": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/aspire-project",
+   "title": "Aspire project",
+   "date": "2026-11-16T15:59:08+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/blue-dome-press": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/blue-dome-press",
+   "title": "Blue dome press",
+   "date": "2026-11-16T15:59:08+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/caldera-dynamics": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/caldera-dynamics",
+   "title": "Caldera dynamics",
+   "date": "2026-11-16T15:59:08+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/cinnamon": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/cinnamon",
+   "title": "Cinnamon",
+   "date": "2026-11-16T15:59:08+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/codeant-ai": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/codeant-ai",
+   "title": "Codeant ai",
+   "date": "2026-11-16T15:59:08+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/concierge-by-sugar": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/concierge-by-sugar",
+   "title": "Concierge by sugar",
+   "date": "2026-11-16T15:59:08+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/datoric": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/datoric",
+   "title": "Datoric",
+   "date": "2026-11-16T15:59:08+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/generare": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/generare",
+   "title": "Generare",
+   "date": "2026-11-16T15:59:08+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/healink": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/healink",
+   "title": "Healink",
+   "date": "2026-11-16T15:59:08+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/incline-gaming-marketing-inc": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/incline-gaming-marketing-inc",
+   "title": "Incline gaming marketing inc",
+   "date": "2026-11-16T15:59:08+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/keynest": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/keynest",
+   "title": "Keynest",
+   "date": "2026-11-16T15:59:08+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/maze": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/maze",
+   "title": "Maze",
+   "date": "2026-11-16T15:59:08+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/midnite": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/midnite",
+   "title": "Midnite",
+   "date": "2026-11-16T15:59:08+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/mithryl": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/mithryl",
+   "title": "Mithryl",
+   "date": "2026-11-16T15:59:08+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/nile-dispensary-and-weed-delivery": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/nile-dispensary-and-weed-delivery",
+   "title": "Nile dispensary and weed delivery",
+   "date": "2026-11-16T15:59:08+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/only-farmers-limited": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/only-farmers-limited",
+   "title": "Only farmers limited",
+   "date": "2026-11-16T15:59:08+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/platformed-ltd": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/platformed-ltd",
+   "title": "Platformed ltd",
+   "date": "2026-11-16T15:59:08+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/plato": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/plato",
+   "title": "Plato",
+   "date": "2026-11-16T15:59:08+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/riplo": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/riplo",
+   "title": "Riplo",
+   "date": "2026-11-16T15:59:08+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/safetywing": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/safetywing",
+   "title": "Safetywing",
+   "date": "2026-11-16T15:59:08+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/signedai": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/signedai",
+   "title": "Signedai",
+   "date": "2026-11-16T15:59:08+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/take2-ai": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/take2-ai",
+   "title": "Take2 ai",
+   "date": "2026-11-16T15:59:08+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/thrad": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/thrad",
+   "title": "Thrad",
+   "date": "2026-11-16T15:59:08+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/tradeaze": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/tradeaze",
+   "title": "Tradeaze",
+   "date": "2026-11-16T15:59:08+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/triffin": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/triffin",
+   "title": "Triffin",
+   "date": "2026-11-16T15:59:08+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": "companies"
+  },
+  "jackandjill.ai/companies/venture-robot-solutions": {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/companies/venture-robot-solutions",
+   "title": "Venture robot solutions",
+   "date": "2026-11-16T15:59:08+00:00",
+   "lastmod": null,
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": null,
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": "companies"
+  },
+  "jobcopilot.com/career-change-resume-template": {
+   "site": "JobCopilot",
+   "url": "https://jobcopilot.com/career-change-resume-template/",
+   "title": "How to Write a Career Change Resume: Highlighting Transferable Skills",
+   "date": "2026-11-11T09:25:46+00:00",
+   "lastmod": "2026-11-11T09:25:46+00:00",
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "learning",
+    "topic": "Career change resume writing",
+    "search": "how to write career change resume",
+    "why": "Establishes expertise in job-search challenges, builds trust with career-switching audience."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": null,
+   "pub": "2026-11-10T08:28:53+00:00",
+   "mod": "2026-11-11T09:25:46+00:00",
+   "fp": "61c87690ac11feac",
+   "dates_checked": "2026-11-16T15:59:08+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "jobcopilot.com/explain-employment-gap": {
+   "site": "JobCopilot",
+   "url": "https://jobcopilot.com/explain-employment-gap/",
+   "title": "How to Explain Employment Gaps on Resume & Interviews - JobCopilot",
+   "date": "2026-11-11T09:26:49+00:00",
+   "lastmod": "2026-11-11T09:26:49+00:00",
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "learning",
+    "topic": "how to explain employment gaps",
+    "search": "how to explain employment gaps resume",
+    "why": "Builds trust with job seekers worried about career breaks affecting their prospects."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": null,
+   "pub": "2026-11-11T09:26:48+00:00",
+   "mod": "2026-11-11T09:26:49+00:00",
+   "fp": "ead698fbf8c7bc45",
+   "dates_checked": "2026-11-16T15:59:08+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "jobcopilot.com/ats-friendly-resume": {
+   "site": "JobCopilot",
+   "url": "https://jobcopilot.com/ats-friendly-resume/",
+   "title": "ATS Resume Formatting Guide: Layouts, Fonts, & File Formats - JobCopilot",
+   "date": "2026-11-12T08:45:27+00:00",
+   "lastmod": "2026-11-12T08:45:27+00:00",
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": {
+    "is_content": true,
+    "type": "howto",
+    "stage": "learning",
+    "topic": "ATS resume formatting guide",
+    "search": "how to format ATS friendly resume",
+    "why": "Establishes expertise in job search fundamentals before pitching AI matching tool."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": null,
+   "pub": "2026-11-12T08:33:52+00:00",
+   "mod": "2026-11-12T08:45:27+00:00",
+   "fp": "59e76830ef2183f0",
+   "dates_checked": "2026-11-16T15:59:08+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
+  },
+  "wonsulting.com/team/kamille-kresta-domingo": {
+   "site": "WonsultingAI",
+   "url": "https://www.wonsulting.com/team/kamille-kresta-domingo",
+   "title": "Wonsulting - Kamille Kresta Domingo",
+   "date": "2026-11-10T08:17:14+00:00",
+   "lastmod": "2026-11-10T08:17:14+00:00",
+   "first_seen": "2026-11-16T15:59:08+00:00",
+   "cls": {
+    "is_content": false,
+    "type": "landing",
+    "stage": "customers",
+    "topic": "Team member profile Kamille Kresta Domingo",
+    "search": "",
+    "why": "Builds team credibility and trust with potential coaching clients."
+   },
+   "baseline": false,
+   "kind": "new",
+   "event": "2026-11-16T15:59:08+00:00",
+   "prog": null,
+   "pub": "2026-11-10T08:17:14+00:00",
+   "mod": "2026-11-09T15:15:40+00:00",
+   "fp": "4570f442a4bde5c4",
+   "dates_checked": "2026-11-16T15:59:08+00:00",
+   "bulk_pub": false,
+   "bulk_mod": false
   }
  },
  "sites": {
@@ -16329,7 +17059,7 @@
   },
   "Jack & Jill": {
    "initialized": true,
-   "count": 452
+   "count": 393
   },
   "Wellfound": {
    "initialized": true,
@@ -16341,11 +17071,11 @@
   },
   "JobCopilot": {
    "initialized": true,
-   "count": 137
+   "count": 140
   },
   "WonsultingAI": {
    "initialized": true,
-   "count": 401
+   "count": 402
   }
  },
  "repo": "nico497/Clera",
