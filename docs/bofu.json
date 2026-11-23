@@ -3,7 +3,7 @@
   "title": "Bottom-of-funnel content tracker",
   "niche": "AI talent agents and job-search tools that help startup job seekers get hired",
   "you": "Clera",
-  "generated": "2026-11-16T16:00:08+00:00",
+  "generated": "2026-11-23T18:24:12+00:00",
   "state_updated": "2026-11-04T03:14:31+00:00",
   "repo": "nico497/Clera"
  },
@@ -40,18 +40,19 @@
  "sites": [
   {
    "name": "Clera",
-   "tracked": 12,
-   "considered": 12,
+   "tracked": 20,
+   "considered": 20,
    "own_pricing": "https://www.getclera.com/pricing",
    "hubs": []
   },
   {
    "name": "Jack & Jill",
-   "tracked": 530,
-   "considered": 91,
+   "tracked": 590,
+   "considered": 102,
    "own_pricing": "https://www.jackandjill.ai/pricing",
    "hubs": [
-    "https://www.jackandjill.ai/customers"
+    "https://www.jackandjill.ai/customers",
+    "https://www.jackandjill.ai/customer-stories"
    ]
   },
   {
@@ -63,15 +64,15 @@
   },
   {
    "name": "Jobright AI",
-   "tracked": 61,
-   "considered": 61,
+   "tracked": 63,
+   "considered": 63,
    "own_pricing": "https://jobright.ai/employers/pricing",
    "hubs": []
   },
   {
    "name": "JobCopilot",
-   "tracked": 140,
-   "considered": 140,
+   "tracked": 144,
+   "considered": 144,
    "own_pricing": "https://jobcopilot.com/pricing/",
    "hubs": [
     "https://jobcopilot.com/reviews/"
@@ -79,8 +80,8 @@
   },
   {
    "name": "WonsultingAI",
-   "tracked": 402,
-   "considered": 257,
+   "tracked": 404,
+   "considered": 259,
    "own_pricing": "https://www.wonsulting.com/pricing",
    "hubs": []
   }
@@ -98,7 +99,7 @@
   "Simplify"
  ],
  "excluded": {
-  "templated pages": 583,
+  "templated pages": 632,
   "webinars, glossary, events and category pages": 1
  },
  "pages": [
@@ -110,6 +111,48 @@
    "targets": [
     "LinkedIn"
    ]
+  },
+  {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/customer-stories/anima",
+   "path": "/customer-stories/anima",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/customer-stories/attio",
+   "path": "/customer-stories/attio",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/customer-stories/evervault",
+   "path": "/customer-stories/evervault",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/customer-stories/penelope-health",
+   "path": "/customer-stories/penelope-health",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/customer-stories/promptmates",
+   "path": "/customer-stories/promptmates",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Jack & Jill",
+   "url": "https://www.jackandjill.ai/customer-stories/rig",
+   "path": "/customer-stories/rig",
+   "type": "case",
+   "targets": []
   },
   {
    "site": "Jack & Jill",
